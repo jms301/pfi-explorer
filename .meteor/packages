@@ -9,7 +9,4 @@ insecure
 nemo64:bootstrap
 less
 aslagle:reactive-table
-pfafman:nvd3
-d3
 iron:router
-

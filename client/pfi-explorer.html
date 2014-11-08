@@ -11,30 +11,59 @@
   <div id="main" class="container-fluid">
     {{>yield}}
   </div>
-</template> 
+</template>
 
 
 <template name="projectslist">
   {{> reactiveTable collection=projects settings=settings}}
-</template> 
+</template>
 
 <template name="nameTmpl">
   <a href="{{pathFor route='project'}}">{{name}}</a>
 </template>
 
 <template name="projectfull">
- <pre>
-  <code> 
-    {{prettyshow}}
-  </code>
- </pre>
+  <h1>{{name}}</h1> <br/>
+  <table class="table">
+  <tr><td>Capital Value:</td><td> {{capital_value}} </td></tr>
+  <tr><td>Contract Years:</td><td> {{contract_years}} </td></tr>
 
-  <div id="chart">
-    <svg></svg>
-  </div> 
+  <tr><td>Off Balance ESA95:</td><td> {{#if off_balance_ESA95}}yes{{else}}no{{/if}}</td></tr>
+  <tr><td>Off Balance GAAP:</td><td> {{#if off_balance_GAAP}}yes{{else}}no{{/if}}</td></tr>
+  <tr><td>Off Balance IFRS:</td><td> {{#if off_balance_IFRS}}yes{{else}}no{{/if}}</td></tr>
+
+
+  <tr><td>Authority:</td><td> {{authority.name}} </td></tr>
+  <tr><td>Department:</td><td> {{department.name}} </td></tr>
+  <tr><td>Sector:</td><td> {{sector.name}} </td></tr>
+  <tr><td>Constituency:</td><td> {{constituency.name}}</td></tr>
+  <tr><td>Region:</td><td> {{region.name}}</td></tr>
+  <tr><td>SPV:</td><td> {{spv.name}}</td></tr>
+  <tr><td>SPV address:</td><td> {{spv.address}}</td></tr>
+  <tr><td>Date ops:</td><td> {{date_ops}}</td></tr>
+  <tr><td>Date ojeu:</td><td> {{date_ojeu}}</td></tr>
+  <tr><td>Date Final Close:</td><td> {{date_fin_close}}</td></tr>
+  <tr><td>Date Cons Complete:</td><td> {{date_cons_complete}}</td></tr>
+  <tr><td>Status:</td><td> {{status}}</td></tr>
+  </table>
+  <strong>payments <a href='#' id="payments">+</a></strong>
+  <div class="{{paymentsshown}}" style="margin-left:2em;">
+  {{#each filtered_payments}}
+    {{year}} : {{estimated}} <br/>
+  {{/each}}
+  </div>
+
+<br/>
+<br/>
+  {{#with opencompanydata}}
+  <strong>OCD:</strong><br/>
+    name: {{name}}<br/>
+    link: <a href="{{uri}}">{{uri}}</a><br/>
+  {{/with}}
+<br/>
 <a href="/">back</a>
 </template>
 
 <template name="myLoading">
-Loading... 
+Loading...
 </template>
