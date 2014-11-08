@@ -1,0 +1,40 @@
+<head>
+  <title>pfi-explorer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+</body>
+
+<template name="layout">
+  <div id="main" class="container-fluid">
+    {{>yield}}
+  </div>
+</template> 
+
+
+<template name="projectslist">
+  {{> reactiveTable collection=projects settings=settings}}
+</template> 
+
+<template name="nameTmpl">
+  <a href="{{pathFor route='project'}}">{{name}}</a>
+</template>
+
+<template name="projectfull">
+ <pre>
+  <code> 
+    {{prettyshow}}
+  </code>
+ </pre>
+
+  <div id="chart">
+    <svg></svg>
+  </div> 
+<a href="/">back</a>
+</template>
+
+<template name="myLoading">
+Loading... 
+</template>
