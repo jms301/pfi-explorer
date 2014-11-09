@@ -46,7 +46,7 @@
   <tr><td>Date Cons Complete:</td><td> {{date_cons_complete}}</td></tr>
   <tr><td>Status:</td><td> {{status}}</td></tr>
   </table>
-  <strong>payments <a href='#' id="payments">+</a></strong>
+  <strong>payments (£m)<a href='#' id="payments">+</a></strong>
   <div class="{{paymentsshown}}" style="margin-left:2em;">
     <div style="float:left;">
   {{#each filtered_payments}}
@@ -60,7 +60,6 @@
        {{paintchart}}
     </div>
   </div>
-
 <br/>
 <br/>
   {{#with opencompanydata}}
@@ -70,6 +69,19 @@
   {{/with}}
 <br/>
 
+<br/>
+  <strong>transactions <a href='#' id="transactions">+</a></strong>
+  <div class="{{transactionsshown}}" style="margin-left:2em;">
+  {{#each transactiondata}}
+    Sold: {{share_holding_sold}} %<br/>
+    Sold By: {{vendor_id}}<br/>
+    Price: {{price}}<br/>
+    Price net liabilities: {{price_net_liabilities}}<br/>
+    <br/>
+  {{/each}}
+  </div>
+<br/>
+<br/>
 
 <a href="/">back</a>
 </template>
