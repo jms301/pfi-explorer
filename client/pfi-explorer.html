@@ -48,19 +48,29 @@
   </table>
   <strong>payments <a href='#' id="payments">+</a></strong>
   <div class="{{paymentsshown}}" style="margin-left:2em;">
+    <div style="float:left;">
   {{#each filtered_payments}}
     {{year}} : {{estimated}} <br/>
   {{/each}}
+    </div>
+    <div style="float:left;margin-left:3em;">
+      <canvas id="paymentsChart" width="800" height="400"></canvas>
+    </div>
+    <div style="clear:both">
+       {{paintchart}}
+    </div>
   </div>
 
 <br/>
 <br/>
   {{#with opencompanydata}}
-  <strong>OCD:</strong><br/>
+  <strong>Open Corporates Data:</strong><br/>
     name: {{name}}<br/>
     link: <a href="{{uri}}">{{uri}}</a><br/>
   {{/with}}
 <br/>
+
+
 <a href="/">back</a>
 </template>
 

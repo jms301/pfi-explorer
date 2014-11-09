@@ -4,9 +4,8 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 nemo64:bootstrap
 less
 aslagle:reactive-table
 iron:router
+alamont:chartjs

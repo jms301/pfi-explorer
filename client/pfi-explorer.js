@@ -3,9 +3,19 @@ Companies = new Meteor.Collection("companies");
 
 Session.setDefault("showPayments", false);
 
+
 Template.projectslist.helpers({
   projects: function () {
-    return Projects.find({});
+    return Projects.find({}, {fields:
+       {name: 1,
+        date_fin_close: 1,
+        hmt_id: 1,
+        authority: 1,
+        department: 1,
+        sector: 1,
+        capital_value: 1,
+        contract_years: 1}
+    });
   },
   settings: function () {
     return {
@@ -23,7 +33,7 @@ Template.projectslist.helpers({
                 {key: 'sector.name',
                  label: "Sector Name"},
                 {key: 'capital_value',
-                 label: "Capital Value"},
+                 label: "Capital Value (£ m)"},
                 {key: 'contract_years',
                  label: "Contract Years"}]
     };
@@ -44,15 +54,46 @@ Template.projectfull.helpers({
   },
   opencompanydata: function () {
     if(this && this.spv && this.spv.name) {
-      console.log(this.spv.name);
       var ocd =  Companies.findOne({pfi_name: this.spv.name});
-      console.log(ocd);
       return  (ocd || null);
     } else {
       return null;
     }
   }
 });
+
+Template.projectfull.rendered = function( ){
+  if(this && this.data && this.data.payments)
+  {
+    var labels = _.map(this.data.payments, function (payment, i) {
+      return payment.year;
+    });
+    var data = _.map(this.data.payments, function (payment, i) {
+      return payment.estimated;
+    });
+    var chartData = {
+      labels: labels,
+      datasets: [{
+        label: "Payments",
+        fillColor: "rgba(151,187,205,0.2)",
+        strokeColor: "rgba(151,187,205,1)",
+        pointColor: "rgba(151,187,205,1)",
+        pointStrokeColor: "#fff",
+        pointHighlightFill: "#fff",
+        pointHighlightStroke: "rgba(151,187,205,1)",
+        data: data
+      }]
+    };
+    ctx = $("#paymentsChart").get(0).getContext("2d");
+    var myLineChart = new Chart(ctx).Line(chartData, {
+        pointHitDetectionRadius : 5,
+        pointDotRadius : 3,
+      });
+    return "";
+  } else {
+    return null;
+  }
+};
 
 Template.projectfull.events({
   'click #payments' : function () {
