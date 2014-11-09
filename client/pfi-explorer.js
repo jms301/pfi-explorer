@@ -2,6 +2,7 @@ Projects = new Meteor.Collection("projects");
 Companies = new Meteor.Collection("companies");
 Transactions = new Meteor.Collection("transactions");
 RichCompanies = new Meteor.Collection("richcompanies");
+NaoReports = new Meteor.Collection("naoreports");
 
 Session.setDefault("showPayments", false);
 Session.setDefault("showTransaction", false);
@@ -85,6 +86,9 @@ Template.projectfull.helpers({
     } else {
       return null;
     }
+  },
+  naoreportdata: function () { 
+    return NaoReports.find({hmt_id: this.hmt_id});
   },
   transactiondata: function () { 
     if(this && this.hmt_id) {

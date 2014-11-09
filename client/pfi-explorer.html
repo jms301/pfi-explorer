@@ -32,13 +32,10 @@
     </div>
   </div>
 
-
-
   <div id="main" class="container-fluid">
     {{>yield}}
   </div>
 </template>
-
 
 <template name="projectslist">
   {{> reactiveTable collection=projects settings=settings}}
@@ -77,10 +74,15 @@
   <strong>Open Corporates Data:</strong><br/>
     name: {{name}}<br/>
     link: <a href="{{uri}}">{{uri}}</a><br/>
-  {{/with}}
-<br/>
+  <br/>
+{{/with}}
 
-  <strong>Payments (£m)<a href='#' id="payments">+</a></strong>
+{{#if naoreportdata}}<strong>NAO Reports</strong><br/>{{/if}}
+{{#each naoreportdata}}
+<a href="{{nao_report_url}}">{{nao_report_name}}</a><br/>
+{{/each}}
+<br/>
+  <strong>Payments (£m) <a href='#' id="payments">+</a></strong>
   <div class="{{paymentsshown}}" style="margin-left:2em;">
     <div style="float:left;">
   {{#each filtered_payments}}
@@ -106,7 +108,6 @@
   <tr><td>Change 2011</td><td> {{#if change_2011}}yes{{else}}no{{/if}}</td></tr>
   <tr><td>&nbsp;</td></tr>
 {{/each}}
-
   </table>
 </div>
 {{/if}}

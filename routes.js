@@ -39,6 +39,7 @@ Router.route('/project/:hmt_id',
       return [Meteor.subscribe('full_projects', parseInt(this.params.hmt_id)),
               Meteor.subscribe('companies'), 
               Meteor.subscribe('transactions'),
+              Meteor.subscribe('naoreports'),
               Meteor.subscribe('richcompanies'),
 ];
     },
