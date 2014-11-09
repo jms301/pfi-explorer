@@ -6,6 +6,14 @@ Session.setDefault("showPayments", false);
 Session.setDefault("showTransaction", false);
 
 
+fix_top_padding = function () {
+    $('body').css({"padding-top": $(".navbar").height() + 30 + "px"});
+};
+
+Template.layout.rendered = function () {
+  fix_top_padding();
+};
+
 Template.projectslist.helpers({
   projects: function () {
     return Projects.find({}, {fields:
