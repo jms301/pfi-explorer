@@ -3,6 +3,7 @@ Companies = new Meteor.Collection("companies");
 Transactions = new Meteor.Collection("transactions");
 RichCompanies = new Meteor.Collection("richcompanies");
 NaoReports = new Meteor.Collection("naoreports");
+Charts = new Meteor.Collection("chartdata");
 
 Session.setDefault("showPayments", false);
 Session.setDefault("showTransaction", false);
@@ -42,7 +43,7 @@ Template.projectslist.helpers({
       fields: [ {key:'name', label: "Name",
                  tmpl: Template.nameTmpl},
                 {key: 'date_fin_close',
-                 label: "Date of Final Close"},
+                 label: "Date of Financial Close"},
                 {key: 'authority.name',
                  label: "Authority Name"},
                 {key: 'department.name',
