@@ -23,7 +23,7 @@ Router.route('/charts',
       Meteor.subscribe('chartdata');
     },
     data: function () { 
-      return ChartData.find({});
+      return Charts.find({});
     },
     name: "charts",
     action : function () {

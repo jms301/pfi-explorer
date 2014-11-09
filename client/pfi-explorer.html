@@ -72,9 +72,9 @@
   <tr><td>Region:</td><td> {{region.name}}</td></tr>
   <tr><td>SPV:</td><td> {{spv.name}}</td></tr>
   <tr><td>SPV address:</td><td> {{spv.address}}</td></tr>
-  <tr><td>Date ops:</td><td> {{date_ops}}</td></tr>
-  <tr><td>Date ojeu:</td><td> {{date_ojeu}}</td></tr>
-  <tr><td>Date Final Close:</td><td> {{date_fin_close}}</td></tr>
+  <tr><td>First Date of Operation:</td><td> {{date_ops}}</td></tr>
+  <tr><td>Date OJEU:</td><td> {{date_ojeu}}</td></tr>
+  <tr><td>Date Of Financial Close:</td><td> {{date_fin_close}}</td></tr>
   <tr><td>Date Construction Complete:</td><td> {{date_cons_complete}}</td></tr>
   <tr><td>Status:</td><td> {{status}}</td></tr>
   <tr><td>Address:</td><td> {{address}}</td></tr>
@@ -140,9 +140,11 @@
 </template>
 
 <template name="charts">
-
-  <canvas id="nationalChart" width="800" height="400"></canvas>
-
+  {{#each charts}}   
+  <canvas id="chart{{_id}}" width="800" height="400"></canvas>
+    <br/>
+    <br/>
+  {{/each}}
 </template>
 
 <template name="myLoading">
