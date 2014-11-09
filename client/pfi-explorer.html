@@ -8,6 +8,32 @@
 </body>
 
 <template name="layout">
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed-target">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">PFI-Explorer</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapsed-target">
+        <ul class="nav navbar-nav">
+          <li> <a href="/"><span class="glyphicon glyphicon-list"></span></a></li>
+          <li> <a href="{{pathFor route='charts'}}"><span class="glyphicon glyphicon-stats"></span></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
   <div id="main" class="container-fluid">
     {{>yield}}
   </div>
@@ -43,17 +69,25 @@
   <tr><td>Date ops:</td><td> {{date_ops}}</td></tr>
   <tr><td>Date ojeu:</td><td> {{date_ojeu}}</td></tr>
   <tr><td>Date Final Close:</td><td> {{date_fin_close}}</td></tr>
-  <tr><td>Date Cons Complete:</td><td> {{date_cons_complete}}</td></tr>
+  <tr><td>Date Construction Complete:</td><td> {{date_cons_complete}}</td></tr>
   <tr><td>Status:</td><td> {{status}}</td></tr>
+  <tr><td>Address:</td><td> {{address}}</td></tr>
   </table>
-  <strong>payments (£m)<a href='#' id="payments">+</a></strong>
+{{#with opencompanydata}}
+  <strong>Open Corporates Data:</strong><br/>
+    name: {{name}}<br/>
+    link: <a href="{{uri}}">{{uri}}</a><br/>
+  {{/with}}
+<br/>
+
+  <strong>Payments (£m)<a href='#' id="payments">+</a></strong>
   <div class="{{paymentsshown}}" style="margin-left:2em;">
     <div style="float:left;">
   {{#each filtered_payments}}
     {{year}} : {{estimated}} <br/>
   {{/each}}
     </div>
-    <div style="float:left;margin-left:3em;">
+    <div style="float:left;padding-left:1em;margin-left:3em;">
       <canvas id="paymentsChart" width="800" height="400"></canvas>
     </div>
     <div style="clear:both">
@@ -61,29 +95,44 @@
     </div>
   </div>
 <br/>
-<br/>
-  {{#with opencompanydata}}
-  <strong>Open Corporates Data:</strong><br/>
-    name: {{name}}<br/>
-    link: <a href="{{uri}}">{{uri}}</a><br/>
-  {{/with}}
-<br/>
+{{#if equity}}
+<strong>Equity (Source: HM Treasury & <a href="http://www.european-services-strategy.org.uk/">ESSU</a>) <a href='#' id='equity'>+</a></strong>
+<div class="{{equityshown}}" style="margin-left:2em;width:50%;">
+  <table class="table table-condensed">
 
+{{#each equity}}
+  <tr><td>Company</td><td> {{richcompanyname company_id}}<br/></td></tr>
+  <tr><td>Share</td><td> {{share}}<br/></td></tr>
+  <tr><td>Change 2011</td><td> {{#if change_2011}}yes{{else}}no{{/if}}</td></tr>
+  <tr><td>&nbsp;</td></tr>
+{{/each}}
+
+  </table>
+</div>
+{{/if}}
 <br/>
-  <strong>transactions <a href='#' id="transactions">+</a></strong>
-  <div class="{{transactionsshown}}" style="margin-left:2em;">
+  <strong>Transactions <a href='#' id="transactions">+</a></strong>
+  <div class="{{transactionsshown}}" style="margin-left:2em;width:30%">
+  <table class="table table-condensed">
   {{#each transactiondata}}
-    Sold: {{share_holding_sold}} %<br/>
-    Sold By: {{vendor_id}}<br/>
-    Price: {{price}}<br/>
-    Price net liabilities: {{price_net_liabilities}}<br/>
-    <br/>
+    <tr><td>Sold</td><td> {{share_holding_sold}}%</td></tr>
+    <tr><td>Sold By</td><td> {{richcompanyname vendor_id}}</td></tr>
+    <tr><td>Price</td><td> {{price}}</td></tr>
+    <tr><td>Price net liabilities</td><td> {{#if price_net_liabilities}}yes{{else}}no{{/if}}</td></tr>
+  <tr><td>&nbsp;</td></tr>
   {{/each}}
+  </table>
   </div>
 <br/>
 <br/>
 
 <a href="/">back</a>
+</template>
+
+<template name="charts">
+
+  <canvas id="nationalChart" width="800" height="400"></canvas>
+
 </template>
 
 <template name="myLoading">
