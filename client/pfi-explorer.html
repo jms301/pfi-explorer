@@ -101,7 +101,6 @@
       <canvas id="paymentsChart" width="800" height="400"></canvas>
     </div>
     <div style="clear:both">
-       {{paintchart}}
     </div>
   </div>
 <br/>
@@ -138,10 +137,15 @@
 
 <template name="charts">
   {{#each charts}}   
-  <canvas id="chart{{_id}}" width="800" height="400"></canvas>
-    <br/>
-    <br/>
+    {{>chart}}
   {{/each}}
+</template>
+
+<template name="chart">
+  <h3>{{name}}</h3>
+  <canvas class="nationalchart" width="1600" height="800"></canvas>
+  <br/>
+  <br/>
 </template>
 
 <template name="about">

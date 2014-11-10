@@ -3,7 +3,7 @@ Companies = new Meteor.Collection("companies");
 Transactions = new Meteor.Collection("transactions");
 RichCompanies = new Meteor.Collection("richcompanies");
 NaoReports = new Meteor.Collection("naoreports");
-Charts = new Meteor.Collection("chartdata");
+NatCharts = new Meteor.Collection("nationalcharts");
 
 Session.setDefault("showPayments", true);
 Session.setDefault("showTransaction", false);
@@ -169,3 +169,35 @@ Template.projectfull.events({
     Session.set("showEquity", !Session.get("showEquity"));
   }
 });
+
+Template.charts.helpers({
+
+  charts: function () {
+    return NatCharts.find({});
+  }
+
+});
+
+Template.chart.rendered = function () {
+  var chartData = {
+    labels: this.data.labels,
+    datasets: [{
+      label: "Payments",
+      fillColor: "rgba(151,187,205,0.2)",
+      strokeColor: "rgba(151,187,205,1)",
+      pointColor: "rgba(151,187,205,1)",
+      pointStrokeColor: "#fff",
+      pointHighlightFill: "#fff",
+      pointHighlightStroke: "rgba(151,187,205,1)",
+      data: this.data.data
+    }]
+  };
+
+  ctx = this.$(".nationalchart").get(0).getContext("2d");
+  var myLineChart = new Chart(ctx).Line(chartData, {
+      pointHitDetectionRadius : 1,
+      pointDotRadius : 3,
+      animation: false
+    });
+  return "";
+};

@@ -27,10 +27,7 @@ Router.route('/charts',
   function () { this.render('charts'); },
   {
     waitOn : function () { 
-      Meteor.subscribe('chartdata');
-    },
-    data: function () { 
-      return Charts.find({});
+      Meteor.subscribe('nationalcharts');
     },
     name: "charts",
     action : function () {

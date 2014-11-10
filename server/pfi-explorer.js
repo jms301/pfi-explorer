@@ -1,15 +1,15 @@
 Projects = new Meteor.Collection("projects");
 Companies = new Meteor.Collection("companies");
 Transactions = new Meteor.Collection("transactions");
-RichCompanies = new Meteor.Collection("richcompanies"); 
-Charts = new Meteor.Collection("chartdata");
+RichCompanies = new Meteor.Collection("richcompanies");
+NatCharts = new Meteor.Collection("nationalcharts");
 NaoReports = new Meteor.Collection("naoreports");
 
-Meteor.publish('naoreports', function () { 
-  return NaoReports.find({}); 
+Meteor.publish('naoreports', function () {
+  return NaoReports.find({});
 });
 
-Meteor.publish('richcompanies', function () { 
+Meteor.publish('richcompanies', function () {
   return RichCompanies.find({});
 });
 
@@ -29,12 +29,12 @@ Meteor.publish('transactions', function () {
   return Transactions.find({});
 });
 
-Meteor.publish('chartdata', function () { 
-  return Charts.findOne({});
+Meteor.publish('nationalcharts', function () {
+  return NatCharts.find({});
 });
 
 /*
-Meteor.startup(function () { 
+Meteor.startup(function () {
 
 
 }); */
