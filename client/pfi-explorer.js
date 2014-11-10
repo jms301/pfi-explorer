@@ -22,6 +22,14 @@ Template.layout.rendered = function () {
 };
 
 
+fix_top_padding = function () {
+    $('body').css({"padding-top": $(".navbar").height() + 30 + "px"});
+};
+
+Template.layout.rendered = function () {
+  fix_top_padding();
+};
+
 Template.projectslist.helpers({
   projects: function () {
     return Projects.find({}, {fields:
@@ -88,51 +96,66 @@ Template.projectfull.helpers({
       return null;
     }
   },
-  naoreportdata: function () { 
+  naoreportdata: function () {
     return NaoReports.find({hmt_id: this.hmt_id});
   },
-  transactiondata: function () { 
+  transactiondata: function () {
     if(this && this.hmt_id) {
       var trans =  Transactions.find({hmt_id: this.hmt_id}, {sort: {transaction_id: 1}});
       return (trans || []);
-    } else {  
+    } else {
       return [];
     }
-  } 
+  }
 });
 
 Template.projectfull.rendered = function( ){
-  if(this && this.data && this.data.payments)
-  {
-    var labels = _.map(this.data.payments, function (payment, i) {
-      return payment.year;
-    });
-    var data = _.map(this.data.payments, function (payment, i) {
-      return payment.estimated;
-    });
-    var chartData = {
-      labels: labels,
-      datasets: [{
-        label: "Payments",
-        fillColor: "rgba(151,187,205,0.2)",
-        strokeColor: "rgba(151,187,205,1)",
-        pointColor: "rgba(151,187,205,1)",
-        pointStrokeColor: "#fff",
-        pointHighlightFill: "#fff",
-        pointHighlightStroke: "rgba(151,187,205,1)",
-        data: data
-      }]
-    };
-    ctx = $("#paymentsChart").get(0).getContext("2d");
-    var myLineChart = new Chart(ctx).Line(chartData, {
-        pointHitDetectionRadius : 5,
-        pointDotRadius : 3,
-        animation: false
-      });
-    return "";
-  } else {
-    return null;
+
+  var labels = _.map(this.data.payments, function (payment, i) {
+    return payment.year;
+  });
+  var data = _.map(this.data.payments, function (payment, i) {
+    return payment.estimated;
+  });
+
+  var pStart = 0; //final leading zero
+  var pEnd = 0; //first trailing zero
+  for (i = 1; i< data.length; i++) {
+    if(data[i] != 0) {
+       pStart = i-1;
+       break;
+    }
   }
+  for(i=data.length-2; i>=0; i--) {
+    if(data[i] !=0) {
+      pEnd = i+2;
+      break;
+    }
+  }
+
+  data=data.slice(pStart, pEnd);
+  labels=labels.slice(pStart,pEnd);
+
+  var chartData = {
+    labels: labels,
+    datasets: [{
+      label: "Payments",
+      fillColor: "rgba(151,187,205,0.2)",
+      strokeColor: "rgba(151,187,205,1)",
+      pointColor: "rgba(151,187,205,1)",
+      pointStrokeColor: "#fff",
+      pointHighlightFill: "#fff",
+      pointHighlightStroke: "rgba(151,187,205,1)",
+      data: data
+    }]
+  };
+  ctx = $("#paymentsChart").get(0).getContext("2d");
+  var myLineChart = new Chart(ctx).Line(chartData, {
+      pointHitDetectionRadius : 5,
+      pointDotRadius : 3,
+      animation: false
+    });
+  return "";
 };
 
 Template.projectfull.events({
