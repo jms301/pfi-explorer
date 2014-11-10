@@ -1,0 +1,1086 @@
+{"name":"De Vere Venues Ltd","id":1,"equity":[{"share":"100.0%","proj_id":2,"id":1,"company_id":1,"change_2011":false}]}
+{"name":"Data not supplied","id":2,"equity":[{"share":"100.0%","proj_id":3,"id":2,"company_id":2,"change_2011":false},{"share":"100.0%","proj_id":750,"id":1155,"company_id":2,"change_2011":false}]}
+{"name":"Polar Holding ASA of Norway","id":3,"equity":[{"share":"100.0%","proj_id":5,"id":3,"company_id":3,"change_2011":false}]}
+{"name":"Barclay’s European Infrastructure Limited (“BEIL”)","id":4,"equity":[{"share":"85.0%","proj_id":7,"id":4,"company_id":4,"change_2011":false}]}
+{"name":"Barking & Dagenham Schools Ltd","id":5,"equity":[{"share":"15.0%","proj_id":7,"id":5,"company_id":5,"change_2011":false}]}
+{"name":"Carillion","id":6,"equity":[{"share":"17.5%","proj_id":421,"id":667,"company_id":6,"change_2011":false},{"share":"25.0%","proj_id":267,"id":429,"company_id":6,"change_2011":false},{"share":"34.0%","proj_id":163,"id":249,"company_id":6,"change_2011":false},{"share":"50.0%","proj_id":8,"id":6,"company_id":6,"change_2011":false},{"share":"50.0%","proj_id":644,"id":1021,"company_id":6,"change_2011":false},{"share":"8.0%","proj_id":122,"id":196,"company_id":6,"change_2011":true},{"share":"8.0%","proj_id":645,"id":1023,"company_id":6,"change_2011":true},{"share":"8.0%","proj_id":715,"id":1106,"company_id":6,"change_2011":true},{"share":"8.0%","proj_id":718,"id":1112,"company_id":6,"change_2011":true},{"share":"8.0%","proj_id":730,"id":1133,"company_id":6,"change_2011":true},{"share":"8.0%","proj_id":871,"id":1243,"company_id":6,"change_2011":true},{"share":"80.0%","proj_id":725,"id":1122,"company_id":6,"change_2011":true},{"share":"80.0%","proj_id":732,"id":1142,"company_id":6,"change_2011":false}]}
+{"name":"Innisfree PFI Fund III","id":7,"equity":[{"share":"100.0%","proj_id":8,"id":7,"company_id":7,"change_2011":false},{"share":"80.0%","proj_id":35,"id":47,"company_id":7,"change_2011":false}]}
+{"name":"Bilfinger Berger BOT UK Limited","id":8,"equity":[{"share":"100.0%","proj_id":9,"id":8,"company_id":8,"change_2011":false}]}
+{"name":"Innisfree","id":9,"equity":[{"share":"100.0%","proj_id":10,"id":9,"company_id":9,"change_2011":false},{"share":"100.0%","proj_id":28,"id":37,"company_id":9,"change_2011":false},{"share":"100.0%","proj_id":83,"id":137,"company_id":9,"change_2011":false},{"share":"100.0%","proj_id":111,"id":185,"company_id":9,"change_2011":false},{"share":"100.0%","proj_id":287,"id":457,"company_id":9,"change_2011":false},{"share":"100.0%","proj_id":294,"id":468,"company_id":9,"change_2011":false},{"share":"100.0%","proj_id":301,"id":483,"company_id":9,"change_2011":true},{"share":"100.0%","proj_id":368,"id":587,"company_id":9,"change_2011":false},{"share":"100.0%","proj_id":378,"id":604,"company_id":9,"change_2011":true},{"share":"100.0%","proj_id":578,"id":920,"company_id":9,"change_2011":false},{"share":"20.0%","proj_id":386,"id":622,"company_id":9,"change_2011":false},{"share":"22.5%","proj_id":359,"id":576,"company_id":9,"change_2011":false},{"share":"30.0%","proj_id":300,"id":482,"company_id":9,"change_2011":false},{"share":"32.5%","proj_id":421,"id":669,"company_id":9,"change_2011":false},{"share":"36.8%","proj_id":383,"id":615,"company_id":9,"change_2011":false},{"share":"37.5%","proj_id":286,"id":455,"company_id":9,"change_2011":false},{"share":"42.5%","proj_id":611,"id":974,"company_id":9,"change_2011":false},{"share":"50.0%","proj_id":358,"id":572,"company_id":9,"change_2011":true},{"share":"50.0%","proj_id":359,"id":574,"company_id":9,"change_2011":false},{"share":"50.0%","proj_id":360,"id":577,"company_id":9,"change_2011":false},{"share":"50.0%","proj_id":379,"id":605,"company_id":9,"change_2011":false},{"share":"50.0%","proj_id":636,"id":1012,"company_id":9,"change_2011":false},{"share":"80.1%","proj_id":363,"id":581,"company_id":9,"change_2011":false}]}
+{"name":"Innisfree PFI","id":10,"equity":[{"share":"100.0%","proj_id":11,"id":10,"company_id":10,"change_2011":false},{"share":"100.0%","proj_id":82,"id":136,"company_id":10,"change_2011":true},{"share":"100.0%","proj_id":96,"id":160,"company_id":10,"change_2011":false},{"share":"100.0%","proj_id":119,"id":193,"company_id":10,"change_2011":false}]}
+{"name":"CH Bolton Ltd","id":11,"equity":[{"share":"100.0%","proj_id":12,"id":11,"company_id":11,"change_2011":false},{"share":"100.0%","proj_id":147,"id":227,"company_id":11,"change_2011":false}]}
+{"name":"Uberior Infrastructure Investments Limited","id":12,"equity":[{"share":"50.0%","proj_id":13,"id":12,"company_id":12,"change_2011":false}]}
+{"name":"Interserve PFI 2003 Ltd","id":13,"equity":[{"share":"50.0%","proj_id":13,"id":13,"company_id":13,"change_2011":false}]}
+{"name":"Investors in the Community","id":14,"equity":[{"share":"41.5%","proj_id":14,"id":14,"company_id":14,"change_2011":false}]}
+{"name":"Skanska Infrastructure Develoment UK Limited","id":15,"equity":[{"share":"41.5%","proj_id":14,"id":15,"company_id":15,"change_2011":false}]}
+{"name":"Amber Infrastructure","id":16,"equity":[{"share":"10.0%","proj_id":42,"id":59,"company_id":16,"change_2011":false},{"share":"10.0%","proj_id":57,"id":88,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":70,"id":112,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":81,"id":132,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":699,"id":1084,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":700,"id":1088,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":704,"id":1091,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":705,"id":1096,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":712,"id":1103,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":720,"id":1115,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":722,"id":1120,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":726,"id":1126,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":733,"id":1147,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":853,"id":1194,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":855,"id":1197,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":856,"id":1199,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":857,"id":1204,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":858,"id":1207,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":859,"id":1208,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":860,"id":1215,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":862,"id":1219,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":866,"id":1231,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":867,"id":1234,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":872,"id":1248,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":874,"id":1256,"company_id":16,"change_2011":true},{"share":"10.0%","proj_id":1007,"id":1274,"company_id":16,"change_2011":true},{"share":"100.0%","proj_id":18,"id":25,"company_id":16,"change_2011":true},{"share":"11.5%","proj_id":731,"id":1139,"company_id":16,"change_2011":true},{"share":"15.0%","proj_id":17,"id":23,"company_id":16,"change_2011":false},{"share":"16.0%","proj_id":14,"id":16,"company_id":16,"change_2011":false},{"share":"18.0%","proj_id":48,"id":67,"company_id":16,"change_2011":true},{"share":"18.0%","proj_id":51,"id":75,"company_id":16,"change_2011":true},{"share":"19.0%","proj_id":49,"id":73,"company_id":16,"change_2011":false},{"share":"19.0%","proj_id":52,"id":81,"company_id":16,"change_2011":false},{"share":"19.0%","proj_id":75,"id":119,"company_id":16,"change_2011":true},{"share":"19.0%","proj_id":87,"id":146,"company_id":16,"change_2011":false},{"share":"19.0%","proj_id":108,"id":178,"company_id":16,"change_2011":true},{"share":"19.0%","proj_id":732,"id":1141,"company_id":16,"change_2011":true},{"share":"19.0%","proj_id":863,"id":1223,"company_id":16,"change_2011":true},{"share":"19.0%","proj_id":865,"id":1227,"company_id":16,"change_2011":true},{"share":"19.0%","proj_id":873,"id":1253,"company_id":16,"change_2011":true},{"share":"19.0%","proj_id":1006,"id":1273,"company_id":16,"change_2011":true},{"share":"46.0%","proj_id":122,"id":197,"company_id":16,"change_2011":true},{"share":"46.0%","proj_id":730,"id":1134,"company_id":16,"change_2011":true},{"share":"46.0%","proj_id":868,"id":1237,"company_id":16,"change_2011":true},{"share":"50.0%","proj_id":864,"id":1224,"company_id":16,"change_2011":true},{"share":"82.0%","proj_id":718,"id":1113,"company_id":16,"change_2011":true},{"share":"86.5%","proj_id":645,"id":1024,"company_id":16,"change_2011":true},{"share":"86.5%","proj_id":715,"id":1107,"company_id":16,"change_2011":true},{"share":"91.0%","proj_id":871,"id":1244,"company_id":16,"change_2011":true}]}
+{"name":"Bristol City Council","id":17,"equity":[{"share":"1.0%","proj_id":14,"id":17,"company_id":17,"change_2011":false}]}
+{"name":"Semperian PPP Investment Partners GP","id":18,"equity":[{"share":"100.0%","proj_id":15,"id":18,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":33,"id":42,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":36,"id":49,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":38,"id":51,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":62,"id":99,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":78,"id":127,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":107,"id":177,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":109,"id":182,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":120,"id":194,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":124,"id":201,"company_id":18,"change_2011":false},{"share":"100.0%","proj_id":128,"id":210,"company_id":18,"change_2011":false},{"share":"20.0%","proj_id":75,"id":122,"company_id":18,"change_2011":false},{"share":"30.0%","proj_id":80,"id":130,"company_id":18,"change_2011":false},{"share":"49.0%","proj_id":59,"id":94,"company_id":18,"change_2011":false},{"share":"49.0%","proj_id":127,"id":209,"company_id":18,"change_2011":false},{"share":"50.0%","proj_id":1004,"id":1268,"company_id":18,"change_2011":false},{"share":"90.0%","proj_id":45,"id":62,"company_id":18,"change_2011":false}]}
+{"name":"BAM PFI Investments bv","id":19,"equity":[{"share":"100.0%","proj_id":16,"id":19,"company_id":19,"change_2011":false}]}
+{"name":"Amey Ventures","id":20,"equity":[{"share":"29.2%","proj_id":731,"id":1136,"company_id":20,"change_2011":false},{"share":"6.0%","proj_id":17,"id":20,"company_id":20,"change_2011":false}]}
+{"name":"Costain","id":21,"equity":[{"share":"15.0%","proj_id":450,"id":716,"company_id":21,"change_2011":false},{"share":"29.2%","proj_id":731,"id":1137,"company_id":21,"change_2011":false},{"share":"40.0%","proj_id":57,"id":89,"company_id":21,"change_2011":false},{"share":"40.0%","proj_id":859,"id":1209,"company_id":21,"change_2011":false},{"share":"40.0%","proj_id":1007,"id":1275,"company_id":21,"change_2011":false},{"share":"40.0%","proj_id":1008,"id":1278,"company_id":21,"change_2011":false},{"share":"44.0%","proj_id":17,"id":21,"company_id":21,"change_2011":false}]}
+{"name":"HSBC","id":22,"equity":[{"share":"29.2%","proj_id":731,"id":1138,"company_id":22,"change_2011":false},{"share":"34.0%","proj_id":17,"id":22,"company_id":22,"change_2011":false},{"share":"40.0%","proj_id":552,"id":879,"company_id":22,"change_2011":false},{"share":"5.0%","proj_id":421,"id":666,"company_id":22,"change_2011":false},{"share":"63.9%","proj_id":81,"id":133,"company_id":22,"change_2011":false}]}
+{"name":"Bradford Metropolitan District Council","id":23,"equity":[{"share":"1.0%","proj_id":17,"id":24,"company_id":23,"change_2011":false},{"share":"1.0%","proj_id":731,"id":1140,"company_id":23,"change_2011":false}]}
+{"name":"Eric Wright Group","id":24,"equity":[{"share":"100.0%","proj_id":19,"id":26,"company_id":24,"change_2011":false},{"share":"100.0%","proj_id":290,"id":460,"company_id":24,"change_2011":false},{"share":"80.0%","proj_id":700,"id":1087,"company_id":24,"change_2011":false}]}
+{"name":"Sewell Group plc","id":25,"equity":[{"share":"50.0%","proj_id":20,"id":27,"company_id":25,"change_2011":false}]}
+{"name":"Barclays Capital","id":26,"equity":[{"share":"50.0%","proj_id":20,"id":28,"company_id":26,"change_2011":false}]}
+{"name":"Interserve PFI Holdings Limited","id":27,"equity":[{"share":"50.0%","proj_id":21,"id":29,"company_id":27,"change_2011":false}]}
+{"name":"Halifax Bank of Scotland","id":28,"equity":[{"share":"40.0%","proj_id":49,"id":71,"company_id":28,"change_2011":false},{"share":"40.0%","proj_id":52,"id":79,"company_id":28,"change_2011":false},{"share":"40.0%","proj_id":863,"id":1221,"company_id":28,"change_2011":false},{"share":"40.0%","proj_id":1006,"id":1271,"company_id":28,"change_2011":false},{"share":"50.0%","proj_id":21,"id":30,"company_id":28,"change_2011":false},{"share":"50.0%","proj_id":58,"id":93,"company_id":28,"change_2011":false}]}
+{"name":"Bilfinger Berger BOT Limited","id":29,"equity":[{"share":"100.0%","proj_id":23,"id":31,"company_id":29,"change_2011":false}]}
+{"name":"Kajima Partnership Limited","id":30,"equity":[{"share":"50.0%","proj_id":24,"id":32,"company_id":30,"change_2011":false},{"share":"50.0%","proj_id":63,"id":100,"company_id":30,"change_2011":false},{"share":"50.0%","proj_id":65,"id":103,"company_id":30,"change_2011":false}]}
+{"name":"HSBC Infrastructure Limited","id":31,"equity":[{"share":"50.0%","proj_id":24,"id":33,"company_id":31,"change_2011":false},{"share":"50.0%","proj_id":91,"id":153,"company_id":31,"change_2011":false},{"share":"50.0%","proj_id":94,"id":156,"company_id":31,"change_2011":false}]}
+{"name":"VB Investments Ltd","id":32,"equity":[{"share":"100.0%","proj_id":25,"id":34,"company_id":32,"change_2011":false}]}
+{"name":"Axa IM","id":33,"equity":[{"share":"100.0%","proj_id":26,"id":35,"company_id":33,"change_2011":false}]}
+{"name":"Sumitomo Mitsui Banking Corporation Europe Limited ","id":34,"equity":[{"share":"100.0%","proj_id":27,"id":36,"company_id":34,"change_2011":false}]}
+{"name":"Vinci Investments","id":35,"equity":[{"share":"50.0%","proj_id":29,"id":38,"company_id":35,"change_2011":false}]}
+{"name":"N/K","id":36,"equity":[{"share":"35.0%","proj_id":34,"id":46,"company_id":36,"change_2011":false},{"share":"50.0%","proj_id":29,"id":39,"company_id":36,"change_2011":false},{"share":"50.0%","proj_id":116,"id":189,"company_id":36,"change_2011":false}]}
+{"name":"Johnson Workplace Management Group","id":37,"equity":[{"share":"100.0%","proj_id":30,"id":40,"company_id":37,"change_2011":false},{"share":"100.0%","proj_id":53,"id":82,"company_id":37,"change_2011":false},{"share":"100.0%","proj_id":69,"id":111,"company_id":37,"change_2011":false}]}
+{"name":"Barclays Private Equity","id":38,"equity":[{"share":"100.0%","proj_id":32,"id":41,"company_id":38,"change_2011":false},{"share":"100.0%","proj_id":64,"id":102,"company_id":38,"change_2011":false},{"share":"100.0%","proj_id":441,"id":704,"company_id":38,"change_2011":false},{"share":"50.0%","proj_id":395,"id":633,"company_id":38,"change_2011":true},{"share":"50.0%","proj_id":476,"id":752,"company_id":38,"change_2011":false},{"share":"51.7%","proj_id":608,"id":968,"company_id":38,"change_2011":false},{"share":"75.0%","proj_id":317,"id":505,"company_id":38,"change_2011":false},{"share":"75.0%","proj_id":573,"id":910,"company_id":38,"change_2011":false},{"share":"85.0%","proj_id":605,"id":962,"company_id":38,"change_2011":false},{"share":"85.0%","proj_id":607,"id":966,"company_id":38,"change_2011":false},{"share":"90.0%","proj_id":40,"id":54,"company_id":38,"change_2011":false}]}
+{"name":"PFI Holdings Partners LP","id":39,"equity":[{"share":"50.0%","proj_id":34,"id":43,"company_id":39,"change_2011":false}]}
+{"name":"BOUYGUES (U.K.) LIMITED","id":40,"equity":[{"share":"7.7%","proj_id":34,"id":44,"company_id":40,"change_2011":false}]}
+{"name":"ECOVERT FM LIMITED","id":41,"equity":[{"share":"7.4%","proj_id":34,"id":45,"company_id":41,"change_2011":false}]}
+{"name":"Wates Group ","id":42,"equity":[{"share":"20.0%","proj_id":35,"id":48,"company_id":42,"change_2011":false},{"share":"25.0%","proj_id":68,"id":110,"company_id":42,"change_2011":false},{"share":"25.0%","proj_id":77,"id":126,"company_id":42,"change_2011":false}]}
+{"name":"Sir Robert McAlpine","id":43,"equity":[{"share":"100.0%","proj_id":37,"id":50,"company_id":43,"change_2011":false},{"share":"30.0%","proj_id":87,"id":144,"company_id":43,"change_2011":false},{"share":"30.0%","proj_id":873,"id":1251,"company_id":43,"change_2011":false},{"share":"50.0%","proj_id":545,"id":866,"company_id":43,"change_2011":false},{"share":"50.0%","proj_id":552,"id":877,"company_id":43,"change_2011":false}]}
+{"name":"DIF Infrastructure II UK Limited","id":44,"equity":[{"share":"100.0%","proj_id":39,"id":52,"company_id":44,"change_2011":false}]}
+{"name":"Stepnell Limited","id":45,"equity":[{"share":"10.0%","proj_id":40,"id":53,"company_id":45,"change_2011":false}]}
+{"name":"Bilfinger Berger Pi ","id":46,"equity":[{"share":"50.0%","proj_id":41,"id":55,"company_id":46,"change_2011":false}]}
+{"name":"Infrastructure Investment Holdings Limited (50%)  ","id":47,"equity":[{"share":"50.0%","proj_id":41,"id":56,"company_id":47,"change_2011":false}]}
+{"name":"Keir","id":48,"equity":[{"share":"80.0%","proj_id":42,"id":57,"company_id":48,"change_2011":false}]}
+{"name":"Kent County Council","id":49,"equity":[{"share":"10.0%","proj_id":42,"id":58,"company_id":49,"change_2011":false}]}
+{"name":"Innisfree Limited ","id":50,"equity":[{"share":"100.0%","proj_id":43,"id":60,"company_id":50,"change_2011":false}]}
+{"name":"Sewells ","id":51,"equity":[{"share":"100.0%","proj_id":44,"id":61,"company_id":51,"change_2011":false}]}
+{"name":"KIRKLEES COUNCIL ","id":52,"equity":[{"share":"10.0%","proj_id":45,"id":63,"company_id":52,"change_2011":false}]}
+{"name":"Grosvenor House Group PLC","id":53,"equity":[{"share":"86.0%","proj_id":46,"id":64,"company_id":53,"change_2011":true}]}
+{"name":" Kirklees Council","id":54,"equity":[{"share":"14.0%","proj_id":46,"id":65,"company_id":54,"change_2011":false}]}
+{"name":"Balfour Beatty Infrastructure Investments Ltd","id":55,"equity":[{"share":"100.0%","proj_id":47,"id":66,"company_id":55,"change_2011":false},{"share":"80.0%","proj_id":70,"id":113,"company_id":55,"change_2011":false},{"share":"80.0%","proj_id":704,"id":1090,"company_id":55,"change_2011":false},{"share":"80.0%","proj_id":720,"id":1116,"company_id":55,"change_2011":false},{"share":"80.0%","proj_id":726,"id":1125,"company_id":55,"change_2011":false},{"share":"82.4%","proj_id":231,"id":366,"company_id":55,"change_2011":false}]}
+{"name":"Environments for Learning","id":56,"equity":[{"share":"72.0%","proj_id":48,"id":68,"company_id":56,"change_2011":true},{"share":"72.0%","proj_id":51,"id":76,"company_id":56,"change_2011":true}]}
+{"name":"LEEDS LEP Ltd","id":57,"equity":[{"share":"10.0%","proj_id":48,"id":69,"company_id":57,"change_2011":true},{"share":"10.0%","proj_id":51,"id":77,"company_id":57,"change_2011":true}]}
+{"name":"Bovis","id":58,"equity":[{"share":"40.0%","proj_id":49,"id":70,"company_id":58,"change_2011":false},{"share":"40.0%","proj_id":52,"id":78,"company_id":58,"change_2011":false},{"share":"40.0%","proj_id":863,"id":1220,"company_id":58,"change_2011":false},{"share":"40.0%","proj_id":1006,"id":1270,"company_id":58,"change_2011":false}]}
+{"name":"Lancashire County Council","id":59,"equity":[{"share":"1.0%","proj_id":49,"id":72,"company_id":59,"change_2011":false},{"share":"1.0%","proj_id":52,"id":80,"company_id":59,"change_2011":false},{"share":"1.0%","proj_id":863,"id":1222,"company_id":59,"change_2011":false},{"share":"1.0%","proj_id":1006,"id":1272,"company_id":59,"change_2011":false}]}
+{"name":"Eric Wright Group Ltd","id":60,"equity":[{"share":"100.0%","proj_id":50,"id":74,"company_id":60,"change_2011":false},{"share":"60.0%","proj_id":187,"id":302,"company_id":60,"change_2011":false}]}
+{"name":"The Education Support Company Holdings (Leeds) Ltd","id":61,"equity":[{"share":"50.0%","proj_id":54,"id":83,"company_id":61,"change_2011":false}]}
+{"name":"Uberior Infrastructure Investments (No3) Limited ","id":62,"equity":[{"share":"50.0%","proj_id":54,"id":84,"company_id":62,"change_2011":false}]}
+{"name":"WATES PFI INVESTMENTS (QED) LIMITED","id":63,"equity":[{"share":"20.0%","proj_id":55,"id":85,"company_id":63,"change_2011":false}]}
+{"name":"INNISFREE NOMINEES LIMITED ","id":64,"equity":[{"share":"80.0%","proj_id":55,"id":86,"company_id":64,"change_2011":false}]}
+{"name":"IIC Projects Ltd","id":65,"equity":[{"share":"100.0%","proj_id":56,"id":87,"company_id":65,"change_2011":false},{"share":"68.0%","proj_id":229,"id":360,"company_id":65,"change_2011":false},{"share":"68.0%","proj_id":256,"id":413,"company_id":65,"change_2011":false},{"share":"81.0%","proj_id":99,"id":164,"company_id":65,"change_2011":false}]}
+{"name":"VT","id":66,"equity":[{"share":"40.0%","proj_id":57,"id":90,"company_id":66,"change_2011":false},{"share":"40.0%","proj_id":859,"id":1210,"company_id":66,"change_2011":false},{"share":"40.0%","proj_id":1007,"id":1276,"company_id":66,"change_2011":false},{"share":"40.0%","proj_id":1008,"id":1279,"company_id":66,"change_2011":false}]}
+{"name":"London Borough of Lewisham","id":67,"equity":[{"share":"10.0%","proj_id":57,"id":91,"company_id":67,"change_2011":false},{"share":"10.0%","proj_id":859,"id":1211,"company_id":67,"change_2011":false},{"share":"10.0%","proj_id":1007,"id":1277,"company_id":67,"change_2011":false},{"share":"20.0%","proj_id":1008,"id":1280,"company_id":67,"change_2011":false}]}
+{"name":"Lend Lease UK Infrastructure fund LP","id":68,"equity":[{"share":"50.0%","proj_id":58,"id":92,"company_id":68,"change_2011":false}]}
+{"name":"G4S plc","id":69,"equity":[{"share":"51.0%","proj_id":59,"id":95,"company_id":69,"change_2011":false},{"share":"51.0%","proj_id":127,"id":208,"company_id":69,"change_2011":false}]}
+{"name":"Equity Solutions (Manchester) Ltd","id":70,"equity":[{"share":"80.5%","proj_id":60,"id":96,"company_id":70,"change_2011":false}]}
+{"name":"Amey Vectra Ltd for Speke PFI","id":71,"equity":[{"share":"19.5%","proj_id":60,"id":97,"company_id":71,"change_2011":false}]}
+{"name":"IIC Projects Limited","id":72,"equity":[{"share":"100.0%","proj_id":61,"id":98,"company_id":72,"change_2011":false}]}
+{"name":"HSBC Infrastructure Company Limited ","id":73,"equity":[{"share":"50.0%","proj_id":63,"id":101,"company_id":73,"change_2011":false}]}
+{"name":"HSBC Infrastructure Ltd","id":74,"equity":[{"share":"50.0%","proj_id":65,"id":104,"company_id":74,"change_2011":false}]}
+{"name":"NIBC bank","id":75,"equity":[{"share":"100.0%","proj_id":97,"id":161,"company_id":75,"change_2011":false},{"share":"45.0%","proj_id":66,"id":105,"company_id":75,"change_2011":false}]}
+{"name":"Equitix","id":76,"equity":[{"share":"100.0%","proj_id":191,"id":311,"company_id":76,"change_2011":true},{"share":"100.0%","proj_id":202,"id":327,"company_id":76,"change_2011":false},{"share":"100.0%","proj_id":302,"id":484,"company_id":76,"change_2011":false},{"share":"18.0%","proj_id":733,"id":1145,"company_id":76,"change_2011":false},{"share":"45.0%","proj_id":66,"id":106,"company_id":76,"change_2011":false},{"share":"50.0%","proj_id":204,"id":330,"company_id":76,"change_2011":false},{"share":"50.0%","proj_id":355,"id":569,"company_id":76,"change_2011":false},{"share":"50.0%","proj_id":761,"id":1175,"company_id":76,"change_2011":false},{"share":"50.0%","proj_id":762,"id":1178,"company_id":76,"change_2011":true},{"share":"50.0%","proj_id":864,"id":1225,"company_id":76,"change_2011":false},{"share":"50.0%","proj_id":881,"id":1260,"company_id":76,"change_2011":false},{"share":"80.0%","proj_id":865,"id":1226,"company_id":76,"change_2011":false},{"share":"90.0%","proj_id":858,"id":1206,"company_id":76,"change_2011":false}]}
+{"name":"King Sturge","id":77,"equity":[{"share":"10.0%","proj_id":66,"id":107,"company_id":77,"change_2011":false}]}
+{"name":"John Laing Social Infrastructure Ltd","id":78,"equity":[{"share":"100.0%","proj_id":67,"id":108,"company_id":78,"change_2011":false},{"share":"27.0%","proj_id":399,"id":639,"company_id":78,"change_2011":false},{"share":"75.0%","proj_id":68,"id":109,"company_id":78,"change_2011":false},{"share":"75.0%","proj_id":77,"id":125,"company_id":78,"change_2011":false}]}
+{"name":"London Borough of Islington","id":79,"equity":[{"share":"0.0%","proj_id":132,"id":213,"company_id":79,"change_2011":false},{"share":"10.0%","proj_id":70,"id":114,"company_id":79,"change_2011":false},{"share":"10.0%","proj_id":720,"id":1117,"company_id":79,"change_2011":false}]}
+{"name":"London Borough of Lambeth","id":80,"equity":[{"share":"100.0%","proj_id":71,"id":115,"company_id":80,"change_2011":false}]}
+{"name":"Catalyst Lendlease","id":81,"equity":[{"share":"100.0%","proj_id":72,"id":116,"company_id":81,"change_2011":false}]}
+{"name":"HSBC Infrastructure Fund Management Limited (HIFML)","id":82,"equity":[{"share":"85.0%","proj_id":73,"id":117,"company_id":82,"change_2011":false}]}
+{"name":"Bouygues (UK) Limited","id":83,"equity":[{"share":"15.0%","proj_id":73,"id":118,"company_id":83,"change_2011":false}]}
+{"name":"Miller","id":84,"equity":[{"share":"39.2%","proj_id":869,"id":1239,"company_id":84,"change_2011":false},{"share":"40.0%","proj_id":75,"id":120,"company_id":84,"change_2011":false}]}
+{"name":"GSL","id":85,"equity":[{"share":"20.0%","proj_id":75,"id":121,"company_id":85,"change_2011":false}]}
+{"name":"Leicester City Council","id":86,"equity":[{"share":"1.0%","proj_id":75,"id":123,"company_id":86,"change_2011":false},{"share":"4.9%","proj_id":869,"id":1242,"company_id":86,"change_2011":false}]}
+{"name":"HBG (UK) Ltd","id":87,"equity":[{"share":"100.0%","proj_id":76,"id":124,"company_id":87,"change_2011":false}]}
+{"name":"Norwich Union 3Ps","id":88,"equity":[{"share":"100.0%","proj_id":79,"id":128,"company_id":88,"change_2011":false}]}
+{"name":"Uberior Infrastructure Investments (No. 3) Ltd/BOS Infrastructure Ltd ","id":89,"equity":[{"share":"45.0%","proj_id":80,"id":129,"company_id":89,"change_2011":false}]}
+{"name":"LeisurePlan Investments Limited ","id":90,"equity":[{"share":"25.0%","proj_id":80,"id":131,"company_id":90,"change_2011":false}]}
+{"name":"Bouygues","id":91,"equity":[{"share":"16.1%","proj_id":81,"id":134,"company_id":91,"change_2011":false}]}
+{"name":"London Borough of Waltham Forest","id":92,"equity":[{"share":"10.0%","proj_id":81,"id":135,"company_id":92,"change_2011":false}]}
+{"name":"Norwich Union PPP Fund","id":93,"equity":[{"share":"100.0%","proj_id":84,"id":138,"company_id":93,"change_2011":false},{"share":"100.0%","proj_id":138,"id":219,"company_id":93,"change_2011":false}]}
+{"name":"Hochtief","id":94,"equity":[{"share":"40.0%","proj_id":705,"id":1093,"company_id":94,"change_2011":false},{"share":"40.0%","proj_id":860,"id":1212,"company_id":94,"change_2011":false},{"share":"50.0%","proj_id":85,"id":139,"company_id":94,"change_2011":false}]}
+{"name":"Barclays","id":95,"equity":[{"share":"100.0%","proj_id":323,"id":515,"company_id":95,"change_2011":false},{"share":"100.0%","proj_id":351,"id":564,"company_id":95,"change_2011":false},{"share":"100.0%","proj_id":362,"id":580,"company_id":95,"change_2011":false},{"share":"100.0%","proj_id":618,"id":989,"company_id":95,"change_2011":false},{"share":"100.0%","proj_id":1021,"id":1295,"company_id":95,"change_2011":false},{"share":"25.0%","proj_id":342,"id":547,"company_id":95,"change_2011":true},{"share":"33.0%","proj_id":403,"id":647,"company_id":95,"change_2011":false},{"share":"50.0%","proj_id":85,"id":140,"company_id":95,"change_2011":false}]}
+{"name":"Innisfree M&G PPP Fund","id":96,"equity":[{"share":"57.5%","proj_id":86,"id":141,"company_id":96,"change_2011":false}]}
+{"name":"Innisfree PFI Continuation Fund","id":97,"equity":[{"share":"42.5%","proj_id":86,"id":142,"company_id":97,"change_2011":false}]}
+{"name":"Robertsons","id":98,"equity":[{"share":"30.0%","proj_id":87,"id":143,"company_id":98,"change_2011":false},{"share":"30.0%","proj_id":873,"id":1250,"company_id":98,"change_2011":false},{"share":"70.0%","proj_id":336,"id":538,"company_id":98,"change_2011":false}]}
+{"name":"Parsons Brinkerhoff","id":99,"equity":[{"share":"20.0%","proj_id":87,"id":145,"company_id":99,"change_2011":false},{"share":"20.0%","proj_id":873,"id":1252,"company_id":99,"change_2011":false}]}
+{"name":"Newcastle City Council","id":100,"equity":[{"share":"1.0%","proj_id":87,"id":147,"company_id":100,"change_2011":false},{"share":"1.0%","proj_id":873,"id":1254,"company_id":100,"change_2011":false},{"share":"5.0%","proj_id":160,"id":244,"company_id":100,"change_2011":false},{"share":"5.8%","proj_id":173,"id":273,"company_id":100,"change_2011":true},{"share":"5.8%","proj_id":174,"id":277,"company_id":100,"change_2011":true},{"share":"5.8%","proj_id":180,"id":288,"company_id":100,"change_2011":true},{"share":"5.8%","proj_id":183,"id":295,"company_id":100,"change_2011":true}]}
+{"name":"Catalyst Investment Holdings Ltd","id":101,"equity":[{"share":"100.0%","proj_id":321,"id":512,"company_id":101,"change_2011":false},{"share":"50.0%","proj_id":88,"id":148,"company_id":101,"change_2011":false}]}
+{"name":"PFI Infrastructure Finance Ltd  ","id":102,"equity":[{"share":"30.0%","proj_id":88,"id":149,"company_id":102,"change_2011":false}]}
+{"name":"Norddeutche Landesbank London ","id":103,"equity":[{"share":"20.0%","proj_id":88,"id":150,"company_id":103,"change_2011":false}]}
+{"name":"Redwood Partnership Ventures 2 Ltd","id":104,"equity":[{"share":"100.0%","proj_id":90,"id":151,"company_id":104,"change_2011":true},{"share":"100.0%","proj_id":361,"id":579,"company_id":104,"change_2011":true}]}
+{"name":"Kajima","id":105,"equity":[{"share":"50.0%","proj_id":91,"id":152,"company_id":105,"change_2011":false}]}
+{"name":"GH North Yorkshire Holdings Limited (Formerly NYOP Education (North Yorkshire) Limited)","id":106,"equity":[{"share":"100.0%","proj_id":92,"id":154,"company_id":106,"change_2011":false}]}
+{"name":"Kajima Europe UK Holdings Ltd","id":107,"equity":[{"share":"50.0%","proj_id":94,"id":155,"company_id":107,"change_2011":false}]}
+{"name":"BSFI","id":108,"equity":[{"share":"10.0%","proj_id":725,"id":1123,"company_id":108,"change_2011":true},{"share":"90.0%","proj_id":95,"id":157,"company_id":108,"change_2011":true}]}
+{"name":"LEP","id":109,"equity":[{"share":"1.0%","proj_id":95,"id":158,"company_id":109,"change_2011":true}]}
+{"name":"Nottingham City Council","id":110,"equity":[{"share":"10.0%","proj_id":725,"id":1124,"company_id":110,"change_2011":false},{"share":"11.0%","proj_id":651,"id":1038,"company_id":110,"change_2011":false},{"share":"4.0%","proj_id":165,"id":255,"company_id":110,"change_2011":false},{"share":"9.0%","proj_id":95,"id":159,"company_id":110,"change_2011":false}]}
+{"name":"Redwood Partnership Ventures II Limited","id":111,"equity":[{"share":"50.0%","proj_id":98,"id":162,"company_id":111,"change_2011":true}]}
+{"name":"Dexia Credit Local ","id":112,"equity":[{"share":"50.0%","proj_id":98,"id":163,"company_id":112,"change_2011":true}]}
+{"name":"BY Education (Peterborough Schools) Ltd","id":113,"equity":[{"share":"19.0%","proj_id":99,"id":165,"company_id":113,"change_2011":false}]}
+{"name":"Interserve Investments ","id":114,"equity":[{"share":"50.0%","proj_id":100,"id":166,"company_id":114,"change_2011":false}]}
+{"name":"Barclays European Infrastructure Fund","id":115,"equity":[{"share":"40.0%","proj_id":271,"id":437,"company_id":115,"change_2011":false},{"share":"50.0%","proj_id":100,"id":167,"company_id":115,"change_2011":false}]}
+{"name":"Grannag owned by Infrastructure Investors Ltd, Registered address:  8th Floor, 20 St James's St, London, SW1A 1ES","id":116,"equity":[{"share":"100.0%","proj_id":101,"id":168,"company_id":116,"change_2011":false}]}
+{"name":"NU Schools for Redbridge Limited (Funded through Norwich Union Public Private Partnership Fund)","id":117,"equity":[{"share":"100.0%","proj_id":102,"id":169,"company_id":117,"change_2011":false}]}
+{"name":"Robertsons Capital Projects","id":118,"equity":[{"share":"50.1%","proj_id":103,"id":170,"company_id":118,"change_2011":false}]}
+{"name":"3i Infrastructure PLC","id":119,"equity":[{"share":"49.9%","proj_id":103,"id":171,"company_id":119,"change_2011":false}]}
+{"name":"RBS PPP Investments SCA SICAR","id":120,"equity":[{"share":"90.0%","proj_id":104,"id":172,"company_id":120,"change_2011":false}]}
+{"name":"PFI Securities (Rochdale) Limited","id":121,"equity":[{"share":"10.0%","proj_id":104,"id":173,"company_id":121,"change_2011":false}]}
+{"name":"Innisfree PFI Secondary Fund","id":122,"equity":[{"share":"50.0%","proj_id":105,"id":174,"company_id":122,"change_2011":true}]}
+{"name":"Schools Capital Limited","id":123,"equity":[{"share":"50.0%","proj_id":106,"id":175,"company_id":123,"change_2011":false}]}
+{"name":"NIBC","id":124,"equity":[{"share":"50.0%","proj_id":106,"id":176,"company_id":124,"change_2011":false}]}
+{"name":"HSBC Investments","id":125,"equity":[{"share":"40.0%","proj_id":108,"id":179,"company_id":125,"change_2011":false}]}
+{"name":"Taylor Woodrow","id":126,"equity":[{"share":"40.0%","proj_id":108,"id":180,"company_id":126,"change_2011":false}]}
+{"name":"Sheffield City Council","id":127,"equity":[{"share":"1.0%","proj_id":108,"id":181,"company_id":127,"change_2011":false}]}
+{"name":"Kier Pensions","id":128,"equity":[{"share":"50.0%","proj_id":110,"id":183,"company_id":128,"change_2011":true}]}
+{"name":"Redwood Partnership Venture 11","id":129,"equity":[{"share":"50.0%","proj_id":110,"id":184,"company_id":129,"change_2011":true}]}
+{"name":"Grosvenor House Group Plc","id":130,"equity":[{"share":"100.0%","proj_id":112,"id":186,"company_id":130,"change_2011":false}]}
+{"name":"BAM PPP","id":131,"equity":[{"share":"100.0%","proj_id":113,"id":187,"company_id":131,"change_2011":false},{"share":"100.0%","proj_id":550,"id":875,"company_id":131,"change_2011":false},{"share":"80.0%","proj_id":712,"id":1102,"company_id":131,"change_2011":false}]}
+{"name":"Barclays European Infrastructures Fund (BEIS)","id":132,"equity":[{"share":"100.0%","proj_id":114,"id":188,"company_id":132,"change_2011":false}]}
+{"name":"Foresight Ltd","id":133,"equity":[{"share":"50.0%","proj_id":117,"id":190,"company_id":133,"change_2011":true}]}
+{"name":"Pell Frischmann Ltd","id":134,"equity":[{"share":"50.0%","proj_id":117,"id":191,"company_id":134,"change_2011":false},{"share":"50.0%","proj_id":1004,"id":1269,"company_id":134,"change_2011":false}]}
+{"name":"Barclays Integrated Infrastructure Fund","id":135,"equity":[{"share":"100.0%","proj_id":118,"id":192,"company_id":135,"change_2011":false},{"share":"100.0%","proj_id":436,"id":695,"company_id":135,"change_2011":false},{"share":"100.0%","proj_id":561,"id":891,"company_id":135,"change_2011":true},{"share":"50.0%","proj_id":394,"id":631,"company_id":135,"change_2011":false}]}
+{"name":"Equion","id":136,"equity":[{"share":"100.0%","proj_id":121,"id":195,"company_id":136,"change_2011":false}]}
+{"name":"Tameside Metropolitan Borough Council","id":137,"equity":[{"share":"46.0%","proj_id":122,"id":198,"company_id":137,"change_2011":true},{"share":"46.0%","proj_id":730,"id":1135,"company_id":137,"change_2011":true}]}
+{"name":"Interserve PFI Holdings Ltd","id":138,"equity":[{"share":"33.0%","proj_id":525,"id":824,"company_id":138,"change_2011":false},{"share":"50.0%","proj_id":123,"id":199,"company_id":138,"change_2011":false},{"share":"50.0%","proj_id":506,"id":793,"company_id":138,"change_2011":false},{"share":"50.0%","proj_id":507,"id":795,"company_id":138,"change_2011":false},{"share":"50.0%","proj_id":524,"id":822,"company_id":138,"change_2011":false}]}
+{"name":"HBOS","id":139,"equity":[{"share":"33.0%","proj_id":163,"id":251,"company_id":139,"change_2011":false},{"share":"50.0%","proj_id":123,"id":200,"company_id":139,"change_2011":false}]}
+{"name":"Department for Education","id":140,"equity":[{"share":"35.0%","proj_id":125,"id":202,"company_id":140,"change_2011":false}]}
+{"name":"Archdiocese","id":141,"equity":[{"share":"6.0%","proj_id":125,"id":203,"company_id":141,"change_2011":false}]}
+{"name":"School Governing Body","id":142,"equity":[{"share":"24.0%","proj_id":125,"id":204,"company_id":142,"change_2011":false}]}
+{"name":"Walsall Metropolitan Borough Council","id":143,"equity":[{"share":"35.0%","proj_id":125,"id":205,"company_id":143,"change_2011":false}]}
+{"name":"DIF PPP UK Limited ","id":144,"equity":[{"share":"50.0%","proj_id":126,"id":206,"company_id":144,"change_2011":false}]}
+{"name":"DIF Infra structure II UK LTd ","id":145,"equity":[{"share":"50.0%","proj_id":126,"id":207,"company_id":145,"change_2011":false}]}
+{"name":"BAM PPP Investments UK BV","id":146,"equity":[{"share":"100.0%","proj_id":129,"id":211,"company_id":146,"change_2011":false},{"share":"90.0%","proj_id":698,"id":1081,"company_id":146,"change_2011":false}]}
+{"name":"Enterprise Plc","id":147,"equity":[{"share":"100.0%","proj_id":132,"id":212,"company_id":147,"change_2011":false}]}
+{"name":"South Yorkshire Housing Association","id":148,"equity":[{"share":"100.0%","proj_id":133,"id":214,"company_id":148,"change_2011":false}]}
+{"name":"Manchester Domestic Energy Services","id":149,"equity":[{"share":"100.0%","proj_id":134,"id":215,"company_id":149,"change_2011":false}]}
+{"name":"London & Regional Properties","id":150,"equity":[{"share":"100.0%","proj_id":135,"id":216,"company_id":150,"change_2011":false}]}
+{"name":"Carden Croft","id":151,"equity":[{"share":"100.0%","proj_id":136,"id":217,"company_id":151,"change_2011":false},{"share":"20.0%","proj_id":665,"id":1053,"company_id":151,"change_2011":false},{"share":"33.0%","proj_id":403,"id":646,"company_id":151,"change_2011":false}]}
+{"name":"Salt Union","id":152,"equity":[{"share":"100.0%","proj_id":137,"id":218,"company_id":152,"change_2011":false}]}
+{"name":"Derwent Living","id":153,"equity":[{"share":"100.0%","proj_id":141,"id":220,"company_id":153,"change_2011":true}]}
+{"name":"LST SMIF Partnership GP Ltd","id":154,"equity":[{"share":"100.0%","proj_id":142,"id":221,"company_id":154,"change_2011":false}]}
+{"name":"AssetCo PLC","id":155,"equity":[{"share":"100.0%","proj_id":143,"id":222,"company_id":155,"change_2011":false}]}
+{"name":"VT Group","id":156,"equity":[{"share":"100.0%","proj_id":144,"id":223,"company_id":156,"change_2011":false}]}
+{"name":" Interserve Investments ","id":157,"equity":[{"share":"50.0%","proj_id":145,"id":224,"company_id":157,"change_2011":false}]}
+{"name":"Lloyds Banking Group Fund (formerly HBOS)","id":158,"equity":[{"share":"50.0%","proj_id":145,"id":225,"company_id":158,"change_2011":false}]}
+{"name":"Norwich Union Public / Private partnership Fund","id":159,"equity":[{"share":"100.0%","proj_id":146,"id":226,"company_id":159,"change_2011":false}]}
+{"name":"London and Regional Group Holdings Ltd","id":160,"equity":[{"share":"100.0%","proj_id":148,"id":228,"company_id":160,"change_2011":true}]}
+{"name":"Cofatech Sale PFI Ltd","id":161,"equity":[{"share":"100.0%","proj_id":149,"id":229,"company_id":161,"change_2011":false}]}
+{"name":"Carden Croft & Co Ltd","id":162,"equity":[{"share":"100.0%","proj_id":151,"id":230,"company_id":162,"change_2011":false}]}
+{"name":"Palio Ltd","id":163,"equity":[{"share":"45.0%","proj_id":153,"id":231,"company_id":163,"change_2011":false}]}
+{"name":"Bank of Scotland Infrastructure (No.3) Ltd ","id":164,"equity":[{"share":"45.0%","proj_id":153,"id":232,"company_id":164,"change_2011":false},{"share":"45.0%","proj_id":170,"id":265,"company_id":164,"change_2011":false}]}
+{"name":"Hyde Housing Association Ltd","id":165,"equity":[{"share":"10.0%","proj_id":153,"id":233,"company_id":165,"change_2011":false},{"share":"10.0%","proj_id":170,"id":266,"company_id":165,"change_2011":false}]}
+{"name":"MJ Gleeson","id":166,"equity":[{"share":"48.0%","proj_id":154,"id":234,"company_id":166,"change_2011":false}]}
+{"name":"Nationwide Building Society","id":167,"equity":[{"share":"26.0%","proj_id":154,"id":235,"company_id":167,"change_2011":false}]}
+{"name":"Manchester and District Housing Association","id":168,"equity":[{"share":"26.0%","proj_id":154,"id":236,"company_id":168,"change_2011":false}]}
+{"name":"HICL","id":169,"equity":[{"share":"100.0%","proj_id":155,"id":237,"company_id":169,"change_2011":false},{"share":"100.0%","proj_id":285,"id":453,"company_id":169,"change_2011":false},{"share":"100.0%","proj_id":306,"id":491,"company_id":169,"change_2011":false},{"share":"100.0%","proj_id":333,"id":535,"company_id":169,"change_2011":false},{"share":"100.0%","proj_id":344,"id":554,"company_id":169,"change_2011":false},{"share":"100.0%","proj_id":348,"id":560,"company_id":169,"change_2011":false},{"share":"100.0%","proj_id":366,"id":585,"company_id":169,"change_2011":false},{"share":"100.0%","proj_id":372,"id":590,"company_id":169,"change_2011":true},{"share":"25.0%","proj_id":297,"id":473,"company_id":169,"change_2011":false},{"share":"25.0%","proj_id":342,"id":548,"company_id":169,"change_2011":true},{"share":"30.0%","proj_id":375,"id":597,"company_id":169,"change_2011":false},{"share":"40.0%","proj_id":343,"id":552,"company_id":169,"change_2011":false},{"share":"50.0%","proj_id":326,"id":522,"company_id":169,"change_2011":false},{"share":"85.0%","proj_id":325,"id":519,"company_id":169,"change_2011":true},{"share":"90.0%","proj_id":293,"id":466,"company_id":169,"change_2011":false}]}
+{"name":"South Yorkshire Housing Association Limited ","id":170,"equity":[{"share":"100.0%","proj_id":157,"id":238,"company_id":170,"change_2011":false}]}
+{"name":"Care UK Community Partnerships.","id":171,"equity":[{"share":"100.0%","proj_id":158,"id":239,"company_id":171,"change_2011":false}]}
+{"name":"Southern Housing","id":172,"equity":[{"share":"50.0%","proj_id":159,"id":240,"company_id":172,"change_2011":true}]}
+{"name":"Windsor Housing","id":173,"equity":[{"share":"50.0%","proj_id":159,"id":241,"company_id":173,"change_2011":true}]}
+{"name":"RobertsonsCapital projects Ltd","id":174,"equity":[{"share":"60.0%","proj_id":160,"id":242,"company_id":174,"change_2011":false}]}
+{"name":"Community Health Partnerships","id":175,"equity":[{"share":"20.0%","proj_id":160,"id":243,"company_id":175,"change_2011":false},{"share":"20.0%","proj_id":187,"id":304,"company_id":175,"change_2011":false},{"share":"20.0%","proj_id":669,"id":1056,"company_id":175,"change_2011":false}]}
+{"name":"Newcastle PCT","id":176,"equity":[{"share":"9.0%","proj_id":160,"id":245,"company_id":176,"change_2011":false}]}
+{"name":"North Tyneside PCT","id":177,"equity":[{"share":"6.0%","proj_id":160,"id":246,"company_id":177,"change_2011":false}]}
+{"name":"Arena Housing Association ","id":178,"equity":[{"share":"100.0%","proj_id":161,"id":247,"company_id":178,"change_2011":false}]}
+{"name":"Regenter ","id":179,"equity":[{"share":"100.0%","proj_id":162,"id":248,"company_id":179,"change_2011":false}]}
+{"name":"Yorkshire Housing Association","id":180,"equity":[{"share":"33.0%","proj_id":163,"id":250,"company_id":180,"change_2011":false}]}
+{"name":"John Laing Infrastructure Fund","id":181,"equity":[{"share":"100.0%","proj_id":164,"id":252,"company_id":181,"change_2011":true},{"share":"100.0%","proj_id":192,"id":312,"company_id":181,"change_2011":true},{"share":"50.0%","proj_id":169,"id":263,"company_id":181,"change_2011":true}]}
+{"name":"Community Solutions Ltd","id":182,"equity":[{"share":"60.0%","proj_id":165,"id":253,"company_id":182,"change_2011":false},{"share":"60.0%","proj_id":651,"id":1036,"company_id":182,"change_2011":false}]}
+{"name":"Community Health Partnerships (formerly Partnerships for Health)","id":183,"equity":[{"share":"20.0%","proj_id":165,"id":254,"company_id":183,"change_2011":false},{"share":"20.0%","proj_id":166,"id":259,"company_id":183,"change_2011":false},{"share":"20.0%","proj_id":651,"id":1037,"company_id":183,"change_2011":false},{"share":"20.0%","proj_id":652,"id":1041,"company_id":183,"change_2011":false},{"share":"20.0%","proj_id":1001,"id":1264,"company_id":183,"change_2011":false},{"share":"27.4%","proj_id":173,"id":271,"company_id":183,"change_2011":true},{"share":"27.4%","proj_id":174,"id":275,"company_id":183,"change_2011":true},{"share":"27.4%","proj_id":180,"id":286,"company_id":183,"change_2011":true},{"share":"27.4%","proj_id":183,"id":293,"company_id":183,"change_2011":true},{"share":"40.0%","proj_id":171,"id":268,"company_id":183,"change_2011":true}]}
+{"name":"NHS Nottingham City","id":184,"equity":[{"share":"4.0%","proj_id":165,"id":256,"company_id":184,"change_2011":false},{"share":"9.0%","proj_id":651,"id":1039,"company_id":184,"change_2011":false}]}
+{"name":"NHS Nottinghamshire","id":185,"equity":[{"share":"12.0%","proj_id":165,"id":257,"company_id":185,"change_2011":false}]}
+{"name":"Fulcrum Infrastructure Management","id":186,"equity":[{"share":"60.0%","proj_id":166,"id":258,"company_id":186,"change_2011":false}]}
+{"name":"Lambeth PCT Southwark PCT & Lewisham PCT","id":187,"equity":[{"share":"20.0%","proj_id":166,"id":260,"company_id":187,"change_2011":false}]}
+{"name":"Anchor Trust (corporately financed scheme)","id":188,"equity":[{"share":"100.0%","proj_id":167,"id":261,"company_id":188,"change_2011":false}]}
+{"name":"Lloyds Banking Group","id":189,"equity":[{"share":"40.0%","proj_id":580,"id":923,"company_id":189,"change_2011":false},{"share":"50.0%","proj_id":169,"id":262,"company_id":189,"change_2011":false}]}
+{"name":"Palio","id":190,"equity":[{"share":"45.0%","proj_id":170,"id":264,"company_id":190,"change_2011":false}]}
+{"name":"Primary Plus Holdings Ltd (Equitix)","id":191,"equity":[{"share":"60.0%","proj_id":171,"id":267,"company_id":191,"change_2011":true}]}
+{"name":"Housing 21","id":192,"equity":[{"share":"100.0%","proj_id":172,"id":269,"company_id":192,"change_2011":false},{"share":"100.0%","proj_id":182,"id":291,"company_id":192,"change_2011":false}]}
+{"name":"Dalmore Capital Fund LP","id":193,"equity":[{"share":"60.0%","proj_id":173,"id":270,"company_id":193,"change_2011":true},{"share":"60.0%","proj_id":174,"id":274,"company_id":193,"change_2011":true},{"share":"60.0%","proj_id":180,"id":285,"company_id":193,"change_2011":true},{"share":"60.0%","proj_id":183,"id":292,"company_id":193,"change_2011":true}]}
+{"name":"North Tyneside Council","id":194,"equity":[{"share":"6.8%","proj_id":173,"id":272,"company_id":194,"change_2011":true},{"share":"6.8%","proj_id":174,"id":276,"company_id":194,"change_2011":true},{"share":"6.8%","proj_id":180,"id":287,"company_id":194,"change_2011":true},{"share":"6.8%","proj_id":183,"id":294,"company_id":194,"change_2011":true}]}
+{"name":"United Medical Enterprises Investment Co Ltd","id":195,"equity":[{"share":"50.0%","proj_id":175,"id":278,"company_id":195,"change_2011":false}]}
+{"name":"Infrastructure Intermediaries No1 Ltd ","id":196,"equity":[{"share":"25.0%","proj_id":175,"id":279,"company_id":196,"change_2011":false}]}
+{"name":"Eldon Housing Association","id":197,"equity":[{"share":"25.0%","proj_id":175,"id":280,"company_id":197,"change_2011":false}]}
+{"name":"Renaissance Miles Platting Holdings","id":198,"equity":[{"share":"100.0%","proj_id":176,"id":281,"company_id":198,"change_2011":false}]}
+{"name":"MBIA UK","id":199,"equity":[{"share":"66.7%","proj_id":177,"id":282,"company_id":199,"change_2011":true}]}
+{"name":"Moat Housing Group","id":200,"equity":[{"share":"33.3%","proj_id":177,"id":283,"company_id":200,"change_2011":false}]}
+{"name":"Infrastructure Investments Holdings Limited","id":201,"equity":[{"share":"100.0%","proj_id":179,"id":284,"company_id":201,"change_2011":true},{"share":"30.0%","proj_id":594,"id":944,"company_id":201,"change_2011":false}]}
+{"name":"Manchester & District Housing Association","id":202,"equity":[{"share":"33.3%","proj_id":181,"id":289,"company_id":202,"change_2011":false}]}
+{"name":"TIF Holdco Ltd","id":203,"equity":[{"share":"66.7%","proj_id":181,"id":290,"company_id":203,"change_2011":true}]}
+{"name":"Sewell Group & UME","id":204,"equity":[{"share":"44.0%","proj_id":184,"id":296,"company_id":204,"change_2011":false}]}
+{"name":"NHS Hull","id":205,"equity":[{"share":"56.0%","proj_id":184,"id":297,"company_id":205,"change_2011":false}]}
+{"name":"Gleeson PFI Investments Ltd ","id":206,"equity":[{"share":"34.0%","proj_id":185,"id":298,"company_id":206,"change_2011":false}]}
+{"name":"Progress Care Housing Association","id":207,"equity":[{"share":"33.0%","proj_id":185,"id":299,"company_id":207,"change_2011":false}]}
+{"name":"Jack Lunn Group Ltd","id":208,"equity":[{"share":"33.0%","proj_id":185,"id":300,"company_id":208,"change_2011":false}]}
+{"name":"Land Group","id":209,"equity":[{"share":"100.0%","proj_id":186,"id":301,"company_id":209,"change_2011":false}]}
+{"name":"NHS Heywood, Middleton & Rochdale","id":210,"equity":[{"share":"20.0%","proj_id":187,"id":303,"company_id":210,"change_2011":false}]}
+{"name":"Hyde Housing ","id":211,"equity":[{"share":"100.0%","proj_id":188,"id":305,"company_id":211,"change_2011":false}]}
+{"name":"Swan Housing Group","id":212,"equity":[{"share":"100.0%","proj_id":189,"id":306,"company_id":212,"change_2011":false}]}
+{"name":"Leeds City Council","id":213,"equity":[{"share":"3.3%","proj_id":190,"id":307,"company_id":213,"change_2011":false}]}
+{"name":"NHS Leeds PCT","id":214,"equity":[{"share":"16.7%","proj_id":190,"id":308,"company_id":214,"change_2011":false}]}
+{"name":"Primaria","id":215,"equity":[{"share":"60.0%","proj_id":190,"id":309,"company_id":215,"change_2011":false}]}
+{"name":"Community Health Partnerships (CHP)","id":216,"equity":[{"share":"20.0%","proj_id":190,"id":310,"company_id":216,"change_2011":false}]}
+{"name":"DC Leisure Developments Ltd","id":217,"equity":[{"share":"99.0%","proj_id":193,"id":313,"company_id":217,"change_2011":false}]}
+{"name":"Leisure Infrastructure Investors Limited","id":218,"equity":[{"share":"1.0%","proj_id":193,"id":314,"company_id":218,"change_2011":false},{"share":"100.0%","proj_id":203,"id":328,"company_id":218,"change_2011":false}]}
+{"name":"Equitix Education 2 Ltd","id":219,"equity":[{"share":"100.0%","proj_id":194,"id":315,"company_id":219,"change_2011":false}]}
+{"name":"Equitix ","id":220,"equity":[{"share":"100.0%","proj_id":195,"id":316,"company_id":220,"change_2011":false}]}
+{"name":"Norwich Union Public/Private Partnership Fund","id":221,"equity":[{"share":"100.0%","proj_id":196,"id":317,"company_id":221,"change_2011":false}]}
+{"name":"Interserve PFI 2005 Ltd","id":222,"equity":[{"share":"33.3%","proj_id":599,"id":952,"company_id":222,"change_2011":false},{"share":"50.0%","proj_id":197,"id":318,"company_id":222,"change_2011":false}]}
+{"name":"Investments in Education","id":223,"equity":[{"share":"50.0%","proj_id":197,"id":319,"company_id":223,"change_2011":false}]}
+{"name":"DIF PPP UK","id":224,"equity":[{"share":"100.0%","proj_id":198,"id":320,"company_id":224,"change_2011":false}]}
+{"name":"DIF PPP UK Ltd","id":225,"equity":[{"share":"100.0%","proj_id":199,"id":321,"company_id":225,"change_2011":false}]}
+{"name":"Kajima Partnerships Ltd","id":226,"equity":[{"share":"50.0%","proj_id":280,"id":447,"company_id":226,"change_2011":false},{"share":"67.0%","proj_id":200,"id":322,"company_id":226,"change_2011":false}]}
+{"name":"Infrastucture Investors LP","id":227,"equity":[{"share":"13.0%","proj_id":200,"id":323,"company_id":227,"change_2011":false},{"share":"16.7%","proj_id":381,"id":611,"company_id":227,"change_2011":false}]}
+{"name":"Secondary Market Investment Fund LP","id":228,"equity":[{"share":"16.7%","proj_id":381,"id":612,"company_id":228,"change_2011":false},{"share":"20.0%","proj_id":200,"id":324,"company_id":228,"change_2011":false}]}
+{"name":"Keir Ltd","id":229,"equity":[{"share":"50.0%","proj_id":201,"id":325,"company_id":229,"change_2011":false}]}
+{"name":"Barclays European InfrastructureLtd","id":230,"equity":[{"share":"10.0%","proj_id":206,"id":333,"company_id":230,"change_2011":false},{"share":"50.0%","proj_id":201,"id":326,"company_id":230,"change_2011":false}]}
+{"name":"G & J Seddon Ltd","id":231,"equity":[{"share":"50.0%","proj_id":204,"id":329,"company_id":231,"change_2011":false}]}
+{"name":"Leisure Connection Limited","id":232,"equity":[{"share":"100.0%","proj_id":205,"id":331,"company_id":232,"change_2011":false}]}
+{"name":"DC Leisure Management Ltd","id":233,"equity":[{"share":"90.0%","proj_id":206,"id":332,"company_id":233,"change_2011":false}]}
+{"name":"SITA UK Ltd","id":234,"equity":[{"share":"100.0%","proj_id":207,"id":334,"company_id":234,"change_2011":false},{"share":"100.0%","proj_id":209,"id":336,"company_id":234,"change_2011":false},{"share":"100.0%","proj_id":691,"id":1074,"company_id":234,"change_2011":false},{"share":"42.0%","proj_id":222,"id":351,"company_id":234,"change_2011":false},{"share":"45.0%","proj_id":688,"id":1069,"company_id":234,"change_2011":false}]}
+{"name":"WRG PFI Holdings","id":235,"equity":[{"share":"100.0%","proj_id":208,"id":335,"company_id":235,"change_2011":false}]}
+{"name":"Shanks Waste Management Ltd","id":236,"equity":[{"share":"20.0%","proj_id":210,"id":337,"company_id":236,"change_2011":false}]}
+{"name":"John Laing","id":237,"equity":[{"share":"100.0%","proj_id":289,"id":459,"company_id":237,"change_2011":false},{"share":"100.0%","proj_id":369,"id":588,"company_id":237,"change_2011":true},{"share":"100.0%","proj_id":542,"id":859,"company_id":237,"change_2011":false},{"share":"15.0%","proj_id":611,"id":975,"company_id":237,"change_2011":false},{"share":"25.0%","proj_id":286,"id":456,"company_id":237,"change_2011":false},{"share":"27.5%","proj_id":359,"id":575,"company_id":237,"change_2011":false},{"share":"40.0%","proj_id":327,"id":523,"company_id":237,"change_2011":false},{"share":"40.0%","proj_id":722,"id":1119,"company_id":237,"change_2011":false},{"share":"40.0%","proj_id":853,"id":1193,"company_id":237,"change_2011":false},{"share":"40.0%","proj_id":857,"id":1203,"company_id":237,"change_2011":false},{"share":"50.0%","proj_id":214,"id":341,"company_id":237,"change_2011":false},{"share":"50.0%","proj_id":328,"id":526,"company_id":237,"change_2011":false},{"share":"50.0%","proj_id":429,"id":686,"company_id":237,"change_2011":false},{"share":"50.0%","proj_id":656,"id":1047,"company_id":237,"change_2011":false},{"share":"75.0%","proj_id":376,"id":599,"company_id":237,"change_2011":false},{"share":"80.0%","proj_id":210,"id":338,"company_id":237,"change_2011":false}]}
+{"name":"Veolia ES UK","id":238,"equity":[{"share":"100.0%","proj_id":211,"id":339,"company_id":238,"change_2011":false}]}
+{"name":"Viridor Waste Limited","id":239,"equity":[{"share":"100.0%","proj_id":228,"id":359,"company_id":239,"change_2011":false},{"share":"50.0%","proj_id":214,"id":340,"company_id":239,"change_2011":false}]}
+{"name":"Biffa Holdings Limited","id":240,"equity":[{"share":"100.0%","proj_id":215,"id":342,"company_id":240,"change_2011":false}]}
+{"name":"Infrastructure Managers Limited ","id":241,"equity":[{"share":"100.0%","proj_id":216,"id":343,"company_id":241,"change_2011":false}]}
+{"name":"Donarbon Services Ltd","id":242,"equity":[{"share":"100.0%","proj_id":217,"id":344,"company_id":242,"change_2011":true}]}
+{"name":"FOCSA Services (UK) Ltd","id":243,"equity":[{"share":"50.0%","proj_id":218,"id":345,"company_id":243,"change_2011":false}]}
+{"name":"Urbaser","id":244,"equity":[{"share":"50.0%","proj_id":218,"id":346,"company_id":244,"change_2011":false}]}
+{"name":"Global Rewables UK Ltd/AMEC","id":245,"equity":[{"share":"50.0%","proj_id":219,"id":347,"company_id":245,"change_2011":false}]}
+{"name":"Catalyst Lend Lease Holdings","id":246,"equity":[{"share":"50.0%","proj_id":219,"id":348,"company_id":246,"change_2011":false}]}
+{"name":"Biffa Leicester SPV","id":247,"equity":[{"share":"100.0%","proj_id":220,"id":349,"company_id":247,"change_2011":false}]}
+{"name":"Veolia ES Aurora Ltd.","id":248,"equity":[{"share":"100.0%","proj_id":221,"id":350,"company_id":248,"change_2011":false}]}
+{"name":"Royal Bank of Scotland","id":249,"equity":[{"share":"100.0%","proj_id":445,"id":708,"company_id":249,"change_2011":false},{"share":"30.0%","proj_id":336,"id":539,"company_id":249,"change_2011":false},{"share":"42.0%","proj_id":222,"id":352,"company_id":249,"change_2011":false}]}
+{"name":"AXA","id":250,"equity":[{"share":"15.0%","proj_id":222,"id":353,"company_id":250,"change_2011":false}]}
+{"name":"Veolia ES Aurora Ltd. ","id":251,"equity":[{"share":"100.0%","proj_id":223,"id":354,"company_id":251,"change_2011":false}]}
+{"name":"Veolia ES Aurora Ltd","id":252,"equity":[{"share":"100.0%","proj_id":224,"id":355,"company_id":252,"change_2011":false},{"share":"100.0%","proj_id":681,"id":1066,"company_id":252,"change_2011":false},{"share":"100.0%","proj_id":690,"id":1073,"company_id":252,"change_2011":false}]}
+{"name":"SITA Kirklees Ltd","id":253,"equity":[{"share":"100.0%","proj_id":225,"id":356,"company_id":253,"change_2011":false}]}
+{"name":"Suez  Group","id":254,"equity":[{"share":"100.0%","proj_id":226,"id":357,"company_id":254,"change_2011":false}]}
+{"name":"Veolia E.S.","id":255,"equity":[{"share":"100.0%","proj_id":227,"id":358,"company_id":255,"change_2011":false}]}
+{"name":"IIC Redcar and Cleveland Funding Investment Ltd","id":256,"equity":[{"share":"17.0%","proj_id":229,"id":361,"company_id":256,"change_2011":false}]}
+{"name":"ETDE Infrastructure Limited","id":257,"equity":[{"share":"15.0%","proj_id":229,"id":362,"company_id":257,"change_2011":false},{"share":"15.0%","proj_id":256,"id":415,"company_id":257,"change_2011":false}]}
+{"name":"Bouygues Energies & Services Infrastructure UK Ltd","id":258,"equity":[{"share":"15.0%","proj_id":230,"id":363,"company_id":258,"change_2011":false}]}
+{"name":"Mill Group","id":259,"equity":[{"share":"68.0%","proj_id":230,"id":364,"company_id":259,"change_2011":false}]}
+{"name":"Investors in the Community Fund 2 ","id":260,"equity":[{"share":"17.0%","proj_id":230,"id":365,"company_id":260,"change_2011":false}]}
+{"name":"Reliance","id":261,"equity":[{"share":"17.7%","proj_id":231,"id":367,"company_id":261,"change_2011":false}]}
+{"name":"Balfour Beatty plc","id":262,"equity":[{"share":"100.0%","proj_id":232,"id":368,"company_id":262,"change_2011":false},{"share":"100.0%","proj_id":236,"id":373,"company_id":262,"change_2011":false},{"share":"100.0%","proj_id":664,"id":1051,"company_id":262,"change_2011":false},{"share":"40.0%","proj_id":375,"id":596,"company_id":262,"change_2011":false}]}
+{"name":"No equity injected - 100% senior debt","id":263,"equity":[{"share":"100.0%","proj_id":233,"id":369,"company_id":263,"change_2011":false}]}
+{"name":"Telereal Trillium (DV1A)  Ltd","id":264,"equity":[{"share":"100.0%","proj_id":234,"id":370,"company_id":264,"change_2011":false}]}
+{"name":"John Laing PLC","id":265,"equity":[{"share":"100.0%","proj_id":237,"id":374,"company_id":265,"change_2011":false},{"share":"100.0%","proj_id":257,"id":416,"company_id":265,"change_2011":false},{"share":"50.0%","proj_id":235,"id":371,"company_id":265,"change_2011":false},{"share":"50.0%","proj_id":261,"id":420,"company_id":265,"change_2011":false}]}
+{"name":"Amey LG","id":266,"equity":[{"share":"50.0%","proj_id":235,"id":372,"company_id":266,"change_2011":false}]}
+{"name":"Semperian PPP Investment Partners ","id":267,"equity":[{"share":"50.0%","proj_id":238,"id":375,"company_id":267,"change_2011":false},{"share":"50.0%","proj_id":248,"id":401,"company_id":267,"change_2011":false}]}
+{"name":"Barclays Private Equity (BPE)","id":268,"equity":[{"share":"15.0%","proj_id":242,"id":385,"company_id":268,"change_2011":false},{"share":"25.0%","proj_id":238,"id":376,"company_id":268,"change_2011":false},{"share":"41.7%","proj_id":239,"id":379,"company_id":268,"change_2011":false},{"share":"41.7%","proj_id":243,"id":387,"company_id":268,"change_2011":false},{"share":"50.0%","proj_id":246,"id":395,"company_id":268,"change_2011":false}]}
+{"name":"Kellogg Brown & Root Limited","id":269,"equity":[{"share":"25.0%","proj_id":238,"id":377,"company_id":269,"change_2011":false},{"share":"25.0%","proj_id":239,"id":380,"company_id":269,"change_2011":false},{"share":"25.0%","proj_id":243,"id":388,"company_id":269,"change_2011":false},{"share":"25.0%","proj_id":267,"id":430,"company_id":269,"change_2011":false}]}
+{"name":"Abertis Motorways UK Ltd","id":270,"equity":[{"share":"33.3%","proj_id":239,"id":378,"company_id":270,"change_2011":false},{"share":"33.3%","proj_id":243,"id":386,"company_id":270,"change_2011":false}]}
+{"name":"Sir Robert McAlpine Enterprises Ltd","id":271,"equity":[{"share":"100.0%","proj_id":240,"id":381,"company_id":271,"change_2011":false}]}
+{"name":"Barclays Integrated Investment Fund","id":272,"equity":[{"share":"50.0%","proj_id":241,"id":382,"company_id":272,"change_2011":false}]}
+{"name":"HICL Infrastructure Company Limited","id":273,"equity":[{"share":"50.0%","proj_id":241,"id":383,"company_id":273,"change_2011":false}]}
+{"name":"Balfour Beatty Plc","id":274,"equity":[{"share":"100.0%","proj_id":264,"id":424,"company_id":274,"change_2011":false},{"share":"40.0%","proj_id":247,"id":396,"company_id":274,"change_2011":false},{"share":"50.0%","proj_id":246,"id":394,"company_id":274,"change_2011":false},{"share":"85.0%","proj_id":242,"id":384,"company_id":274,"change_2011":false}]}
+{"name":"Connect Roads Infrastructure Ltd","id":275,"equity":[{"share":"25.0%","proj_id":244,"id":389,"company_id":275,"change_2011":false}]}
+{"name":"A-Roads Investments Ltd (Wholly owned by Barclays Infrastructure Fund)","id":276,"equity":[{"share":"75.0%","proj_id":244,"id":390,"company_id":276,"change_2011":false}]}
+{"name":"Henry Boot Construction Ltd","id":277,"equity":[{"share":"61.2%","proj_id":245,"id":391,"company_id":277,"change_2011":false}]}
+{"name":"Pell Frischmann Concessionaires","id":278,"equity":[{"share":"18.8%","proj_id":245,"id":392,"company_id":278,"change_2011":false}]}
+{"name":"Societa Iniziative Autostadali e Servizi S.p.A (SIAS)","id":279,"equity":[{"share":"20.0%","proj_id":245,"id":393,"company_id":279,"change_2011":false}]}
+{"name":"Skanska","id":280,"equity":[{"share":"40.0%","proj_id":247,"id":397,"company_id":280,"change_2011":false},{"share":"52.0%","proj_id":733,"id":1144,"company_id":280,"change_2011":false},{"share":"53.0%","proj_id":707,"id":1097,"company_id":280,"change_2011":false}]}
+{"name":"WS Atkins","id":281,"equity":[{"share":"10.0%","proj_id":247,"id":398,"company_id":281,"change_2011":false}]}
+{"name":"Egis Projects SA","id":282,"equity":[{"share":"10.0%","proj_id":247,"id":399,"company_id":282,"change_2011":false}]}
+{"name":"John Laing Infrastructure","id":283,"equity":[{"share":"50.0%","proj_id":248,"id":400,"company_id":283,"change_2011":false}]}
+{"name":"Macquarie Infrastructure Group (MIG)","id":284,"equity":[{"share":"100.0%","proj_id":249,"id":402,"company_id":284,"change_2011":false}]}
+{"name":"HSBC Infrastructure Fund Management Ltd","id":285,"equity":[{"share":"55.0%","proj_id":250,"id":403,"company_id":285,"change_2011":false},{"share":"90.0%","proj_id":472,"id":746,"company_id":285,"change_2011":false}]}
+{"name":"Fluor International limited","id":286,"equity":[{"share":"45.0%","proj_id":250,"id":404,"company_id":286,"change_2011":false}]}
+{"name":"John Laing Plc","id":287,"equity":[{"share":"35.0%","proj_id":252,"id":405,"company_id":287,"change_2011":false}]}
+{"name":"Vinci Concessions S.A.S","id":288,"equity":[{"share":"35.0%","proj_id":252,"id":406,"company_id":288,"change_2011":false}]}
+{"name":"Barclays PLC","id":289,"equity":[{"share":"15.0%","proj_id":252,"id":407,"company_id":289,"change_2011":false}]}
+{"name":"Bank of America","id":290,"equity":[{"share":"15.0%","proj_id":252,"id":408,"company_id":290,"change_2011":false}]}
+{"name":"Southern Electric Contracting Ltd","id":291,"equity":[{"share":"100.0%","proj_id":253,"id":409,"company_id":291,"change_2011":false},{"share":"100.0%","proj_id":265,"id":425,"company_id":291,"change_2011":false}]}
+{"name":"Amey Ventures Investments Ltd","id":292,"equity":[{"share":"100.0%","proj_id":254,"id":410,"company_id":292,"change_2011":false},{"share":"50.0%","proj_id":509,"id":800,"company_id":292,"change_2011":true}]}
+{"name":"E.on UK Energy Services Ltd","id":293,"equity":[{"share":"60.0%","proj_id":255,"id":411,"company_id":293,"change_2011":false}]}
+{"name":"Barclays Equity","id":294,"equity":[{"share":"40.0%","proj_id":255,"id":412,"company_id":294,"change_2011":false}]}
+{"name":"IIC Lambeth Funding Investment limited","id":295,"equity":[{"share":"17.0%","proj_id":256,"id":414,"company_id":295,"change_2011":false}]}
+{"name":"Leeds Street Lighting, TVL 100% (corporately financed)","id":296,"equity":[{"share":"100.0%","proj_id":258,"id":417,"company_id":296,"change_2011":false}]}
+{"name":"Colas SA","id":297,"equity":[{"share":"50.0%","proj_id":260,"id":418,"company_id":297,"change_2011":false}]}
+{"name":"Colas Ltd","id":298,"equity":[{"share":"50.0%","proj_id":260,"id":419,"company_id":298,"change_2011":false}]}
+{"name":"Amey Ventures Investments ltd ","id":299,"equity":[{"share":"50.0%","proj_id":261,"id":421,"company_id":299,"change_2011":false}]}
+{"name":"TVL 100% (this is a corporately financed project)","id":300,"equity":[{"share":"100.0%","proj_id":262,"id":422,"company_id":300,"change_2011":false}]}
+{"name":"Doncaster Bus Station Holdings Limited","id":301,"equity":[{"share":"100.0%","proj_id":263,"id":423,"company_id":301,"change_2011":false}]}
+{"name":"Bouygues E&S Infrastructure UK Limited","id":302,"equity":[{"share":"15.0%","proj_id":266,"id":426,"company_id":302,"change_2011":false}]}
+{"name":"IIC Fund","id":303,"equity":[{"share":"0.9%","proj_id":266,"id":427,"company_id":303,"change_2011":true}]}
+{"name":"AMEC","id":304,"equity":[{"share":"25.0%","proj_id":267,"id":428,"company_id":304,"change_2011":false}]}
+{"name":"Grupo ACS","id":305,"equity":[{"share":"25.0%","proj_id":267,"id":431,"company_id":305,"change_2011":false}]}
+{"name":"John Laing Social Infrastructure Limited","id":306,"equity":[{"share":"100.0%","proj_id":268,"id":432,"company_id":306,"change_2011":false}]}
+{"name":"Thales Translink","id":307,"equity":[{"share":"33.0%","proj_id":269,"id":433,"company_id":307,"change_2011":false}]}
+{"name":"Infrastructure Investment Holdings Ltd (formerly HSBC Investments)","id":308,"equity":[{"share":"28.5%","proj_id":269,"id":434,"company_id":308,"change_2011":true}]}
+{"name":"Motorola","id":309,"equity":[{"share":"10.0%","proj_id":269,"id":435,"company_id":309,"change_2011":false}]}
+{"name":"Palio 12 (subsidiary of Laing Investments Ltd)","id":310,"equity":[{"share":"28.5%","proj_id":269,"id":436,"company_id":310,"change_2011":true}]}
+{"name":"Laing (Henderson)","id":311,"equity":[{"share":"40.0%","proj_id":271,"id":438,"company_id":311,"change_2011":false}]}
+{"name":"UK Power Network Enterprises","id":312,"equity":[{"share":"8.0%","proj_id":271,"id":439,"company_id":312,"change_2011":false}]}
+{"name":"MBK Rail Link Finance","id":313,"equity":[{"share":"12.0%","proj_id":271,"id":440,"company_id":313,"change_2011":false}]}
+{"name":"Atos IT Services UK Limited (100%)","id":314,"equity":[{"share":"100.0%","proj_id":276,"id":441,"company_id":314,"change_2011":false}]}
+{"name":"SSE Lighting Services No. 2","id":315,"equity":[{"share":"100.0%","proj_id":277,"id":442,"company_id":315,"change_2011":false}]}
+{"name":"Group Holdings Ltd","id":316,"equity":[{"share":"50.0%","proj_id":278,"id":443,"company_id":316,"change_2011":false}]}
+{"name":"SG Project Holdings","id":317,"equity":[{"share":"50.0%","proj_id":278,"id":444,"company_id":317,"change_2011":false}]}
+{"name":"InfraRed Capital Partners LLP","id":318,"equity":[{"share":"80.0%","proj_id":279,"id":445,"company_id":318,"change_2011":false}]}
+{"name":"Interserve PFI Holdings","id":319,"equity":[{"share":"20.0%","proj_id":279,"id":446,"company_id":319,"change_2011":false}]}
+{"name":"HSBC Infrastructure Company","id":320,"equity":[{"share":"50.0%","proj_id":280,"id":448,"company_id":320,"change_2011":false}]}
+{"name":"Telereal Trillium","id":321,"equity":[{"share":"100.0%","proj_id":282,"id":449,"company_id":321,"change_2011":false}]}
+{"name":"Semperian","id":322,"equity":[{"share":"100.0%","proj_id":283,"id":450,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":305,"id":490,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":311,"id":496,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":312,"id":497,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":313,"id":498,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":319,"id":509,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":332,"id":534,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":335,"id":537,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":337,"id":540,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":352,"id":565,"company_id":322,"change_2011":false},{"share":"100.0%","proj_id":402,"id":644,"company_id":322,"change_2011":false},{"share":"25.0%","proj_id":342,"id":550,"company_id":322,"change_2011":true},{"share":"26.3%","proj_id":383,"id":616,"company_id":322,"change_2011":false},{"share":"31.0%","proj_id":540,"id":856,"company_id":322,"change_2011":false},{"share":"40.0%","proj_id":374,"id":594,"company_id":322,"change_2011":false},{"share":"42.5%","proj_id":611,"id":973,"company_id":322,"change_2011":false},{"share":"50.0%","proj_id":330,"id":530,"company_id":322,"change_2011":false},{"share":"50.0%","proj_id":358,"id":573,"company_id":322,"change_2011":false},{"share":"50.0%","proj_id":360,"id":578,"company_id":322,"change_2011":false},{"share":"70.0%","proj_id":300,"id":481,"company_id":322,"change_2011":false},{"share":"75.0%","proj_id":329,"id":528,"company_id":322,"change_2011":false}]}
+{"name":"Infrastructure Investment Holdings Ltd (parent Co HBSC)","id":323,"equity":[{"share":"67.0%","proj_id":284,"id":451,"company_id":323,"change_2011":false}]}
+{"name":"Bank of Scotland Infrastructure (No 3) Ltd","id":324,"equity":[{"share":"33.0%","proj_id":284,"id":452,"company_id":324,"change_2011":false}]}
+{"name":"Skanska Infrastructure Investment UK Ltd","id":325,"equity":[{"share":"37.5%","proj_id":286,"id":454,"company_id":325,"change_2011":false},{"share":"50.0%","proj_id":648,"id":1033,"company_id":325,"change_2011":false},{"share":"50.0%","proj_id":757,"id":1171,"company_id":325,"change_2011":false}]}
+{"name":"Newbury and Thatcham Hospital Building Trust (charity number 1067608)","id":326,"equity":[{"share":"100.0%","proj_id":288,"id":458,"company_id":326,"change_2011":false}]}
+{"name":"Guildhouse Holdings","id":327,"equity":[{"share":"100.0%","proj_id":291,"id":461,"company_id":327,"change_2011":false}]}
+{"name":"Kajima Partnership Ltd ","id":328,"equity":[{"share":"75.0%","proj_id":292,"id":462,"company_id":328,"change_2011":false}]}
+{"name":"Japan England Insurance Brokers Ltd ","id":329,"equity":[{"share":"8.3%","proj_id":292,"id":463,"company_id":329,"change_2011":false}]}
+{"name":"BDP Holdings Ltd (15k A shares)","id":330,"equity":[{"share":"8.3%","proj_id":292,"id":464,"company_id":330,"change_2011":false}]}
+{"name":"Stavely Industries PLC (15k A shares)","id":331,"equity":[{"share":"8.3%","proj_id":292,"id":465,"company_id":331,"change_2011":false}]}
+{"name":"Sodexho Investment Services","id":332,"equity":[{"share":"10.0%","proj_id":293,"id":467,"company_id":332,"change_2011":false}]}
+{"name":"Lend Lease & Uberior (JV)","id":333,"equity":[{"share":"80.0%","proj_id":295,"id":469,"company_id":333,"change_2011":false}]}
+{"name":"Elbon Holdings (2) Limited","id":334,"equity":[{"share":"20.0%","proj_id":295,"id":470,"company_id":334,"change_2011":false}]}
+{"name":"NEIF Project Investments Ltd","id":335,"equity":[{"share":"50.0%","proj_id":296,"id":471,"company_id":335,"change_2011":false}]}
+{"name":"AM Holdco Ltd","id":336,"equity":[{"share":"50.0%","proj_id":296,"id":472,"company_id":336,"change_2011":false}]}
+{"name":"Sodexo ","id":337,"equity":[{"share":"25.0%","proj_id":297,"id":474,"company_id":337,"change_2011":false}]}
+{"name":"Lend Lease PFI/PPP Infrastructure Manchester Holdings","id":338,"equity":[{"share":"50.0%","proj_id":297,"id":475,"company_id":338,"change_2011":false}]}
+{"name":"Henderson Equity Partner","id":339,"equity":[{"share":"44.1%","proj_id":298,"id":476,"company_id":339,"change_2011":false}]}
+{"name":"InfraRed Capital Partners","id":340,"equity":[{"share":"36.0%","proj_id":298,"id":477,"company_id":340,"change_2011":false},{"share":"50.0%","proj_id":535,"id":846,"company_id":340,"change_2011":true}]}
+{"name":"Foresight Group","id":341,"equity":[{"share":"19.9%","proj_id":298,"id":478,"company_id":341,"change_2011":false},{"share":"25.0%","proj_id":1022,"id":1297,"company_id":341,"change_2011":false}]}
+{"name":"Balfour Beatty","id":342,"equity":[{"share":"50.0%","proj_id":299,"id":479,"company_id":342,"change_2011":false},{"share":"50.0%","proj_id":350,"id":562,"company_id":342,"change_2011":false},{"share":"50.0%","proj_id":585,"id":930,"company_id":342,"change_2011":false},{"share":"85.0%","proj_id":598,"id":950,"company_id":342,"change_2011":false}]}
+{"name":"Barclays Infrasturcture Funds","id":343,"equity":[{"share":"50.0%","proj_id":299,"id":480,"company_id":343,"change_2011":false}]}
+{"name":"Interserve Investments PLC","id":344,"equity":[{"share":"33.3%","proj_id":303,"id":485,"company_id":344,"change_2011":false}]}
+{"name":"Uberior Investments PLC ( Halifax Bank of Scotland)","id":345,"equity":[{"share":"33.3%","proj_id":303,"id":486,"company_id":345,"change_2011":false}]}
+{"name":"PFI Investments LTD (Sir Robert McAlpine)","id":346,"equity":[{"share":"33.3%","proj_id":303,"id":487,"company_id":346,"change_2011":false}]}
+{"name":"HICL Infrastructure Company Ltd","id":347,"equity":[{"share":"84.0%","proj_id":304,"id":488,"company_id":347,"change_2011":true}]}
+{"name":"Viridian Housing","id":348,"equity":[{"share":"16.0%","proj_id":304,"id":489,"company_id":348,"change_2011":false}]}
+{"name":"Catalyst Investment Holdings Limited","id":349,"equity":[{"share":"100.0%","proj_id":307,"id":492,"company_id":349,"change_2011":false}]}
+{"name":"GH Newham","id":350,"equity":[{"share":"100.0%","proj_id":308,"id":493,"company_id":350,"change_2011":false}]}
+{"name":"Gloucester Healthcare Partnership Limited","id":351,"equity":[{"share":"100.0%","proj_id":309,"id":494,"company_id":351,"change_2011":false}]}
+{"name":"Sanctuary Care","id":352,"equity":[{"share":"100.0%","proj_id":310,"id":495,"company_id":352,"change_2011":false}]}
+{"name":"RBS PPP Investments SCA SICAR acting by its General Partner RBS PPP Investments S.A.R.L.","id":353,"equity":[{"share":"80.1%","proj_id":314,"id":499,"company_id":353,"change_2011":false}]}
+{"name":"Shepherd Construction","id":354,"equity":[{"share":"19.9%","proj_id":314,"id":500,"company_id":354,"change_2011":false}]}
+{"name":"Kier Investment Limited","id":355,"equity":[{"share":"50.0%","proj_id":315,"id":501,"company_id":355,"change_2011":false}]}
+{"name":"HSBC Bank","id":356,"equity":[{"share":"45.0%","proj_id":516,"id":812,"company_id":356,"change_2011":false},{"share":"50.0%","proj_id":315,"id":502,"company_id":356,"change_2011":false}]}
+{"name":"Costain Engineering & Construction Limited","id":357,"equity":[{"share":"50.0%","proj_id":316,"id":503,"company_id":357,"change_2011":false}]}
+{"name":"NIB Capital","id":358,"equity":[{"share":"50.0%","proj_id":316,"id":504,"company_id":358,"change_2011":false}]}
+{"name":"Sodexo Investments","id":359,"equity":[{"share":"25.0%","proj_id":317,"id":506,"company_id":359,"change_2011":false}]}
+{"name":"Dolphin One","id":360,"equity":[{"share":"40.0%","proj_id":318,"id":507,"company_id":360,"change_2011":false}]}
+{"name":"John Laing Investment Fund","id":361,"equity":[{"share":"60.0%","proj_id":318,"id":508,"company_id":361,"change_2011":true}]}
+{"name":"Dolphin One Ltd","id":362,"equity":[{"share":"50.0%","proj_id":320,"id":510,"company_id":362,"change_2011":false}]}
+{"name":"Equtix Healthcare 2 Ltd","id":363,"equity":[{"share":"50.0%","proj_id":320,"id":511,"company_id":363,"change_2011":false}]}
+{"name":"Carillion ","id":364,"equity":[{"share":"50.0%","proj_id":322,"id":513,"company_id":364,"change_2011":false}]}
+{"name":"Costain Engineering & construction Ltd","id":365,"equity":[{"share":"50.0%","proj_id":322,"id":514,"company_id":365,"change_2011":false},{"share":"50.0%","proj_id":621,"id":993,"company_id":365,"change_2011":false}]}
+{"name":"John Laing ","id":366,"equity":[{"share":"37.5%","proj_id":324,"id":516,"company_id":366,"change_2011":false}]}
+{"name":"Innisfree Group Ltd","id":367,"equity":[{"share":"37.5%","proj_id":324,"id":517,"company_id":367,"change_2011":false}]}
+{"name":"Interserve Investments plc","id":368,"equity":[{"share":"25.0%","proj_id":324,"id":518,"company_id":368,"change_2011":false}]}
+{"name":"Bouygues UK and Ecovert FM","id":369,"equity":[{"share":"15.0%","proj_id":325,"id":520,"company_id":369,"change_2011":false}]}
+{"name":"Balfour Beatty ","id":370,"equity":[{"share":"50.0%","proj_id":326,"id":521,"company_id":370,"change_2011":false},{"share":"50.0%","proj_id":591,"id":938,"company_id":370,"change_2011":false}]}
+{"name":"Commonwealth Bank of Australia","id":371,"equity":[{"share":"40.0%","proj_id":327,"id":524,"company_id":371,"change_2011":false}]}
+{"name":"Interserve","id":372,"equity":[{"share":"20.0%","proj_id":327,"id":525,"company_id":372,"change_2011":false},{"share":"40.0%","proj_id":872,"id":1246,"company_id":372,"change_2011":false},{"share":"45.0%","proj_id":433,"id":688,"company_id":372,"change_2011":false},{"share":"50.0%","proj_id":330,"id":531,"company_id":372,"change_2011":false},{"share":"50.0%","proj_id":429,"id":685,"company_id":372,"change_2011":false},{"share":"90.0%","proj_id":735,"id":1149,"company_id":372,"change_2011":false}]}
+{"name":"Newham Investment Company Limited - Commonwealth Bank of Australia","id":373,"equity":[{"share":"50.0%","proj_id":328,"id":527,"company_id":373,"change_2011":false}]}
+{"name":"Sodexo Investment Services Ltd","id":374,"equity":[{"share":"10.0%","proj_id":627,"id":1000,"company_id":374,"change_2011":false},{"share":"25.0%","proj_id":329,"id":529,"company_id":374,"change_2011":false},{"share":"25.0%","proj_id":380,"id":609,"company_id":374,"change_2011":false},{"share":"33.3%","proj_id":480,"id":757,"company_id":374,"change_2011":false},{"share":"33.3%","proj_id":485,"id":766,"company_id":374,"change_2011":false},{"share":"33.3%","proj_id":599,"id":954,"company_id":374,"change_2011":true},{"share":"50.0%","proj_id":482,"id":761,"company_id":374,"change_2011":false}]}
+{"name":"InfraRed (Infrastructure) Capital Partners Ltd","id":375,"equity":[{"share":"85.0%","proj_id":331,"id":532,"company_id":375,"change_2011":false}]}
+{"name":"Bouygues UK Ltd","id":376,"equity":[{"share":"15.0%","proj_id":331,"id":533,"company_id":376,"change_2011":false}]}
+{"name":"Investors in the Community LP","id":377,"equity":[{"share":"100.0%","proj_id":334,"id":536,"company_id":377,"change_2011":false}]}
+{"name":"Consolidated Investment Holdings Limited","id":378,"equity":[{"share":"100.0%","proj_id":338,"id":541,"company_id":378,"change_2011":false}]}
+{"name":"wansbeck Healthcare Facilities (Holdings)Ltd","id":379,"equity":[{"share":"100.0%","proj_id":339,"id":542,"company_id":379,"change_2011":false}]}
+{"name":"BOS Infrastructure (No 3) Lmited ( Parent Co HBOS)","id":380,"equity":[{"share":"40.0%","proj_id":340,"id":543,"company_id":380,"change_2011":false}]}
+{"name":"Clugson PF LTD","id":381,"equity":[{"share":"40.0%","proj_id":340,"id":544,"company_id":381,"change_2011":false}]}
+{"name":"Ideal Cleaning  Servuices","id":382,"equity":[{"share":"20.0%","proj_id":340,"id":545,"company_id":382,"change_2011":false}]}
+{"name":"James Walker (Leith) Limited","id":383,"equity":[{"share":"100.0%","proj_id":341,"id":546,"company_id":383,"change_2011":false}]}
+{"name":"G4S Joint Ventures Ltd","id":384,"equity":[{"share":"20.0%","proj_id":343,"id":553,"company_id":384,"change_2011":false},{"share":"25.0%","proj_id":342,"id":549,"company_id":384,"change_2011":true}]}
+{"name":"Impregilo International Infrastructure NV","id":385,"equity":[{"share":"40.0%","proj_id":343,"id":551,"company_id":385,"change_2011":false}]}
+{"name":"RBIL Limited","id":386,"equity":[{"share":"100.0%","proj_id":345,"id":555,"company_id":386,"change_2011":false}]}
+{"name":"Peterborough Hospital Investments Ltd","id":387,"equity":[{"share":"49.0%","proj_id":346,"id":556,"company_id":387,"change_2011":false}]}
+{"name":"Brookfield Peterborough (UK) Ltd","id":388,"equity":[{"share":"30.0%","proj_id":346,"id":557,"company_id":388,"change_2011":false}]}
+{"name":"Macquarie Peterborough Hospital Investments Ltd","id":389,"equity":[{"share":"21.0%","proj_id":346,"id":558,"company_id":389,"change_2011":false}]}
+{"name":"INTERSERVE PLC","id":390,"equity":[{"share":"100.0%","proj_id":347,"id":559,"company_id":390,"change_2011":false}]}
+{"name":"Sir Robert Macalpine","id":391,"equity":[{"share":"100.0%","proj_id":349,"id":561,"company_id":391,"change_2011":true}]}
+{"name":"Infra Red (Infrastructure) Capital Partners as general partner of Infra Red Infrstructure Fund II","id":392,"equity":[{"share":"50.0%","proj_id":350,"id":563,"company_id":392,"change_2011":false}]}
+{"name":"Hadfield Healthcare Holdings Limited (50% owned by Kajima Partnerships Limited and 50% owned by United Medical Enterprise Investment co Limited)","id":393,"equity":[{"share":"100.0%","proj_id":353,"id":566,"company_id":393,"change_2011":false}]}
+{"name":"INNISFREE","id":394,"equity":[{"share":"50.0%","proj_id":354,"id":567,"company_id":394,"change_2011":false}]}
+{"name":"SKANSKA ID","id":395,"equity":[{"share":"50.0%","proj_id":354,"id":568,"company_id":395,"change_2011":false}]}
+{"name":"NIBC Bank","id":396,"equity":[{"share":"50.0%","proj_id":355,"id":570,"company_id":396,"change_2011":false}]}
+{"name":"Grosvenor PFI Holdings LTD","id":397,"equity":[{"share":"100.0%","proj_id":357,"id":571,"company_id":397,"change_2011":false}]}
+{"name":"Taylor Woodrow Construction Limited","id":398,"equity":[{"share":"19.9%","proj_id":363,"id":582,"company_id":398,"change_2011":false}]}
+{"name":"Norwich Union Public Private Partnership Fund","id":399,"equity":[{"share":"100.0%","proj_id":364,"id":583,"company_id":399,"change_2011":false}]}
+{"name":"Aviva NUPPP Fund","id":400,"equity":[{"share":"100.0%","proj_id":365,"id":584,"company_id":400,"change_2011":false}]}
+{"name":"Infra Red (Infrastructure) capital Parners as general partners of InfraRed Infrastructure Fund II","id":401,"equity":[{"share":"100.0%","proj_id":367,"id":586,"company_id":401,"change_2011":false}]}
+{"name":"Grosvenor House Group plc","id":402,"equity":[{"share":"100.0%","proj_id":371,"id":589,"company_id":402,"change_2011":false}]}
+{"name":"HBOS/Lloyds","id":403,"equity":[{"share":"100.0%","proj_id":373,"id":591,"company_id":403,"change_2011":false}]}
+{"name":"Credit Suisse","id":404,"equity":[{"share":"43.3%","proj_id":374,"id":592,"company_id":404,"change_2011":true}]}
+{"name":"Interserve Plc","id":405,"equity":[{"share":"8.3%","proj_id":374,"id":593,"company_id":405,"change_2011":false}]}
+{"name":"Dalmore Capital","id":406,"equity":[{"share":"40.0%","proj_id":872,"id":1247,"company_id":406,"change_2011":false},{"share":"72.0%","proj_id":728,"id":1132,"company_id":406,"change_2011":true},{"share":"8.3%","proj_id":374,"id":595,"company_id":406,"change_2011":false}]}
+{"name":"Infrared Infrastructure Fund","id":407,"equity":[{"share":"30.0%","proj_id":375,"id":598,"company_id":407,"change_2011":false}]}
+{"name":"Sodexo","id":408,"equity":[{"share":"25.0%","proj_id":376,"id":600,"company_id":408,"change_2011":false}]}
+{"name":"Semperian ","id":409,"equity":[{"share":"50.0%","proj_id":377,"id":601,"company_id":409,"change_2011":false}]}
+{"name":"Sodexo Investment Services Limited","id":410,"equity":[{"share":"25.0%","proj_id":377,"id":602,"company_id":410,"change_2011":false}]}
+{"name":"Innisfree ","id":411,"equity":[{"share":"25.0%","proj_id":377,"id":603,"company_id":411,"change_2011":false},{"share":"50.0%","proj_id":434,"id":691,"company_id":411,"change_2011":false}]}
+{"name":"Skanska Infrastructure Development","id":412,"equity":[{"share":"50.0%","proj_id":379,"id":606,"company_id":412,"change_2011":false}]}
+{"name":"Equitix Ltd","id":413,"equity":[{"share":"33.3%","proj_id":753,"id":1161,"company_id":413,"change_2011":false},{"share":"50.0%","proj_id":380,"id":607,"company_id":413,"change_2011":true}]}
+{"name":"Uberior Infrastructure Investors Ltd","id":414,"equity":[{"share":"25.0%","proj_id":380,"id":608,"company_id":414,"change_2011":false}]}
+{"name":"Catalyst lend Lease Investment Holdings Limited","id":415,"equity":[{"share":"66.7%","proj_id":381,"id":610,"company_id":415,"change_2011":false}]}
+{"name":"Care UK","id":416,"equity":[{"share":"100.0%","proj_id":382,"id":613,"company_id":416,"change_2011":false},{"share":"100.0%","proj_id":586,"id":932,"company_id":416,"change_2011":false}]}
+{"name":"3i","id":417,"equity":[{"share":"36.8%","proj_id":383,"id":614,"company_id":417,"change_2011":false}]}
+{"name":"Land Securities Trillium","id":418,"equity":[{"share":"100.0%","proj_id":384,"id":617,"company_id":418,"change_2011":false}]}
+{"name":"Level 3 (Formerly Global Crossing)","id":419,"equity":[{"share":"100.0%","proj_id":385,"id":618,"company_id":419,"change_2011":false}]}
+{"name":"Carillion Private Finance Ltd","id":420,"equity":[{"share":"20.0%","proj_id":386,"id":619,"company_id":420,"change_2011":false}]}
+{"name":"GSL Joint Ventures Ltd","id":421,"equity":[{"share":"40.0%","proj_id":386,"id":620,"company_id":421,"change_2011":false}]}
+{"name":"BT Holdings Ltd","id":422,"equity":[{"share":"20.0%","proj_id":386,"id":621,"company_id":422,"change_2011":false}]}
+{"name":"Semperian PPP Investment Partners No.2 Limited ","id":423,"equity":[{"share":"100.0%","proj_id":387,"id":623,"company_id":423,"change_2011":true}]}
+{"name":"International Public Partnerships Limited","id":424,"equity":[{"share":"100.0%","proj_id":388,"id":624,"company_id":424,"change_2011":false}]}
+{"name":"London & Regional Properties Limited","id":425,"equity":[{"share":"100.0%","proj_id":389,"id":625,"company_id":425,"change_2011":false},{"share":"100.0%","proj_id":390,"id":626,"company_id":425,"change_2011":false},{"share":"100.0%","proj_id":391,"id":627,"company_id":425,"change_2011":false},{"share":"100.0%","proj_id":392,"id":628,"company_id":425,"change_2011":false}]}
+{"name":"Mapeley","id":426,"equity":[{"share":"100.0%","proj_id":393,"id":629,"company_id":426,"change_2011":false}]}
+{"name":"Catalyst Investment Holdings Ltd.","id":427,"equity":[{"share":"50.0%","proj_id":394,"id":630,"company_id":427,"change_2011":false},{"share":"50.0%","proj_id":395,"id":632,"company_id":427,"change_2011":true}]}
+{"name":"Infrastructure Investments LLP","id":428,"equity":[{"share":"90.0%","proj_id":396,"id":634,"company_id":428,"change_2011":false}]}
+{"name":"RSTM","id":429,"equity":[{"share":"10.0%","proj_id":396,"id":635,"company_id":429,"change_2011":false}]}
+{"name":"HBG (BAM) Ltd","id":430,"equity":[{"share":"100.0%","proj_id":397,"id":636,"company_id":430,"change_2011":false}]}
+{"name":"Bank of Scotland","id":431,"equity":[{"share":"100.0%","proj_id":577,"id":919,"company_id":431,"change_2011":false},{"share":"30.0%","proj_id":534,"id":844,"company_id":431,"change_2011":false},{"share":"50.0%","proj_id":398,"id":637,"company_id":431,"change_2011":false},{"share":"95.0%","proj_id":401,"id":642,"company_id":431,"change_2011":false}]}
+{"name":"John Laing Investments","id":432,"equity":[{"share":"50.0%","proj_id":398,"id":638,"company_id":432,"change_2011":false}]}
+{"name":"Infrastructure Investments Ltd Partnership","id":433,"equity":[{"share":"73.0%","proj_id":399,"id":640,"company_id":433,"change_2011":false}]}
+{"name":"West Cumbria Estates Management owned by Barclays","id":434,"equity":[{"share":"100.0%","proj_id":400,"id":641,"company_id":434,"change_2011":false}]}
+{"name":"Derby SPV","id":435,"equity":[{"share":"5.0%","proj_id":401,"id":643,"company_id":435,"change_2011":false}]}
+{"name":"Morgan Sindall","id":436,"equity":[{"share":"33.0%","proj_id":403,"id":645,"company_id":436,"change_2011":false}]}
+{"name":"Barclays Equity Infrastructure Fund Condor House St Pauls Churchyard London","id":437,"equity":[{"share":"80.0%","proj_id":404,"id":648,"company_id":437,"change_2011":false}]}
+{"name":"Vinci Holdings Astral House Imperial Way Watford hertfordshire WD24 4WW       ","id":438,"equity":[{"share":"20.0%","proj_id":404,"id":649,"company_id":438,"change_2011":false}]}
+{"name":"Dolef Cyfrynedig","id":439,"equity":[{"share":"100.0%","proj_id":405,"id":650,"company_id":439,"change_2011":false}]}
+{"name":"Uberior Infrastructure Investments Ltd (Lloyds)","id":440,"equity":[{"share":"100.0%","proj_id":406,"id":651,"company_id":440,"change_2011":false}]}
+{"name":"John Laing plc","id":441,"equity":[{"share":"100.0%","proj_id":407,"id":652,"company_id":441,"change_2011":false}]}
+{"name":"David McClean (Holdings) Ltd","id":442,"equity":[{"share":"100.0%","proj_id":408,"id":653,"company_id":442,"change_2011":false}]}
+{"name":"HSBC Infrastructure Company Limited","id":443,"equity":[{"share":"100.0%","proj_id":409,"id":654,"company_id":443,"change_2011":false}]}
+{"name":"VB Investments Limited is owned by Leonardo Investment Holdings Limited (80%) and Vinci (Holdings) Limited (20%). Leonardo Investment Holdings Limited is a Subsidiary of Barclays Bank.","id":444,"equity":[{"share":"100.0%","proj_id":411,"id":655,"company_id":444,"change_2011":false}]}
+{"name":"Kier Project Investments Limited","id":445,"equity":[{"share":"42.0%","proj_id":412,"id":656,"company_id":445,"change_2011":false}]}
+{"name":"Uberior Infrastrucutre Investments Limited (HBOS)","id":446,"equity":[{"share":"42.0%","proj_id":412,"id":657,"company_id":446,"change_2011":false}]}
+{"name":"Reliance North Kent PFI Limited","id":447,"equity":[{"share":"15.0%","proj_id":412,"id":658,"company_id":447,"change_2011":false}]}
+{"name":"Amber Infrastructure (formerly Babcock & Brown) as 'NW (BBP) Ltd' ","id":448,"equity":[{"share":"100.0%","proj_id":413,"id":659,"company_id":448,"change_2011":false}]}
+{"name":"Amber Infrastructure Ltd","id":449,"equity":[{"share":"100.0%","proj_id":414,"id":660,"company_id":449,"change_2011":false}]}
+{"name":"Bowey PFI Ltd ","id":450,"equity":[{"share":"100.0%","proj_id":415,"id":661,"company_id":450,"change_2011":false}]}
+{"name":"Abingdon Ltd owned by Babcock and Brown Plc","id":451,"equity":[{"share":"100.0%","proj_id":418,"id":662,"company_id":451,"change_2011":false}]}
+{"name":"Police Aviation Services","id":452,"equity":[{"share":"100.0%","proj_id":419,"id":663,"company_id":452,"change_2011":false}]}
+{"name":"Infrastructure Investments Limited Partnership","id":453,"equity":[{"share":"80.0%","proj_id":420,"id":664,"company_id":453,"change_2011":false}]}
+{"name":"Vinci Investments Ltd   ","id":454,"equity":[{"share":"20.0%","proj_id":420,"id":665,"company_id":454,"change_2011":false}]}
+{"name":"KBR","id":455,"equity":[{"share":"45.0%","proj_id":421,"id":668,"company_id":455,"change_2011":false}]}
+{"name":"Halifax/Bank of Scotland","id":456,"equity":[{"share":"49.0%","proj_id":422,"id":670,"company_id":456,"change_2011":false}]}
+{"name":"Semperian PPP Investment Partners LP","id":457,"equity":[{"share":"51.0%","proj_id":422,"id":671,"company_id":457,"change_2011":false}]}
+{"name":"BAE Insyte","id":458,"equity":[{"share":"47.5%","proj_id":423,"id":672,"company_id":458,"change_2011":false}]}
+{"name":"L3 MAPPS","id":459,"equity":[{"share":"47.5%","proj_id":423,"id":673,"company_id":459,"change_2011":false}]}
+{"name":"Babcock","id":460,"equity":[{"share":"100.0%","proj_id":453,"id":722,"company_id":460,"change_2011":false},{"share":"13.3%","proj_id":437,"id":700,"company_id":460,"change_2011":false},{"share":"5.0%","proj_id":423,"id":674,"company_id":460,"change_2011":false},{"share":"50.0%","proj_id":426,"id":679,"company_id":460,"change_2011":false},{"share":"50.0%","proj_id":468,"id":740,"company_id":460,"change_2011":false}]}
+{"name":"WESTLAND HELICOPTERS LTD","id":461,"equity":[{"share":"50.0%","proj_id":424,"id":675,"company_id":461,"change_2011":false}]}
+{"name":"THE BOEING COMPANY","id":462,"equity":[{"share":"50.0%","proj_id":424,"id":676,"company_id":462,"change_2011":false}]}
+{"name":"Dutch Infrastructure Fund DIF","id":463,"equity":[{"share":"100.0%","proj_id":425,"id":677,"company_id":463,"change_2011":false},{"share":"100.0%","proj_id":454,"id":723,"company_id":463,"change_2011":false}]}
+{"name":"AMEY","id":464,"equity":[{"share":"50.0%","proj_id":426,"id":678,"company_id":464,"change_2011":false}]}
+{"name":"PFI Infrastructure Ltd","id":465,"equity":[{"share":"100.0%","proj_id":427,"id":680,"company_id":465,"change_2011":false}]}
+{"name":"Infrastructure Investments Holdings Ltd (IIHL)","id":466,"equity":[{"share":"56.0%","proj_id":428,"id":681,"company_id":466,"change_2011":true}]}
+{"name":"InfraRed (Infrastructure) Yield Holdings Ltd","id":467,"equity":[{"share":"13.0%","proj_id":428,"id":682,"company_id":467,"change_2011":true}]}
+{"name":"Sir Robert McAlpine Capital Ventures Ltd","id":468,"equity":[{"share":"17.0%","proj_id":428,"id":683,"company_id":468,"change_2011":false}]}
+{"name":"Sodexho Investment Services Ltd","id":469,"equity":[{"share":"10.0%","proj_id":472,"id":747,"company_id":469,"change_2011":false},{"share":"14.0%","proj_id":428,"id":684,"company_id":469,"change_2011":false}]}
+{"name":"British Telecom","id":470,"equity":[{"share":"100.0%","proj_id":431,"id":687,"company_id":470,"change_2011":false}]}
+{"name":"Pearson PLC","id":471,"equity":[{"share":"10.0%","proj_id":433,"id":689,"company_id":471,"change_2011":false}]}
+{"name":"Infrastructure Investments","id":472,"equity":[{"share":"45.0%","proj_id":433,"id":690,"company_id":472,"change_2011":false}]}
+{"name":"Interserve Investments Ltd","id":473,"equity":[{"share":"50.0%","proj_id":434,"id":692,"company_id":473,"change_2011":false}]}
+{"name":"Rolls Royce","id":474,"equity":[{"share":"20.0%","proj_id":437,"id":697,"company_id":474,"change_2011":false},{"share":"50.0%","proj_id":435,"id":693,"company_id":474,"change_2011":false}]}
+{"name":"Barclays Private Equity Ltd.","id":475,"equity":[{"share":"50.0%","proj_id":435,"id":694,"company_id":475,"change_2011":false}]}
+{"name":"EADS","id":476,"equity":[{"share":"100.0%","proj_id":461,"id":731,"company_id":476,"change_2011":false},{"share":"40.0%","proj_id":437,"id":696,"company_id":476,"change_2011":false}]}
+{"name":"Thales","id":477,"equity":[{"share":"13.3%","proj_id":437,"id":698,"company_id":477,"change_2011":false}]}
+{"name":"Cobham","id":478,"equity":[{"share":"13.3%","proj_id":437,"id":699,"company_id":478,"change_2011":false}]}
+{"name":"BAE Systems plc","id":479,"equity":[{"share":"100.0%","proj_id":438,"id":701,"company_id":479,"change_2011":false}]}
+{"name":"Kellog Brown and Root Ltd","id":480,"equity":[{"share":"50.0%","proj_id":440,"id":702,"company_id":480,"change_2011":false}]}
+{"name":"BIIF Bidco Ltd","id":481,"equity":[{"share":"50.0%","proj_id":440,"id":703,"company_id":481,"change_2011":false}]}
+{"name":"Thales Training and Simulation Limited","id":482,"equity":[{"share":"100.0%","proj_id":443,"id":705,"company_id":482,"change_2011":false}]}
+{"name":"Innisfree Partnerships Ltd","id":483,"equity":[{"share":"50.0%","proj_id":444,"id":706,"company_id":483,"change_2011":false}]}
+{"name":"Laing Investments","id":484,"equity":[{"share":"50.0%","proj_id":444,"id":707,"company_id":484,"change_2011":false}]}
+{"name":"Barloworld Handling Ltd","id":485,"equity":[{"share":"100.0%","proj_id":446,"id":709,"company_id":485,"change_2011":false}]}
+{"name":"SPV OpCo: CAE Aircraft Training Services","id":486,"equity":[{"share":"11.4%","proj_id":447,"id":710,"company_id":486,"change_2011":false}]}
+{"name":"SPV OpCo: HSBC Infrastructure Company Ltd","id":487,"equity":[{"share":"3.5%","proj_id":447,"id":711,"company_id":487,"change_2011":false}]}
+{"name":"AssetCo: CVS Leasing Ltd","id":488,"equity":[{"share":"10.6%","proj_id":447,"id":712,"company_id":488,"change_2011":false}]}
+{"name":"AssetCO: HICL Infrastructure Company Ltd","id":489,"equity":[{"share":"74.6%","proj_id":447,"id":713,"company_id":489,"change_2011":false}]}
+{"name":"Kelda Water Services Ltd","id":490,"equity":[{"share":"100.0%","proj_id":448,"id":714,"company_id":490,"change_2011":false},{"share":"100.0%","proj_id":529,"id":830,"company_id":490,"change_2011":false},{"share":"100.0%","proj_id":601,"id":956,"company_id":490,"change_2011":false}]}
+{"name":"Veolia Water UK Ltd","id":491,"equity":[{"share":"100.0%","proj_id":449,"id":715,"company_id":491,"change_2011":false}]}
+{"name":"Severn Trent Water International","id":492,"equity":[{"share":"85.0%","proj_id":450,"id":717,"company_id":492,"change_2011":false}]}
+{"name":"BABCOCK","id":493,"equity":[{"share":"20.0%","proj_id":451,"id":718,"company_id":493,"change_2011":false}]}
+{"name":"Infrastructure Investors General Partner LLP ","id":494,"equity":[{"share":"80.0%","proj_id":451,"id":719,"company_id":494,"change_2011":false}]}
+{"name":"Carillion Private Finance Limited","id":495,"equity":[{"share":"50.0%","proj_id":452,"id":720,"company_id":495,"change_2011":false}]}
+{"name":"InfraRed Capital Partners  (Management) LLP","id":496,"equity":[{"share":"50.0%","proj_id":452,"id":721,"company_id":496,"change_2011":false}]}
+{"name":"Riverside Housing Association Ltd","id":497,"equity":[{"share":"100.0%","proj_id":455,"id":724,"company_id":497,"change_2011":false}]}
+{"name":"T G Power Ltd","id":498,"equity":[{"share":"100.0%","proj_id":456,"id":725,"company_id":498,"change_2011":false}]}
+{"name":"Infrastructure Investors Ltd (I2)","id":499,"equity":[{"share":"28.6%","proj_id":533,"id":839,"company_id":499,"change_2011":false},{"share":"53.8%","proj_id":457,"id":726,"company_id":499,"change_2011":false}]}
+{"name":"Robertson Group","id":500,"equity":[{"share":"100.0%","proj_id":570,"id":904,"company_id":500,"change_2011":false},{"share":"100.0%","proj_id":575,"id":915,"company_id":500,"change_2011":false},{"share":"46.2%","proj_id":457,"id":727,"company_id":500,"change_2011":false},{"share":"50.0%","proj_id":534,"id":842,"company_id":500,"change_2011":false}]}
+{"name":"Wessex Water","id":501,"equity":[{"share":"100.0%","proj_id":458,"id":728,"company_id":501,"change_2011":false}]}
+{"name":"Quadrant Group Ltd","id":502,"equity":[{"share":"50.0%","proj_id":460,"id":729,"company_id":502,"change_2011":false}]}
+{"name":"Rockwell Collins (U.K.) Limited","id":503,"equity":[{"share":"50.0%","proj_id":460,"id":730,"company_id":503,"change_2011":false}]}
+{"name":"Andrew Weir Shipping Ltd","id":504,"equity":[{"share":"25.0%","proj_id":462,"id":732,"company_id":504,"change_2011":false}]}
+{"name":"Bibby Line Ltd","id":505,"equity":[{"share":"25.0%","proj_id":462,"id":733,"company_id":505,"change_2011":false}]}
+{"name":"Hadley Shipping Ltd","id":506,"equity":[{"share":"25.0%","proj_id":462,"id":734,"company_id":506,"change_2011":false}]}
+{"name":"James Fisher (RoRo) Ltd ","id":507,"equity":[{"share":"25.0%","proj_id":462,"id":735,"company_id":507,"change_2011":false}]}
+{"name":"Hewlett Packard","id":508,"equity":[{"share":"100.0%","proj_id":463,"id":736,"company_id":508,"change_2011":false}]}
+{"name":"Veolia Water Projects Ltd","id":509,"equity":[{"share":"100.0%","proj_id":464,"id":737,"company_id":509,"change_2011":false}]}
+{"name":"Thales Training and Simulation Ltd","id":510,"equity":[{"share":"100.0%","proj_id":465,"id":738,"company_id":510,"change_2011":false}]}
+{"name":"Briggs Equipment Limited","id":511,"equity":[{"share":"100.0%","proj_id":466,"id":739,"company_id":511,"change_2011":true}]}
+{"name":"Lockheed Martin","id":512,"equity":[{"share":"50.0%","proj_id":468,"id":741,"company_id":512,"change_2011":false}]}
+{"name":"Ashwell Property Group plc","id":513,"equity":[{"share":"100.0%","proj_id":469,"id":742,"company_id":513,"change_2011":false}]}
+{"name":"Western Challenge Housing","id":514,"equity":[{"share":"100.0%","proj_id":470,"id":743,"company_id":514,"change_2011":false}]}
+{"name":"Modern Courts Holdings (E. Anglia) Ltd equity owner: Innisfree ltd","id":515,"equity":[{"share":"50.0%","proj_id":471,"id":744,"company_id":515,"change_2011":false}]}
+{"name":"Infrastructure Investors now wholly owned by Barclays Private Equity","id":516,"equity":[{"share":"50.0%","proj_id":471,"id":745,"company_id":516,"change_2011":false}]}
+{"name":"Iron Mountain","id":517,"equity":[{"share":"100.0%","proj_id":473,"id":748,"company_id":517,"change_2011":true}]}
+{"name":"Henderson PFI Secondary Fund LP ","id":518,"equity":[{"share":"100.0%","proj_id":474,"id":749,"company_id":518,"change_2011":false}]}
+{"name":"International Public Partnerships","id":519,"equity":[{"share":"100.0%","proj_id":475,"id":750,"company_id":519,"change_2011":true}]}
+{"name":"Modern Courts Holdings (Humberside) Ltd. equity owner: Innisfree ltd","id":520,"equity":[{"share":"50.0%","proj_id":476,"id":751,"company_id":520,"change_2011":false}]}
+{"name":"G4S PLC (51%) a company in the corporate structure of ownership of UK Court Services (Manchester) Limited.","id":521,"equity":[{"share":"51.0%","proj_id":477,"id":753,"company_id":521,"change_2011":false}]}
+{"name":"Secondary Market Infrastructure Fund (SMIF) = 49%, again still a company in the corporate structure of ownership of UK Courts Services(Manchester) Limited, was taken over by Semperian PPP Investment Partners Holdings Ltd, who transferred their PFI equity","id":522,"equity":[{"share":"49.0%","proj_id":477,"id":754,"company_id":522,"change_2011":false}]}
+{"name":"G4S Joint Ventures Limited through G4S Joint Ventures (Fazakerley) Limited","id":523,"equity":[{"share":"100.0%","proj_id":478,"id":755,"company_id":523,"change_2011":false}]}
+{"name":"Barclays Infrastructure Funds","id":524,"equity":[{"share":"100.0%","proj_id":479,"id":756,"company_id":524,"change_2011":false},{"share":"100.0%","proj_id":481,"id":760,"company_id":524,"change_2011":false},{"share":"100.0%","proj_id":483,"id":763,"company_id":524,"change_2011":false},{"share":"100.0%","proj_id":742,"id":1153,"company_id":524,"change_2011":false}]}
+{"name":"PFI Custodial (Holdings) Limited","id":525,"equity":[{"share":"33.3%","proj_id":480,"id":758,"company_id":525,"change_2011":false},{"share":"33.3%","proj_id":485,"id":767,"company_id":525,"change_2011":false}]}
+{"name":"Dalmore Capital (Para 2) Limited","id":526,"equity":[{"share":"33.3%","proj_id":480,"id":759,"company_id":526,"change_2011":false},{"share":"33.3%","proj_id":485,"id":768,"company_id":526,"change_2011":false}]}
+{"name":"Corrections Corporation of America","id":527,"equity":[{"share":"50.0%","proj_id":482,"id":762,"company_id":527,"change_2011":false}]}
+{"name":"G4S SPV Holdings Limited","id":528,"equity":[{"share":"59.0%","proj_id":484,"id":764,"company_id":528,"change_2011":false}]}
+{"name":"Innisfree M&G PPP LLP","id":529,"equity":[{"share":"41.0%","proj_id":484,"id":765,"company_id":529,"change_2011":false}]}
+{"name":"G4S Joint Ventures Limited through G4S Joint Ventures (Onley) Limited","id":530,"equity":[{"share":"100.0%","proj_id":486,"id":769,"company_id":530,"change_2011":false}]}
+{"name":"Services Support (Avon & Somerset)ltd - consortium of Amey, John Laing Listed Infrastructure Fund & Bank of Scotland)","id":531,"equity":[{"share":"100.0%","proj_id":487,"id":770,"company_id":531,"change_2011":false}]}
+{"name":"Babcock & Brown Public Partnerships limited","id":532,"equity":[{"share":"100.0%","proj_id":488,"id":771,"company_id":532,"change_2011":false}]}
+{"name":"G4S Justice Services Ltd","id":533,"equity":[{"share":"50.0%","proj_id":489,"id":772,"company_id":533,"change_2011":false}]}
+{"name":"Trillium PPP Investment Partners LLP","id":534,"equity":[{"share":"50.0%","proj_id":489,"id":773,"company_id":534,"change_2011":false}]}
+{"name":"GSL Ltd","id":535,"equity":[{"share":"51.0%","proj_id":490,"id":774,"company_id":535,"change_2011":false},{"share":"51.0%","proj_id":494,"id":777,"company_id":535,"change_2011":false}]}
+{"name":"Land Securities Trillium Ltd","id":536,"equity":[{"share":"49.0%","proj_id":490,"id":775,"company_id":536,"change_2011":false},{"share":"49.0%","proj_id":494,"id":778,"company_id":536,"change_2011":false}]}
+{"name":"Infrastructure Investors Ltd","id":537,"equity":[{"share":"100.0%","proj_id":492,"id":776,"company_id":537,"change_2011":false}]}
+{"name":"Partners in Healthcare Technology Ltd","id":538,"equity":[{"share":"100.0%","proj_id":497,"id":779,"company_id":538,"change_2011":false}]}
+{"name":"Graham Gambro Ltd","id":539,"equity":[{"share":"100.0%","proj_id":498,"id":780,"company_id":539,"change_2011":false}]}
+{"name":"Philips Medical Systems UK Ltd - The MES equipment / ATICS PPP provider (Philips Medical Systems UK Ltd.) have not funded this PFI through raising of any additional/external equity. The funding for the project is entirely from within PMS internal compan","id":540,"equity":[{"share":"100.0%","proj_id":499,"id":781,"company_id":540,"change_2011":false}]}
+{"name":"Car Parking Services (CPS)","id":541,"equity":[{"share":"100.0%","proj_id":500,"id":782,"company_id":541,"change_2011":false}]}
+{"name":"John Graham (Dromore) Limited","id":542,"equity":[{"share":"100.0%","proj_id":501,"id":783,"company_id":542,"change_2011":false},{"share":"100.0%","proj_id":503,"id":785,"company_id":542,"change_2011":false}]}
+{"name":"Ivy Wood Properties Ltd","id":543,"equity":[{"share":"100.0%","proj_id":502,"id":784,"company_id":543,"change_2011":false}]}
+{"name":"Bilfinfer Berger BOT Limited","id":544,"equity":[{"share":"50.0%","proj_id":504,"id":786,"company_id":544,"change_2011":false},{"share":"50.0%","proj_id":505,"id":789,"company_id":544,"change_2011":false}]}
+{"name":"John Graham (Dromore) Ltd","id":545,"equity":[{"share":"25.0%","proj_id":504,"id":787,"company_id":545,"change_2011":false},{"share":"25.0%","proj_id":505,"id":790,"company_id":545,"change_2011":false}]}
+{"name":"Northstone NI Ltd","id":546,"equity":[{"share":"10.0%","proj_id":508,"id":798,"company_id":546,"change_2011":false},{"share":"25.0%","proj_id":504,"id":788,"company_id":546,"change_2011":false},{"share":"25.0%","proj_id":505,"id":791,"company_id":546,"change_2011":false}]}
+{"name":"O'Hare & McGovern Ltd","id":547,"equity":[{"share":"50.0%","proj_id":506,"id":792,"company_id":547,"change_2011":false},{"share":"50.0%","proj_id":507,"id":794,"company_id":547,"change_2011":false}]}
+{"name":"Bilfinger Berger Projects Investments S.C.A. SICAR","id":548,"equity":[{"share":"75.0%","proj_id":508,"id":796,"company_id":548,"change_2011":false}]}
+{"name":"Graham Investment Projects Ltd","id":549,"equity":[{"share":"15.0%","proj_id":508,"id":797,"company_id":549,"change_2011":true},{"share":"30.0%","proj_id":739,"id":1152,"company_id":549,"change_2011":false}]}
+{"name":"Lagan Projects Investments Limited","id":550,"equity":[{"share":"25.0%","proj_id":509,"id":799,"company_id":550,"change_2011":true}]}
+{"name":"TIF Holdco Ltd (MBIA)","id":551,"equity":[{"share":"25.0%","proj_id":509,"id":801,"company_id":551,"change_2011":true}]}
+{"name":"Amey BPO Services Ltd","id":552,"equity":[{"share":"100.0%","proj_id":510,"id":802,"company_id":552,"change_2011":false}]}
+{"name":"Turkington Holdings Ltd","id":553,"equity":[{"share":"100.0%","proj_id":511,"id":803,"company_id":553,"change_2011":false}]}
+{"name":"McAleer & Rushes","id":554,"equity":[{"share":"50.0%","proj_id":512,"id":804,"company_id":554,"change_2011":false}]}
+{"name":"Dunloe Ewart","id":555,"equity":[{"share":"50.0%","proj_id":512,"id":805,"company_id":555,"change_2011":false}]}
+{"name":"Rotary Group Limited, 5 Trench Road Mallusk Newtownabbey Co Antrim","id":556,"equity":[{"share":"50.0%","proj_id":513,"id":806,"company_id":556,"change_2011":false}]}
+{"name":"Maha Beteiligungs Gesellschalt mbH Hoyen 20 87490 Halderwagen Germany","id":557,"equity":[{"share":"50.0%","proj_id":513,"id":807,"company_id":557,"change_2011":false}]}
+{"name":"Hochtief PPP Schools Capital Ltd","id":558,"equity":[{"share":"40.0%","proj_id":515,"id":808,"company_id":558,"change_2011":false}]}
+{"name":"Barclays European Infrastructure Fund II","id":559,"equity":[{"share":"40.0%","proj_id":515,"id":809,"company_id":559,"change_2011":false}]}
+{"name":"McLaughlin & Harvey Ltd","id":560,"equity":[{"share":"20.0%","proj_id":515,"id":810,"company_id":560,"change_2011":false}]}
+{"name":"Amey PLC","id":561,"equity":[{"share":"10.0%","proj_id":516,"id":811,"company_id":561,"change_2011":false}]}
+{"name":"European Investment Bank","id":562,"equity":[{"share":"45.0%","proj_id":516,"id":813,"company_id":562,"change_2011":false}]}
+{"name":"Northgate (formerly Sx3 Ltd) via a wholly owned SPV named Learnserve Limited","id":563,"equity":[{"share":"100.0%","proj_id":517,"id":814,"company_id":563,"change_2011":false},{"share":"100.0%","proj_id":519,"id":815,"company_id":563,"change_2011":false}]}
+{"name":"Belfast Educational Services (Derry) Ltd 50% O'Hare McGovern Ltd","id":564,"equity":[{"share":"50.0%","proj_id":520,"id":816,"company_id":564,"change_2011":false}]}
+{"name":"Belfast Educational Services (Derry) Ltd 50% Interserve PFI 2005 Ltd","id":565,"equity":[{"share":"50.0%","proj_id":520,"id":817,"company_id":565,"change_2011":false}]}
+{"name":"Belfast Educational Services (Down & Connor / Downpatrick) Ltd 50% O'Hare McGovern Ltd","id":566,"equity":[{"share":"50.0%","proj_id":521,"id":818,"company_id":566,"change_2011":false}]}
+{"name":"Belfast Educational Services (Down & Connor / Downpatrickr) Ltd 50% Interserve PFI 2005 Ltd","id":567,"equity":[{"share":"50.0%","proj_id":521,"id":819,"company_id":567,"change_2011":false}]}
+{"name":"Parent company name Campus Projects is 100% owned by Semperian PPP Investment Partners","id":568,"equity":[{"share":"100.0%","proj_id":522,"id":820,"company_id":568,"change_2011":false}]}
+{"name":"Belfast Educational Services (Strabane) Ltd, 50% owned by O'Hare & McGovern Contractors","id":569,"equity":[{"share":"50.0%","proj_id":524,"id":821,"company_id":569,"change_2011":false}]}
+{"name":"O'Hare McGovern Limited","id":570,"equity":[{"share":"33.0%","proj_id":525,"id":823,"company_id":570,"change_2011":false}]}
+{"name":"Uberior Infrastructure Investments (NO 3) Limited","id":571,"equity":[{"share":"33.0%","proj_id":525,"id":825,"company_id":571,"change_2011":false}]}
+{"name":"Northwin Ltd (100% owned by John Graham Holdings (Dromore) Limited)","id":572,"equity":[{"share":"100.0%","proj_id":526,"id":826,"company_id":572,"change_2011":false}]}
+{"name":"British Teleccommunications PLC","id":573,"equity":[{"share":"100.0%","proj_id":527,"id":827,"company_id":573,"change_2011":false}]}
+{"name":"Laing Investments Ltd","id":574,"equity":[{"share":"50.0%","proj_id":528,"id":828,"company_id":574,"change_2011":false}]}
+{"name":"Whitemountain Investments Ltd","id":575,"equity":[{"share":"50.0%","proj_id":528,"id":829,"company_id":575,"change_2011":false}]}
+{"name":"Laing O'Rourke Portfolio Solutions Ltd","id":576,"equity":[{"share":"50.0%","proj_id":530,"id":831,"company_id":576,"change_2011":false}]}
+{"name":"Veolia Water Outsourcing Ltd","id":577,"equity":[{"share":"50.0%","proj_id":530,"id":832,"company_id":577,"change_2011":false}]}
+{"name":"Baxter Healthcare have not funded this PFI through raising of any additional/external equity. The funding for the project is entirely from within internal company financial resources. There is no expectation of any subordinated debt requirment at any t","id":578,"equity":[{"share":"100.0%","proj_id":531,"id":833,"company_id":578,"change_2011":false}]}
+{"name":"Andrew Doyle","id":579,"equity":[{"share":"20.0%","proj_id":532,"id":834,"company_id":579,"change_2011":false}]}
+{"name":"Lindsay Neilson","id":580,"equity":[{"share":"20.0%","proj_id":532,"id":835,"company_id":580,"change_2011":false}]}
+{"name":"Michael O'Brien","id":581,"equity":[{"share":"20.0%","proj_id":532,"id":836,"company_id":581,"change_2011":false}]}
+{"name":"Nigel Robson","id":582,"equity":[{"share":"20.0%","proj_id":532,"id":837,"company_id":582,"change_2011":false}]}
+{"name":"David Winch","id":583,"equity":[{"share":"20.0%","proj_id":532,"id":838,"company_id":583,"change_2011":false}]}
+{"name":"Robertson Group(from 07/03/2001 ) ","id":584,"equity":[{"share":"50.0%","proj_id":533,"id":840,"company_id":584,"change_2011":false}]}
+{"name":"Bank of Scotland(from 01/09/2004 ) ","id":585,"equity":[{"share":"21.4%","proj_id":533,"id":841,"company_id":585,"change_2011":false}]}
+{"name":"Quayle Munro","id":586,"equity":[{"share":"20.0%","proj_id":534,"id":843,"company_id":586,"change_2011":false}]}
+{"name":"Morgan Sindall Investments","id":587,"equity":[{"share":"30.0%","proj_id":862,"id":1216,"company_id":587,"change_2011":false},{"share":"50.0%","proj_id":535,"id":845,"company_id":587,"change_2011":true}]}
+{"name":"Elgin Infrastructure Ltd","id":588,"equity":[{"share":"100.0%","proj_id":536,"id":847,"company_id":588,"change_2011":false}]}
+{"name":"Shanks","id":589,"equity":[{"share":"100.0%","proj_id":537,"id":848,"company_id":589,"change_2011":false}]}
+{"name":"Zealburg Holdings Limited","id":590,"equity":[{"share":"100.0%","proj_id":538,"id":849,"company_id":590,"change_2011":false}]}
+{"name":"JLIF (GP) Limited","id":591,"equity":[{"share":"20.0%","proj_id":539,"id":850,"company_id":591,"change_2011":false}]}
+{"name":"PFI Infrastructure Finance Limited","id":592,"equity":[{"share":"17.1%","proj_id":539,"id":851,"company_id":592,"change_2011":false}]}
+{"name":"Semperian PPP Investment Partners NO. 2 Limited ","id":593,"equity":[{"share":"32.9%","proj_id":539,"id":852,"company_id":593,"change_2011":false}]}
+{"name":"BoS Infrastructure (No. 3) Limited","id":594,"equity":[{"share":"30.0%","proj_id":539,"id":853,"company_id":594,"change_2011":false}]}
+{"name":"JLIF(GP) Ltd (UK)","id":595,"equity":[{"share":"20.0%","proj_id":540,"id":854,"company_id":595,"change_2011":false}]}
+{"name":"HBOS/Uberia","id":596,"equity":[{"share":"49.0%","proj_id":540,"id":855,"company_id":596,"change_2011":false}]}
+{"name":"Bilfinger Berger ","id":597,"equity":[{"share":"85.0%","proj_id":541,"id":857,"company_id":597,"change_2011":false}]}
+{"name":"Ogilvie","id":598,"equity":[{"share":"15.0%","proj_id":541,"id":858,"company_id":598,"change_2011":false}]}
+{"name":"Amey Ventures Investment Limited","id":599,"equity":[{"share":"35.0%","proj_id":594,"id":942,"company_id":599,"change_2011":false},{"share":"85.0%","proj_id":543,"id":860,"company_id":599,"change_2011":false}]}
+{"name":"Cyril Sweett (Holdings) Ltd","id":600,"equity":[{"share":"15.0%","proj_id":543,"id":861,"company_id":600,"change_2011":false}]}
+{"name":"Dundee City Council","id":601,"equity":[{"share":"40.0%","proj_id":544,"id":862,"company_id":601,"change_2011":false}]}
+{"name":"Lloyds","id":602,"equity":[{"share":"34.0%","proj_id":544,"id":863,"company_id":602,"change_2011":false}]}
+{"name":"M&G","id":603,"equity":[{"share":"26.0%","proj_id":544,"id":864,"company_id":603,"change_2011":false}]}
+{"name":"Robertson Capital Projects","id":604,"equity":[{"share":"100.0%","proj_id":569,"id":903,"company_id":604,"change_2011":false},{"share":"50.0%","proj_id":545,"id":865,"company_id":604,"change_2011":false}]}
+{"name":"Hochtieff","id":605,"equity":[{"share":"25.0%","proj_id":546,"id":867,"company_id":605,"change_2011":true}]}
+{"name":"Barclays Infrastructure Fund","id":606,"equity":[{"share":"45.0%","proj_id":546,"id":868,"company_id":606,"change_2011":true}]}
+{"name":"Nord Lb","id":607,"equity":[{"share":"30.0%","proj_id":546,"id":869,"company_id":607,"change_2011":false}]}
+{"name":"Innisfree Nominees Ltd.","id":608,"equity":[{"share":"50.0%","proj_id":547,"id":870,"company_id":608,"change_2011":false}]}
+{"name":"Semperian PPP Holdings Limited","id":609,"equity":[{"share":"25.0%","proj_id":609,"id":971,"company_id":609,"change_2011":false},{"share":"50.0%","proj_id":547,"id":871,"company_id":609,"change_2011":false}]}
+{"name":"Barclay Special Projects","id":610,"equity":[{"share":"90.0%","proj_id":548,"id":872,"company_id":610,"change_2011":false}]}
+{"name":"FES","id":611,"equity":[{"share":"10.0%","proj_id":548,"id":873,"company_id":611,"change_2011":false}]}
+{"name":"SGP Property and Facilities Management","id":612,"equity":[{"share":"100.0%","proj_id":549,"id":874,"company_id":612,"change_2011":false}]}
+{"name":"Secondary Market Infrastructure Fund (SMIF) 100%","id":613,"equity":[{"share":"100.0%","proj_id":551,"id":876,"company_id":613,"change_2011":false}]}
+{"name":"Sodexo Alliance S.A.","id":614,"equity":[{"share":"10.0%","proj_id":552,"id":878,"company_id":614,"change_2011":false}]}
+{"name":"Forth Management Ltd","id":615,"equity":[{"share":"10.0%","proj_id":553,"id":880,"company_id":615,"change_2011":false}]}
+{"name":"Uberior Infrastructure Investments Ltd","id":616,"equity":[{"share":"30.0%","proj_id":553,"id":881,"company_id":616,"change_2011":false}]}
+{"name":"Miller Emblem Investments Ltd","id":617,"equity":[{"share":"30.0%","proj_id":553,"id":882,"company_id":617,"change_2011":false}]}
+{"name":"PFI Infrastructure Finance Ltd","id":618,"equity":[{"share":"30.0%","proj_id":553,"id":883,"company_id":618,"change_2011":false}]}
+{"name":"KE Projects","id":619,"equity":[{"share":"100.0%","proj_id":554,"id":884,"company_id":619,"change_2011":false}]}
+{"name":"InfraRed (Infrastructure) Capital Partners Limited","id":620,"equity":[{"share":"100.0%","proj_id":557,"id":885,"company_id":620,"change_2011":true}]}
+{"name":"Civic PFI Investments Ltd","id":621,"equity":[{"share":"100.0%","proj_id":558,"id":886,"company_id":621,"change_2011":true}]}
+{"name":"Equitix Infrastructure Investment Partners","id":622,"equity":[{"share":"85.0%","proj_id":559,"id":887,"company_id":622,"change_2011":true}]}
+{"name":"Forth Services Ltd","id":623,"equity":[{"share":"15.0%","proj_id":559,"id":888,"company_id":623,"change_2011":false}]}
+{"name":"Dutch Infrastructure Fund","id":624,"equity":[{"share":"50.0%","proj_id":560,"id":889,"company_id":624,"change_2011":false}]}
+{"name":"DIF Infrastructure II UK Ltd.","id":625,"equity":[{"share":"50.0%","proj_id":560,"id":890,"company_id":625,"change_2011":false}]}
+{"name":"Dawn Construction","id":626,"equity":[{"share":"32.5%","proj_id":563,"id":892,"company_id":626,"change_2011":false}]}
+{"name":"McKenzie","id":627,"equity":[{"share":"25.0%","proj_id":563,"id":893,"company_id":627,"change_2011":false}]}
+{"name":"FES Ltd","id":628,"equity":[{"share":"10.0%","proj_id":563,"id":894,"company_id":628,"change_2011":false}]}
+{"name":"Allied Irish","id":629,"equity":[{"share":"32.5%","proj_id":563,"id":895,"company_id":629,"change_2011":false}]}
+{"name":"bam.ppp","id":630,"equity":[{"share":"100.0%","proj_id":564,"id":896,"company_id":630,"change_2011":false}]}
+{"name":"Barclays Infrastructure FundsPFI Portfolio","id":631,"equity":[{"share":"100.0%","proj_id":565,"id":897,"company_id":631,"change_2011":false}]}
+{"name":"Balfour Beatty Infrastructure Investment Ltd","id":632,"equity":[{"share":"50.0%","proj_id":566,"id":898,"company_id":632,"change_2011":false}]}
+{"name":"InfraRed (Infrastructure) ","id":633,"equity":[{"share":"50.0%","proj_id":566,"id":899,"company_id":633,"change_2011":false}]}
+{"name":"Dutch Infrastructure Fund PPP UK Limited","id":634,"equity":[{"share":"100.0%","proj_id":567,"id":900,"company_id":634,"change_2011":false}]}
+{"name":"John Laing Social Infrastructure Ltd9was Equion ltd)","id":635,"equity":[{"share":"50.0%","proj_id":568,"id":901,"company_id":635,"change_2011":false}]}
+{"name":"Commonwealth Bank of Australia ","id":636,"equity":[{"share":"50.0%","proj_id":568,"id":902,"company_id":636,"change_2011":false}]}
+{"name":"canmore Partnerships","id":637,"equity":[{"share":"20.0%","proj_id":571,"id":905,"company_id":637,"change_2011":false}]}
+{"name":"Quale Munro","id":638,"equity":[{"share":"40.0%","proj_id":571,"id":906,"company_id":638,"change_2011":false},{"share":"40.0%","proj_id":574,"id":913,"company_id":638,"change_2011":false},{"share":"40.0%","proj_id":576,"id":917,"company_id":638,"change_2011":false}]}
+{"name":"UME Investment","id":639,"equity":[{"share":"40.0%","proj_id":571,"id":907,"company_id":639,"change_2011":false}]}
+{"name":"Carilion ","id":640,"equity":[{"share":"50.0%","proj_id":572,"id":908,"company_id":640,"change_2011":false}]}
+{"name":"UME investments","id":641,"equity":[{"share":"25.0%","proj_id":573,"id":911,"company_id":641,"change_2011":false},{"share":"40.0%","proj_id":574,"id":914,"company_id":641,"change_2011":false},{"share":"50.0%","proj_id":572,"id":909,"company_id":641,"change_2011":false}]}
+{"name":"Canmore Partnerships","id":642,"equity":[{"share":"20.0%","proj_id":574,"id":912,"company_id":642,"change_2011":false}]}
+{"name":"Canmore","id":643,"equity":[{"share":"15.0%","proj_id":576,"id":916,"company_id":643,"change_2011":false}]}
+{"name":"UME","id":644,"equity":[{"share":"45.0%","proj_id":576,"id":918,"company_id":644,"change_2011":false}]}
+{"name":"Allied Irish Bank","id":645,"equity":[{"share":"100.0%","proj_id":579,"id":921,"company_id":645,"change_2011":false},{"share":"100.0%","proj_id":1300,"id":1304,"company_id":645,"change_2011":false}]}
+{"name":"Barclays ","id":646,"equity":[{"share":"60.0%","proj_id":580,"id":922,"company_id":646,"change_2011":false}]}
+{"name":"James Walker (Leith) Ltd)","id":647,"equity":[{"share":"100.0%","proj_id":581,"id":924,"company_id":647,"change_2011":false},{"share":"100.0%","proj_id":582,"id":925,"company_id":647,"change_2011":false}]}
+{"name":"Robertson Group ","id":648,"equity":[{"share":"50.1%","proj_id":583,"id":926,"company_id":648,"change_2011":false},{"share":"50.1%","proj_id":584,"id":928,"company_id":648,"change_2011":false}]}
+{"name":"3I Infrastructure plc","id":649,"equity":[{"share":"49.9%","proj_id":583,"id":927,"company_id":649,"change_2011":false},{"share":"49.9%","proj_id":584,"id":929,"company_id":649,"change_2011":false}]}
+{"name":"Barclays Infrastructure Investment","id":650,"equity":[{"share":"50.0%","proj_id":585,"id":931,"company_id":650,"change_2011":false}]}
+{"name":"Johnson Workplace Management Ltd","id":651,"equity":[{"share":"100.0%","proj_id":588,"id":933,"company_id":651,"change_2011":false}]}
+{"name":"Barclays Integrated Infrastructure Fund ","id":652,"equity":[{"share":"100.0%","proj_id":589,"id":934,"company_id":652,"change_2011":false}]}
+{"name":"Hochtief PPP Schools Capital Ltd  ","id":653,"equity":[{"share":"50.0%","proj_id":590,"id":935,"company_id":653,"change_2011":false}]}
+{"name":"Barclays Infrastructure Investment Ltd ","id":654,"equity":[{"share":"30.0%","proj_id":590,"id":936,"company_id":654,"change_2011":false}]}
+{"name":"Norddeutche Landesbank London","id":655,"equity":[{"share":"20.0%","proj_id":590,"id":937,"company_id":655,"change_2011":false}]}
+{"name":"Balfour Beattie - Innisfree","id":656,"equity":[{"share":"50.0%","proj_id":591,"id":939,"company_id":656,"change_2011":false}]}
+{"name":"Kinnoull House Holdings Ltd","id":657,"equity":[{"share":"100.0%","proj_id":592,"id":940,"company_id":657,"change_2011":false}]}
+{"name":"ABN Amro Infrastructure Capital Management Limited","id":658,"equity":[{"share":"100.0%","proj_id":593,"id":941,"company_id":658,"change_2011":false}]}
+{"name":"Uberior Infrastructure Investments (No.3) Limited","id":659,"equity":[{"share":"35.0%","proj_id":594,"id":943,"company_id":659,"change_2011":false}]}
+{"name":"Bilfinger Berger BOT ","id":660,"equity":[{"share":"100.0%","proj_id":595,"id":945,"company_id":660,"change_2011":true}]}
+{"name":"SCRA","id":661,"equity":[{"share":"100.0%","proj_id":596,"id":946,"company_id":661,"change_2011":false}]}
+{"name":"Innisfree Nominees Ltd","id":662,"equity":[{"share":"61.0%","proj_id":597,"id":947,"company_id":662,"change_2011":false}]}
+{"name":"Laing Roads Ltd","id":663,"equity":[{"share":"19.5%","proj_id":597,"id":948,"company_id":663,"change_2011":false},{"share":"19.5%","proj_id":629,"id":1003,"company_id":663,"change_2011":false}]}
+{"name":"PFI Investors Ltd","id":664,"equity":[{"share":"19.5%","proj_id":597,"id":949,"company_id":664,"change_2011":false}]}
+{"name":"Infrastructures Investors Ltd ","id":665,"equity":[{"share":"15.0%","proj_id":598,"id":951,"company_id":665,"change_2011":false}]}
+{"name":"Royal Bank Project Investments Ltd","id":666,"equity":[{"share":"33.3%","proj_id":599,"id":953,"company_id":666,"change_2011":false}]}
+{"name":"Barclays Integrated Infrastructure Fund Ltd.","id":667,"equity":[{"share":"100.0%","proj_id":600,"id":955,"company_id":667,"change_2011":false}]}
+{"name":"Veolia Water UK PLC","id":668,"equity":[{"share":"100.0%","proj_id":602,"id":957,"company_id":668,"change_2011":false},{"share":"15.0%","proj_id":605,"id":961,"company_id":668,"change_2011":false},{"share":"15.0%","proj_id":607,"id":965,"company_id":668,"change_2011":false},{"share":"15.0%","proj_id":608,"id":967,"company_id":668,"change_2011":false}]}
+{"name":"SMW Ltd is a wholly owned subsidiary of Scottish Power","id":669,"equity":[{"share":"100.0%","proj_id":603,"id":958,"company_id":669,"change_2011":false}]}
+{"name":"HPC Nominees Ltd","id":670,"equity":[{"share":"80.1%","proj_id":604,"id":959,"company_id":670,"change_2011":false}]}
+{"name":"Saur UK Ltd","id":671,"equity":[{"share":"19.9%","proj_id":604,"id":960,"company_id":671,"change_2011":true}]}
+{"name":"Northumbrian Services Limited","id":672,"equity":[{"share":"75.0%","proj_id":606,"id":963,"company_id":672,"change_2011":false},{"share":"75.0%","proj_id":609,"id":970,"company_id":672,"change_2011":false}]}
+{"name":"Degremont UK","id":673,"equity":[{"share":"25.0%","proj_id":606,"id":964,"company_id":673,"change_2011":false}]}
+{"name":"Henderson Private Capital","id":674,"equity":[{"share":"33.3%","proj_id":608,"id":969,"company_id":674,"change_2011":false}]}
+{"name":"Infrastructure Investments General Partner Ltd","id":675,"equity":[{"share":"100.0%","proj_id":610,"id":972,"company_id":675,"change_2011":false}]}
+{"name":"SGP Ltd","id":676,"equity":[{"share":"100.0%","proj_id":612,"id":976,"company_id":676,"change_2011":false}]}
+{"name":"Barclays Infrastructure Finance","id":677,"equity":[{"share":"50.0%","proj_id":613,"id":977,"company_id":677,"change_2011":false}]}
+{"name":"Ogilviies Securities","id":678,"equity":[{"share":"12.5%","proj_id":613,"id":978,"company_id":678,"change_2011":false}]}
+{"name":"Stewart Milne Construction LTD","id":679,"equity":[{"share":"12.5%","proj_id":613,"id":979,"company_id":679,"change_2011":false}]}
+{"name":"Forth Holdings","id":680,"equity":[{"share":"12.5%","proj_id":613,"id":980,"company_id":680,"change_2011":false}]}
+{"name":"Gateway PFI","id":681,"equity":[{"share":"12.5%","proj_id":613,"id":981,"company_id":681,"change_2011":false}]}
+{"name":"Strathclyde Limited Partnership","id":682,"equity":[{"share":"100.0%","proj_id":614,"id":982,"company_id":682,"change_2011":false}]}
+{"name":"Bilfinger Berger Project Investments","id":683,"equity":[{"share":"83.0%","proj_id":615,"id":983,"company_id":683,"change_2011":false}]}
+{"name":"John Graham (Dromore) limited","id":684,"equity":[{"share":"10.0%","proj_id":615,"id":984,"company_id":684,"change_2011":false}]}
+{"name":"Northstone (NI) Limited","id":685,"equity":[{"share":"7.0%","proj_id":615,"id":985,"company_id":685,"change_2011":false}]}
+{"name":"Stichting Depositary PGGM","id":686,"equity":[{"share":"80.0%","proj_id":616,"id":986,"company_id":686,"change_2011":true}]}
+{"name":"BAM PPP bv.","id":687,"equity":[{"share":"20.0%","proj_id":616,"id":987,"company_id":687,"change_2011":true}]}
+{"name":"Redwood Partnership Venture","id":688,"equity":[{"share":"100.0%","proj_id":617,"id":988,"company_id":688,"change_2011":true}]}
+{"name":"Babcock & Brown Development Investments Limited","id":689,"equity":[{"share":"100.0%","proj_id":619,"id":990,"company_id":689,"change_2011":false}]}
+{"name":"Baglan Moor Healthcare","id":690,"equity":[{"share":"100.0%","proj_id":620,"id":991,"company_id":690,"change_2011":false}]}
+{"name":"Costain Civil Engineering & Construction Ltd","id":691,"equity":[{"share":"50.0%","proj_id":621,"id":992,"company_id":691,"change_2011":false}]}
+{"name":"Machrie Burn Limited","id":692,"equity":[{"share":"100.0%","proj_id":622,"id":994,"company_id":692,"change_2011":false}]}
+{"name":"IMC (Impregilo/Macob consortium)","id":693,"equity":[{"share":"100.0%","proj_id":623,"id":995,"company_id":693,"change_2011":false}]}
+{"name":"Dalkia","id":694,"equity":[{"share":"100.0%","proj_id":624,"id":996,"company_id":694,"change_2011":false}]}
+{"name":"Barclays Integrated Infrastructure Fund LP","id":695,"equity":[{"share":"100.0%","proj_id":625,"id":997,"company_id":695,"change_2011":false}]}
+{"name":"Fresenius Medical Care Renal Services Ltd","id":696,"equity":[{"share":"100.0%","proj_id":626,"id":998,"company_id":696,"change_2011":false}]}
+{"name":"HICL Infrastructure Investments LP","id":697,"equity":[{"share":"90.0%","proj_id":627,"id":999,"company_id":697,"change_2011":false}]}
+{"name":"NYOP Ruthin Ltd","id":698,"equity":[{"share":"100.0%","proj_id":628,"id":1001,"company_id":698,"change_2011":false}]}
+{"name":"Vinci Pensions Ltd","id":699,"equity":[{"share":"61.0%","proj_id":629,"id":1002,"company_id":699,"change_2011":false}]}
+{"name":"PFI Investors Ltd ","id":700,"equity":[{"share":"19.5%","proj_id":629,"id":1004,"company_id":700,"change_2011":false}]}
+{"name":"Kintra LTD","id":701,"equity":[{"share":"100.0%","proj_id":630,"id":1005,"company_id":701,"change_2011":false}]}
+{"name":"SMIF Asset Management LTD (Abergavenny Facilities LTD)","id":702,"equity":[{"share":"100.0%","proj_id":631,"id":1006,"company_id":702,"change_2011":false},{"share":"100.0%","proj_id":634,"id":1009,"company_id":702,"change_2011":false}]}
+{"name":"Honeywell","id":703,"equity":[{"share":"100.0%","proj_id":632,"id":1007,"company_id":703,"change_2011":false},{"share":"100.0%","proj_id":633,"id":1008,"company_id":703,"change_2011":false}]}
+{"name":"Vinci Pensions Limited","id":704,"equity":[{"share":"100.0%","proj_id":635,"id":1010,"company_id":704,"change_2011":false}]}
+{"name":"Morgan Sindall Investments Limited","id":705,"equity":[{"share":"50.0%","proj_id":636,"id":1011,"company_id":705,"change_2011":false}]}
+{"name":"Dalkia ","id":706,"equity":[{"share":"100.0%","proj_id":637,"id":1013,"company_id":706,"change_2011":false}]}
+{"name":"Equitix Healthcare Limited","id":707,"equity":[{"share":"100.0%","proj_id":638,"id":1014,"company_id":707,"change_2011":false}]}
+{"name":"Fairlake Properties Ltd","id":708,"equity":[{"share":"100.0%","proj_id":639,"id":1015,"company_id":708,"change_2011":false}]}
+{"name":"Barclays Bank PLC","id":709,"equity":[{"share":"100.0%","proj_id":640,"id":1016,"company_id":709,"change_2011":false}]}
+{"name":"UK Highways A55 Holdings Ltd","id":710,"equity":[{"share":"100.0%","proj_id":641,"id":1017,"company_id":710,"change_2011":false}]}
+{"name":"Fomento de Construcciones y Contratas, S.A.","id":711,"equity":[{"share":"100.0%","proj_id":642,"id":1018,"company_id":711,"change_2011":false}]}
+{"name":"BBPI (Bilfinger Berger Project Investments","id":712,"equity":[{"share":"85.0%","proj_id":643,"id":1019,"company_id":712,"change_2011":false}]}
+{"name":"Nord/LB (NORDDEUTSCHE LANDESBANK GIROZENTRALE)","id":713,"equity":[{"share":"15.0%","proj_id":643,"id":1020,"company_id":713,"change_2011":false}]}
+{"name":"HBOS (Uberior)","id":714,"equity":[{"share":"50.0%","proj_id":644,"id":1022,"company_id":714,"change_2011":false}]}
+{"name":"South Tyneside Council","id":715,"equity":[{"share":"5.0%","proj_id":645,"id":1025,"company_id":715,"change_2011":false},{"share":"5.0%","proj_id":715,"id":1108,"company_id":715,"change_2011":false}]}
+{"name":"Gateshead Council","id":716,"equity":[{"share":"0.5%","proj_id":645,"id":1026,"company_id":716,"change_2011":false},{"share":"0.5%","proj_id":715,"id":1109,"company_id":716,"change_2011":false}]}
+{"name":"FCC Construction S.A.","id":717,"equity":[{"share":"39.0%","proj_id":646,"id":1027,"company_id":717,"change_2011":false}]}
+{"name":"Interserve PFI 2005 Limited","id":718,"equity":[{"share":"31.0%","proj_id":646,"id":1028,"company_id":718,"change_2011":false}]}
+{"name":"Allied Irish Banks PLC","id":719,"equity":[{"share":"24.0%","proj_id":646,"id":1029,"company_id":719,"change_2011":false}]}
+{"name":"Elliott Holdings Limited","id":720,"equity":[{"share":"5.0%","proj_id":646,"id":1030,"company_id":720,"change_2011":false}]}
+{"name":"Galliford Try Investments Ltd ","id":721,"equity":[{"share":"50.0%","proj_id":647,"id":1031,"company_id":721,"change_2011":false}]}
+{"name":"EC2V Ltd Partnerships","id":722,"equity":[{"share":"50.0%","proj_id":647,"id":1032,"company_id":722,"change_2011":false}]}
+{"name":"John Laing Investments Ltd","id":723,"equity":[{"share":"40.0%","proj_id":781,"id":1182,"company_id":723,"change_2011":false},{"share":"50.0%","proj_id":648,"id":1034,"company_id":723,"change_2011":false},{"share":"50.0%","proj_id":757,"id":1172,"company_id":723,"change_2011":false}]}
+{"name":"Connect Roads Cambridgeshire","id":724,"equity":[{"share":"100.0%","proj_id":649,"id":1035,"company_id":724,"change_2011":false}]}
+{"name":"Community Solutions for Primary Care (Holdings) Ltd","id":725,"equity":[{"share":"60.0%","proj_id":652,"id":1040,"company_id":725,"change_2011":false},{"share":"60.0%","proj_id":1001,"id":1263,"company_id":725,"change_2011":false}]}
+{"name":"Barnsley Primary Care Trust","id":726,"equity":[{"share":"10.0%","proj_id":652,"id":1042,"company_id":726,"change_2011":false},{"share":"10.0%","proj_id":1001,"id":1265,"company_id":726,"change_2011":false}]}
+{"name":"Barnsley Metropolitan Borough Council","id":727,"equity":[{"share":"10.0%","proj_id":652,"id":1043,"company_id":727,"change_2011":false},{"share":"10.0%","proj_id":722,"id":1121,"company_id":727,"change_2011":false},{"share":"10.0%","proj_id":853,"id":1195,"company_id":727,"change_2011":false},{"share":"10.0%","proj_id":857,"id":1205,"company_id":727,"change_2011":false},{"share":"10.0%","proj_id":1001,"id":1266,"company_id":727,"change_2011":false}]}
+{"name":"The Riverside Group","id":728,"equity":[{"share":"100.0%","proj_id":653,"id":1044,"company_id":728,"change_2011":false}]}
+{"name":"Regenter Excellent Homes for Life Holding Company Ltd","id":729,"equity":[{"share":"100.0%","proj_id":655,"id":1045,"company_id":729,"change_2011":false}]}
+{"name":"UKPIM","id":730,"equity":[{"share":"50.0%","proj_id":656,"id":1046,"company_id":730,"change_2011":false}]}
+{"name":"Aster Communities","id":731,"equity":[{"share":"100.0%","proj_id":658,"id":1048,"company_id":731,"change_2011":false}]}
+{"name":"Regenter Ltd","id":732,"equity":[{"share":"95.0%","proj_id":663,"id":1049,"company_id":732,"change_2011":false}]}
+{"name":"Great Places Housing Association","id":733,"equity":[{"share":"5.0%","proj_id":663,"id":1050,"company_id":733,"change_2011":false}]}
+{"name":"Kier","id":734,"equity":[{"share":"70.0%","proj_id":665,"id":1052,"company_id":734,"change_2011":false}]}
+{"name":"Tascor","id":735,"equity":[{"share":"10.0%","proj_id":665,"id":1054,"company_id":735,"change_2011":true}]}
+{"name":"Lambeth PCT","id":736,"equity":[{"share":"20.0%","proj_id":669,"id":1055,"company_id":736,"change_2011":false}]}
+{"name":"Fulcrum","id":737,"equity":[{"share":"60.0%","proj_id":669,"id":1057,"company_id":737,"change_2011":false}]}
+{"name":"Elgin LIFT limited","id":738,"equity":[{"share":"60.0%","proj_id":671,"id":1058,"company_id":738,"change_2011":false}]}
+{"name":"Public sector Partners ","id":739,"equity":[{"share":"40.0%","proj_id":671,"id":1059,"company_id":739,"change_2011":false}]}
+{"name":"Interserve Investments Ltd (through Environments for Learning)","id":740,"equity":[{"share":"45.0%","proj_id":674,"id":1060,"company_id":740,"change_2011":false}]}
+{"name":"Barclays European Infrastructure Fund Limited Partnership (Through Enviroments for Learning)","id":741,"equity":[{"share":"45.0%","proj_id":674,"id":1061,"company_id":741,"change_2011":false}]}
+{"name":"Leeds LEP Ltd","id":742,"equity":[{"share":"10.0%","proj_id":674,"id":1062,"company_id":742,"change_2011":false}]}
+{"name":"Shanks PFI Investments Ltd","id":743,"equity":[{"share":"75.0%","proj_id":676,"id":1063,"company_id":743,"change_2011":false}]}
+{"name":"SSE Generation Ltd","id":744,"equity":[{"share":"25.0%","proj_id":676,"id":1064,"company_id":744,"change_2011":false}]}
+{"name":"Veolia E.S UK.","id":745,"equity":[{"share":"100.0%","proj_id":680,"id":1065,"company_id":745,"change_2011":false}]}
+{"name":"Cory Environmental Management Limited","id":746,"equity":[{"share":"50.0%","proj_id":685,"id":1067,"company_id":746,"change_2011":false}]}
+{"name":"Wheelabrator Technologies Inc","id":747,"equity":[{"share":"50.0%","proj_id":685,"id":1068,"company_id":747,"change_2011":false}]}
+{"name":"Lend Lease Infrastructure Holdings (EMEA) Ltd","id":748,"equity":[{"share":"35.0%","proj_id":688,"id":1070,"company_id":748,"change_2011":false}]}
+{"name":"Itochu I-Environmental Investments Ltd","id":749,"equity":[{"share":"20.0%","proj_id":688,"id":1071,"company_id":749,"change_2011":false}]}
+{"name":"MVV Umwelt UK GMBH","id":750,"equity":[{"share":"100.0%","proj_id":689,"id":1072,"company_id":750,"change_2011":false}]}
+{"name":"Shanks PFI Inv Ltd","id":751,"equity":[{"share":"67.0%","proj_id":692,"id":1075,"company_id":751,"change_2011":false}]}
+{"name":"Babcock Project Investments","id":752,"equity":[{"share":"33.0%","proj_id":692,"id":1076,"company_id":752,"change_2011":false}]}
+{"name":"Balfour Beaty Capital Ltd","id":753,"equity":[{"share":"30.0%","proj_id":694,"id":1077,"company_id":753,"change_2011":false}]}
+{"name":"Urbaser SA","id":754,"equity":[{"share":"70.0%","proj_id":694,"id":1078,"company_id":754,"change_2011":false}]}
+{"name":"Balfour Beatty Investments","id":755,"equity":[{"share":"80.0%","proj_id":695,"id":1079,"company_id":755,"change_2011":false},{"share":"80.0%","proj_id":716,"id":1110,"company_id":755,"change_2011":false},{"share":"80.0%","proj_id":867,"id":1233,"company_id":755,"change_2011":false},{"share":"80.0%","proj_id":874,"id":1255,"company_id":755,"change_2011":false},{"share":"90.0%","proj_id":710,"id":1100,"company_id":755,"change_2011":false}]}
+{"name":"Hertfordshire County Council","id":756,"equity":[{"share":"20.0%","proj_id":695,"id":1080,"company_id":756,"change_2011":false}]}
+{"name":"London Borough of Camden ","id":757,"equity":[{"share":"10.0%","proj_id":698,"id":1082,"company_id":757,"change_2011":false}]}
+{"name":"Balfour Beatty Capital/NORDDEUTSCHE LANDESBANK GIROZENTRALE","id":758,"equity":[{"share":"80.0%","proj_id":699,"id":1083,"company_id":758,"change_2011":false}]}
+{"name":"Blackburn with Darwen Borough Council","id":759,"equity":[{"share":"5.0%","proj_id":699,"id":1085,"company_id":759,"change_2011":false},{"share":"5.0%","proj_id":726,"id":1127,"company_id":759,"change_2011":false}]}
+{"name":"Bolton Council","id":760,"equity":[{"share":"5.0%","proj_id":699,"id":1086,"company_id":760,"change_2011":false},{"share":"5.0%","proj_id":726,"id":1128,"company_id":760,"change_2011":false}]}
+{"name":"Blackpool Council","id":761,"equity":[{"share":"10.0%","proj_id":700,"id":1089,"company_id":761,"change_2011":false}]}
+{"name":"Derby City Council","id":762,"equity":[{"share":"10.0%","proj_id":704,"id":1092,"company_id":762,"change_2011":false}]}
+{"name":"Laing O'Rourke","id":763,"equity":[{"share":"40.0%","proj_id":705,"id":1094,"company_id":763,"change_2011":false},{"share":"40.0%","proj_id":722,"id":1118,"company_id":763,"change_2011":false},{"share":"40.0%","proj_id":853,"id":1191,"company_id":763,"change_2011":false},{"share":"40.0%","proj_id":853,"id":1192,"company_id":763,"change_2011":false},{"share":"40.0%","proj_id":857,"id":1202,"company_id":763,"change_2011":false},{"share":"40.0%","proj_id":860,"id":1213,"company_id":763,"change_2011":false},{"share":"64.0%","proj_id":866,"id":1229,"company_id":763,"change_2011":false},{"share":"80.0%","proj_id":856,"id":1201,"company_id":763,"change_2011":false}]}
+{"name":"Salford City Council","id":764,"equity":[{"share":"10.0%","proj_id":705,"id":1095,"company_id":764,"change_2011":false},{"share":"10.0%","proj_id":860,"id":1214,"company_id":764,"change_2011":false}]}
+{"name":"BSFi","id":765,"equity":[{"share":"27.1%","proj_id":707,"id":1098,"company_id":765,"change_2011":true},{"share":"4.9%","proj_id":869,"id":1241,"company_id":765,"change_2011":true}]}
+{"name":"Essex County Council","id":766,"equity":[{"share":"10.0%","proj_id":733,"id":1148,"company_id":766,"change_2011":false},{"share":"19.9%","proj_id":707,"id":1099,"company_id":766,"change_2011":false}]}
+{"name":"Oldham Metropolitan Borough Council","id":767,"equity":[{"share":"10.0%","proj_id":710,"id":1101,"company_id":767,"change_2011":false}]}
+{"name":"Somerset County Council","id":768,"equity":[{"share":"10.0%","proj_id":712,"id":1104,"company_id":768,"change_2011":false}]}
+{"name":"Data not supplied by Procuring Authority","id":769,"equity":[{"share":"100.0%","proj_id":714,"id":1105,"company_id":769,"change_2011":false}]}
+{"name":"London Borough of Ealing ","id":770,"equity":[{"share":"20.0%","proj_id":716,"id":1111,"company_id":770,"change_2011":false}]}
+{"name":"Wolverhampton City Council","id":771,"equity":[{"share":"8.0%","proj_id":718,"id":1114,"company_id":771,"change_2011":true}]}
+{"name":"Carillion Plc","id":772,"equity":[{"share":"8.0%","proj_id":728,"id":1129,"company_id":772,"change_2011":true}]}
+{"name":"Rochdale Metropolitan Borough Council","id":773,"equity":[{"share":"1.0%","proj_id":728,"id":1130,"company_id":773,"change_2011":false},{"share":"1.0%","proj_id":732,"id":1143,"company_id":773,"change_2011":false}]}
+{"name":"Amber","id":774,"equity":[{"share":"19.0%","proj_id":728,"id":1131,"company_id":774,"change_2011":true}]}
+{"name":"RM Group","id":775,"equity":[{"share":"10.0%","proj_id":733,"id":1146,"company_id":775,"change_2011":false}]}
+{"name":"St Helens Council","id":776,"equity":[{"share":"10.0%","proj_id":735,"id":1150,"company_id":776,"change_2011":false}]}
+{"name":"Bilfinger Berger Project Investments International Holdings GMBH","id":777,"equity":[{"share":"70.0%","proj_id":739,"id":1151,"company_id":777,"change_2011":true}]}
+{"name":"Equitix Fund 1","id":778,"equity":[{"share":"100.0%","proj_id":749,"id":1154,"company_id":778,"change_2011":false}]}
+{"name":"Reliant Norfolk and Suffolk Ltd","id":779,"equity":[{"share":"15.0%","proj_id":752,"id":1156,"company_id":779,"change_2011":false}]}
+{"name":"Kier Pro Investments Ltd","id":780,"equity":[{"share":"42.0%","proj_id":752,"id":1157,"company_id":780,"change_2011":false}]}
+{"name":"Uberior Infrastructure (No 4) Investments Ltd","id":781,"equity":[{"share":"42.0%","proj_id":752,"id":1158,"company_id":781,"change_2011":false}]}
+{"name":"Amey Investments Ltd","id":782,"equity":[{"share":"33.3%","proj_id":753,"id":1159,"company_id":782,"change_2011":false}]}
+{"name":"Lloyds (Uberior Fund)","id":783,"equity":[{"share":"33.3%","proj_id":753,"id":1160,"company_id":783,"change_2011":false}]}
+{"name":"Vinci Infrastructures SAS","id":784,"equity":[{"share":"50.0%","proj_id":754,"id":1162,"company_id":784,"change_2011":false}]}
+{"name":"BIIF Holdco ltd.","id":785,"equity":[{"share":"50.0%","proj_id":754,"id":1163,"company_id":785,"change_2011":false}]}
+{"name":"Meridian Infrastructure","id":786,"equity":[{"share":"30.0%","proj_id":755,"id":1164,"company_id":786,"change_2011":false}]}
+{"name":"InfraVia","id":787,"equity":[{"share":"20.0%","proj_id":755,"id":1165,"company_id":787,"change_2011":false}]}
+{"name":"Alstrom UK Holdings Ltd","id":788,"equity":[{"share":"12.5%","proj_id":755,"id":1166,"company_id":788,"change_2011":false}]}
+{"name":"Keolis UK Ltd","id":789,"equity":[{"share":"12.5%","proj_id":755,"id":1167,"company_id":789,"change_2011":false}]}
+{"name":"Vinci Industries UK Ltd","id":790,"equity":[{"share":"12.5%","proj_id":755,"id":1168,"company_id":790,"change_2011":false}]}
+{"name":"Wellglade Ltd","id":791,"equity":[{"share":"12.5%","proj_id":755,"id":1169,"company_id":791,"change_2011":false}]}
+{"name":"BALFOUR BEATTY PLC LIMITED","id":792,"equity":[{"share":"100.0%","proj_id":756,"id":1170,"company_id":792,"change_2011":false}]}
+{"name":"Scottish and Southern Energy plc (SSE)","id":793,"equity":[{"share":"100.0%","proj_id":758,"id":1173,"company_id":793,"change_2011":false}]}
+{"name":"SEC Lighting","id":794,"equity":[{"share":"100.0%","proj_id":759,"id":1174,"company_id":794,"change_2011":false}]}
+{"name":"Pell Frischmann  ","id":795,"equity":[{"share":"50.0%","proj_id":761,"id":1176,"company_id":795,"change_2011":false}]}
+{"name":"Pell Frischmann","id":796,"equity":[{"share":"50.0%","proj_id":762,"id":1177,"company_id":796,"change_2011":false},{"share":"50.0%","proj_id":881,"id":1259,"company_id":796,"change_2011":false}]}
+{"name":"Amey Ventures Asset Holdings Limited","id":797,"equity":[{"share":"33.3%","proj_id":763,"id":1179,"company_id":797,"change_2011":false}]}
+{"name":"Equitix Highways 2 Limited","id":798,"equity":[{"share":"33.3%","proj_id":763,"id":1180,"company_id":798,"change_2011":false}]}
+{"name":"Uberior Infrastructure Investments (No5) Limited","id":799,"equity":[{"share":"33.3%","proj_id":763,"id":1181,"company_id":799,"change_2011":false}]}
+{"name":"Laing O'Rourke Investments Ltd","id":800,"equity":[{"share":"40.0%","proj_id":781,"id":1183,"company_id":800,"change_2011":false}]}
+{"name":"Interserve PFI Ltd","id":801,"equity":[{"share":"20.0%","proj_id":781,"id":1184,"company_id":801,"change_2011":false}]}
+{"name":"Bilfinger Berger Project Investments International Holding GmbH ","id":802,"equity":[{"share":"70.0%","proj_id":822,"id":1185,"company_id":802,"change_2011":false}]}
+{"name":"Miller (ASP) Limited ","id":803,"equity":[{"share":"30.0%","proj_id":822,"id":1186,"company_id":803,"change_2011":false}]}
+{"name":"Interserve Developments No. 1 Ltd","id":804,"equity":[{"share":"50.0%","proj_id":823,"id":1187,"company_id":804,"change_2011":false}]}
+{"name":"Equitix Bluelight 2 Ltd","id":805,"equity":[{"share":"50.0%","proj_id":823,"id":1188,"company_id":805,"change_2011":false}]}
+{"name":"Vinci Concessions SAS","id":806,"equity":[{"share":"50.0%","proj_id":836,"id":1189,"company_id":806,"change_2011":false}]}
+{"name":"Merdiam Infrastructure Finance II S.a.r.l.","id":807,"equity":[{"share":"50.0%","proj_id":836,"id":1190,"company_id":807,"change_2011":false}]}
+{"name":"Catalyst Lend Lease","id":808,"equity":[{"share":"80.0%","proj_id":855,"id":1196,"company_id":808,"change_2011":false}]}
+{"name":"Birmingham City Council","id":809,"equity":[{"share":"10.0%","proj_id":855,"id":1198,"company_id":809,"change_2011":false}]}
+{"name":"London Borough of Barking and Dagenham","id":810,"equity":[{"share":"10.0%","proj_id":856,"id":1200,"company_id":810,"change_2011":false}]}
+{"name":"Robertson Capital","id":811,"equity":[{"share":"30.0%","proj_id":862,"id":1217,"company_id":811,"change_2011":false}]}
+{"name":"Sewell Group","id":812,"equity":[{"share":"30.0%","proj_id":862,"id":1218,"company_id":812,"change_2011":false}]}
+{"name":"Derbyshire County Council ","id":813,"equity":[{"share":"1.0%","proj_id":865,"id":1228,"company_id":813,"change_2011":false}]}
+{"name":"RM Education plc","id":814,"equity":[{"share":"12.0%","proj_id":866,"id":1230,"company_id":814,"change_2011":false}]}
+{"name":"Newham Borough Council","id":815,"equity":[{"share":"10.0%","proj_id":866,"id":1232,"company_id":815,"change_2011":false}]}
+{"name":"London Borough of Southwark ","id":816,"equity":[{"share":"10.0%","proj_id":867,"id":1235,"company_id":816,"change_2011":false},{"share":"10.0%","proj_id":874,"id":1257,"company_id":816,"change_2011":false}]}
+{"name":"Wates","id":817,"equity":[{"share":"8.0%","proj_id":868,"id":1236,"company_id":817,"change_2011":true}]}
+{"name":"Luton Borough Council","id":818,"equity":[{"share":"46.0%","proj_id":868,"id":1238,"company_id":818,"change_2011":true}]}
+{"name":"Leicester Miller Education Company","id":819,"equity":[{"share":"51.0%","proj_id":869,"id":1240,"company_id":819,"change_2011":false}]}
+{"name":"Durham County Council","id":820,"equity":[{"share":"1.0%","proj_id":871,"id":1245,"company_id":820,"change_2011":false}]}
+{"name":"Sandwell Metropolitan Borough Council","id":821,"equity":[{"share":"10.0%","proj_id":872,"id":1249,"company_id":821,"change_2011":false}]}
+{"name":"Connect Roads Northamptonshire","id":822,"equity":[{"share":"100.0%","proj_id":880,"id":1258,"company_id":822,"change_2011":false}]}
+{"name":"Care UK Community Partnerships","id":823,"equity":[{"share":"100.0%","proj_id":882,"id":1261,"company_id":823,"change_2011":false},{"share":"100.0%","proj_id":883,"id":1262,"company_id":823,"change_2011":false}]}
+{"name":"Fujitsu","id":824,"equity":[{"share":"100.0%","proj_id":1003,"id":1267,"company_id":824,"change_2011":false}]}
+{"name":"LIFT Healthcare Investments Ltd","id":825,"equity":[{"share":"60.0%","proj_id":1010,"id":1281,"company_id":825,"change_2011":false}]}
+{"name":"Partnerships for Health (20%)","id":826,"equity":[{"share":"20.0%","proj_id":1010,"id":1282,"company_id":826,"change_2011":false}]}
+{"name":"3 PCTs in equal proportions, i.e: • Brent, Harrow & Hillingdon PCT • Northwest London Hospitals Trust • Hillingdon Hospital Trust.","id":827,"equity":[{"share":"20.0%","proj_id":1010,"id":1283,"company_id":827,"change_2011":false}]}
+{"name":"Aviva","id":828,"equity":[{"share":"100.0%","proj_id":1011,"id":1284,"company_id":828,"change_2011":false}]}
+{"name":"UME Group","id":829,"equity":[{"share":"75.0%","proj_id":1012,"id":1285,"company_id":829,"change_2011":false}]}
+{"name":"Grosvenor House PLC","id":830,"equity":[{"share":"25.0%","proj_id":1012,"id":1286,"company_id":830,"change_2011":false}]}
+{"name":"Barclays Infrastructure","id":831,"equity":[{"share":"100.0%","proj_id":1013,"id":1287,"company_id":831,"change_2011":false}]}
+{"name":"Semperian Asset Management","id":832,"equity":[{"share":"100.0%","proj_id":1014,"id":1288,"company_id":832,"change_2011":false}]}
+{"name":"Semperian PPP Investment Partners Holdings Ltd","id":833,"equity":[{"share":"100.0%","proj_id":1015,"id":1289,"company_id":833,"change_2011":false},{"share":"50.0%","proj_id":1017,"id":1290,"company_id":833,"change_2011":false}]}
+{"name":"Infrared Partners LLP","id":834,"equity":[{"share":"50.0%","proj_id":1017,"id":1291,"company_id":834,"change_2011":false}]}
+{"name":"Imprgilo International","id":835,"equity":[{"share":"20.0%","proj_id":1018,"id":1292,"company_id":835,"change_2011":false}]}
+{"name":"SMIF (Wolverhampton)Ltd","id":836,"equity":[{"share":"80.0%","proj_id":1018,"id":1293,"company_id":836,"change_2011":false}]}
+{"name":"Care UK Community Partnerships Ltd","id":837,"equity":[{"share":"100.0%","proj_id":1019,"id":1294,"company_id":837,"change_2011":false}]}
+{"name":"BAM PFI Investments ","id":838,"equity":[{"share":"75.0%","proj_id":1022,"id":1296,"company_id":838,"change_2011":false}]}
+{"name":"James Walker (Leith) Ltd","id":839,"equity":[{"share":"100.0%","proj_id":1036,"id":1298,"company_id":839,"change_2011":false}]}
+{"name":"Guildhouse UK","id":840,"equity":[{"share":"100.0%","proj_id":1039,"id":1299,"company_id":840,"change_2011":false}]}
+{"name":"Venson Automotive Solutions","id":841,"equity":[{"share":"100.0%","proj_id":1040,"id":1300,"company_id":841,"change_2011":false}]}
+{"name":"Scottish and Southern Energy plc","id":842,"equity":[{"share":"100.0%","proj_id":1200,"id":1301,"company_id":842,"change_2011":false},{"share":"100.0%","proj_id":1201,"id":1302,"company_id":842,"change_2011":false},{"share":"100.0%","proj_id":1202,"id":1303,"company_id":842,"change_2011":false}]}
+{"name":"Barclays Integrated Infrastructure Fund LP ","id":843,"equity":[{"share":"100.0%","proj_id":1301,"id":1305,"company_id":843,"change_2011":false}]}
+{"name":"Consul Services Holdings Ltd","id":844,"equity":[{"share":"100.0%","proj_id":1501,"id":1306,"company_id":844,"change_2011":false}]}
+{"name":"Maquarie European Infrastructure Fund II (MEIFII)","id":845,"equity":[{"share":"100.0%","proj_id":1503,"id":1307,"company_id":845,"change_2011":false}]}
+{"name":"Prospect Healthcare","id":846,"equity":[{"share":"100.0%","proj_id":1504,"id":1308,"company_id":846,"change_2011":false}]}
+{"name":"","id":847,"equity":[]}
+{"name":"Vendor","id":848,"equity":[]}
+{"name":"Purchaser of equity ","id":849,"equity":[]}
+{"name":"Serco Group plc","id":850,"equity":[]}
+{"name":"FR Aviation Ltd and Bristow Helicopter Group","id":851,"equity":[]}
+{"name":"John Seifert Architects","id":852,"equity":[]}
+{"name":"WS Atkins plc","id":853,"equity":[]}
+{"name":"Abbey National","id":854,"equity":[]}
+{"name":"Christiani & Neilson","id":855,"equity":[]}
+{"name":"Henry Boot Construction  ","id":856,"equity":[]}
+{"name":"Impregilo S.p.A","id":857,"equity":[]}
+{"name":"Caisse des Depot et Consignations","id":858,"equity":[]}
+{"name":"Carillion plc, John Laing and Hyder Investments","id":859,"equity":[]}
+{"name":"Whitehall Street Real Estate, Mychand Ltd & Archon Group","id":860,"equity":[]}
+{"name":"Land Securities takeover of Trillium","id":861,"equity":[]}
+{"name":"Philipp Holzmann AG","id":862,"equity":[]}
+{"name":"Macquarie Group","id":863,"equity":[]}
+{"name":"John Laing plc ","id":864,"equity":[]}
+{"name":"Taylor Woodrow Construction","id":865,"equity":[]}
+{"name":"Amey Ventures (Amey plc","id":866,"equity":[]}
+{"name":"Edison Capital","id":867,"equity":[]}
+{"name":"Nobel PFI Fund","id":868,"equity":[]}
+{"name":"Western Power Distribution","id":869,"equity":[]}
+{"name":"Carillion plc ","id":870,"equity":[]}
+{"name":"Anglian Water Group","id":871,"equity":[]}
+{"name":"International Water Ltd & United Utilities Holdings","id":872,"equity":[]}
+{"name":"Lend Lease Corporation","id":873,"equity":[]}
+{"name":"Quayle Munro Holdings plc","id":874,"equity":[]}
+{"name":"Vega Group plc","id":875,"equity":[]}
+{"name":"CAE Electronics (4%) and HSBC (1%)","id":876,"equity":[]}
+{"name":"Innisfree Ltd","id":877,"equity":[]}
+{"name":"Chesterton International plc","id":878,"equity":[]}
+{"name":"Stanhope plc ","id":879,"equity":[]}
+{"name":"Innisfree Ltd ","id":880,"equity":[]}
+{"name":"Parkwood Holdings ","id":881,"equity":[]}
+{"name":"Amey plc","id":882,"equity":[]}
+{"name":"Deutsche Bank","id":883,"equity":[]}
+{"name":"Mowlem Construction","id":884,"equity":[]}
+{"name":"Infrastructure Investors","id":885,"equity":[]}
+{"name":"Trafalgar House Developments","id":886,"equity":[]}
+{"name":"Macquarie Yorkshire Ltd","id":887,"equity":[]}
+{"name":"Wackenhut Corrections Corporation Inc","id":888,"equity":[]}
+{"name":"Melville Dundas Ltd","id":889,"equity":[]}
+{"name":"Vinci plc","id":890,"equity":[]}
+{"name":"Vinci plc Pension Scheme","id":891,"equity":[]}
+{"name":"Carillion plc","id":892,"equity":[]}
+{"name":"WS Atkins plc ","id":893,"equity":[]}
+{"name":"Jarvis plc ","id":894,"equity":[]}
+{"name":"Secondary Market Infrastructure Fund","id":895,"equity":[]}
+{"name":"Jarvis plc","id":896,"equity":[]}
+{"name":"Rotch Property","id":897,"equity":[]}
+{"name":"Noble PFI Fund","id":898,"equity":[]}
+{"name":"Health Care Development Advisory Ltd","id":899,"equity":[]}
+{"name":"Henderson Infrastructure","id":900,"equity":[]}
+{"name":"International Water (Bechtel Corporation: US & Edison: Italy joint venture","id":901,"equity":[]}
+{"name":"HBOS, Uberior (Lloyds) and Quayle Munro Holdings plc","id":902,"equity":[]}
+{"name":"PFI Infrastructure Company","id":903,"equity":[]}
+{"name":"Group 4 Falck","id":904,"equity":[]}
+{"name":"Global Solutions Ltd","id":905,"equity":[]}
+{"name":"Interserve plc","id":906,"equity":[]}
+{"name":"Chiltern Securities Ltd","id":907,"equity":[]}
+{"name":"Ballast UK ","id":908,"equity":[]}
+{"name":"Noble PFI Fund ","id":909,"equity":[]}
+{"name":"Ballast UK","id":910,"equity":[]}
+{"name":"Forth Electrical Supplies","id":911,"equity":[]}
+{"name":"Global Solutions Ltd (GSL and Group 4 Falck","id":912,"equity":[]}
+{"name":"Englefield Capital (40.0), Electra Partners Europe (40.0) and management (20.0)","id":913,"equity":[]}
+{"name":"Impregilo S.p.A.","id":914,"equity":[]}
+{"name":"Henry Boot Construction","id":915,"equity":[]}
+{"name":"Morrison Construction (AWG Project Investment)","id":916,"equity":[]}
+{"name":"ASTM – SINA","id":917,"equity":[]}
+{"name":"PFI Infrastructure Company PLC","id":918,"equity":[]}
+{"name":"Quayle Munro Holdings PFI Fund  ","id":919,"equity":[]}
+{"name":"PFI Infrastructure Company (listing on Alternative Investment Market)","id":920,"equity":[]}
+{"name":"Royal Bank of Scotland ","id":921,"equity":[]}
+{"name":"MJ Gleeson Group plc","id":922,"equity":[]}
+{"name":"Henderson infrastructure","id":923,"equity":[]}
+{"name":"Impregilo S.p.A (Italy).","id":924,"equity":[]}
+{"name":"Alma Mater Fund (Barclays and 3i)","id":925,"equity":[]}
+{"name":"Kier Group plc","id":926,"equity":[]}
+{"name":"Alfred McAlpine plc ","id":927,"equity":[]}
+{"name":"MJ Gleeson Group plc ","id":928,"equity":[]}
+{"name":"United Medical Enterprises Group ","id":929,"equity":[]}
+{"name":"Barclays Private Equity ","id":930,"equity":[]}
+{"name":"UK bank","id":931,"equity":[]}
+{"name":"Kajima Partnerships (96%) and Japan England Insurance","id":932,"equity":[]}
+{"name":"Autostrade S.p.A.","id":933,"equity":[]}
+{"name":"Macquarie Midland Holdings Ltd","id":934,"equity":[]}
+{"name":"Mill Group ","id":935,"equity":[]}
+{"name":"Existing shareholders","id":936,"equity":[]}
+{"name":"Barclays European Infrastructure and Noble PFI Fund","id":937,"equity":[]}
+{"name":"Elbon PFI fund","id":938,"equity":[]}
+{"name":"Costain Group plc","id":939,"equity":[]}
+{"name":"n/a","id":940,"equity":[]}
+{"name":"Parkwood Holdings plc","id":941,"equity":[]}
+{"name":"Henderson Infrastructure (Parkwood retains 50% of each project)","id":942,"equity":[]}
+{"name":"RCO Holdings (ISS Europe)","id":943,"equity":[]}
+{"name":"Wates Group","id":944,"equity":[]}
+{"name":"Miller Group","id":945,"equity":[]}
+{"name":"Infracare Group Ltd","id":946,"equity":[]}
+{"name":"Babcock Brown Partnerships","id":947,"equity":[]}
+{"name":"Centreland (private property company)","id":948,"equity":[]}
+{"name":"Jarvis plc & ","id":949,"equity":[]}
+{"name":"Infrastructure Investors  ","id":950,"equity":[]}
+{"name":"Allianz PFI Holdings (Jersey) Ltd, subsidiary of Allianz AG","id":951,"equity":[]}
+{"name":"3i plc","id":952,"equity":[]}
+{"name":"Degremont SA (Suez)","id":953,"equity":[]}
+{"name":"Northumberland Water Group plc","id":954,"equity":[]}
+{"name":"PFI Infrastructure Co","id":955,"equity":[]}
+{"name":"Global Solutions (Englefield Capital & Electra Partners Europe)","id":956,"equity":[]}
+{"name":"Secondary Market Infrastructure Fund joint venture with GSL Partnership","id":957,"equity":[]}
+{"name":"Societe Generale","id":958,"equity":[]}
+{"name":"HSBC Infrastructure Company Limited (HICL)","id":959,"equity":[]}
+{"name":"Lend Lease Corporation & Bank of Scotland ","id":960,"equity":[]}
+{"name":"Lend Lease joint venture with Bank of Scotland (includes one project in the Republic of Ireland)","id":961,"equity":[]}
+{"name":"ISS Mediclean","id":962,"equity":[]}
+{"name":"Infrastructure Investors ","id":963,"equity":[]}
+{"name":"Galliford Try plc (takeover of Morrison Construction)","id":964,"equity":[]}
+{"name":"Amec plc","id":965,"equity":[]}
+{"name":"Amec Staff Pensions Trustee Ltd","id":966,"equity":[]}
+{"name":"Chiltern Securities","id":967,"equity":[]}
+{"name":"HICL Infrastructure","id":968,"equity":[]}
+{"name":"Skanska UK","id":969,"equity":[]}
+{"name":"Bouygues UK","id":970,"equity":[]}
+{"name":"HICL Infrastructure ","id":971,"equity":[]}
+{"name":"Barr Construction","id":972,"equity":[]}
+{"name":"Thomas Armstrong Ltd","id":973,"equity":[]}
+{"name":"see above","id":974,"equity":[]}
+{"name":"Secondary Market Infrastructure Fund and Infrastructure Investors","id":975,"equity":[]}
+{"name":"Catalyst Investment Holdings Ltd (JVC Bovis Lend Lease & Bank of Scotland)","id":976,"equity":[]}
+{"name":"Infrastructure Investors (Barclays Infrastructure)","id":977,"equity":[]}
+{"name":"Babcock & Brown","id":978,"equity":[]}
+{"name":"Babcock & Brown Public Partnerships (Guernsey)","id":979,"equity":[]}
+{"name":"Bilfinger Berger","id":980,"equity":[]}
+{"name":"Infrastructure Investors(Barclays) forms investment partnership with SERCO.","id":981,"equity":[]}
+{"name":"Alfred McAlpine plc","id":982,"equity":[]}
+{"name":"HICL Infrastructure Company","id":983,"equity":[]}
+{"name":"Macquarie Infrastructure","id":984,"equity":[]}
+{"name":"Hochtief PPP Schools Capital Ltd (51% retained by Hochtief)","id":985,"equity":[]}
+{"name":"HSC Investments Ltd (Barclays Integrated Infrastructure Fund) - includes one project in the Republic of Ireland","id":986,"equity":[]}
+{"name":"London Financial Group ","id":987,"equity":[]}
+{"name":"United Medical Enterprises Group","id":988,"equity":[]}
+{"name":"Regenter Ltd and Pinnacle Fund","id":989,"equity":[]}
+{"name":"John Laing (Henderson Global Investors)","id":990,"equity":[]}
+{"name":"William Pears Group and Capital & Provident Regeneration (Building Better Healthcare LIFT business - all tranche 1a projects)","id":991,"equity":[]}
+{"name":"Fulcrum Infrastructure Group Holdings (Meridiam Infrastructure Finance, Luxembourg)","id":992,"equity":[]}
+{"name":"Halcrow","id":993,"equity":[]}
+{"name":"Kajima Partnerships","id":994,"equity":[]}
+{"name":"HICL Infrastructure joint venture with Kajima","id":995,"equity":[]}
+{"name":"DIF Infrastructure Fund","id":996,"equity":[]}
+{"name":"HSBC subsidiary","id":997,"equity":[]}
+{"name":"Barclays plc and G&J Seddon","id":998,"equity":[]}
+{"name":"Jointly by Bank of America and Invista Real Estate Property Trust ","id":999,"equity":[]}
+{"name":"Kier Group","id":1000,"equity":[]}
+{"name":"EDF Energy","id":1001,"equity":[]}
+{"name":"Scottish & Southern Energy plc","id":1002,"equity":[]}
+{"name":"Invista Real Estate Management Holdings plc","id":1003,"equity":[]}
+{"name":"Ashley House plc","id":1004,"equity":[]}
+{"name":"Leisure Connection Ltd and Linteum Ltd","id":1005,"equity":[]}
+{"name":"Galliford Try plc","id":1006,"equity":[]}
+{"name":"Englefield Capital and Electra Partners Europe","id":1007,"equity":[]}
+{"name":"Barclay European Infrastructure","id":1008,"equity":[]}
+{"name":"Equitix Ltd and Infrastructure Investors","id":1009,"equity":[]}
+{"name":"Bouygues Group","id":1010,"equity":[]}
+{"name":"Innisfree Ltd, Land Securities Trillium, Barclays European Infrastructure Fund and Robertson Capital Projects","id":1011,"equity":[]}
+{"name":"Preemptive rights by other shareholders - Land Securities Trillium","id":1012,"equity":[]}
+{"name":"DIF Infrastructure Fund in joint venture with BAM","id":1013,"equity":[]}
+{"name":"Dawn construction, FES Ltd and Pacific Partners LLP","id":1014,"equity":[]}
+{"name":"George Street Capital Ltd","id":1015,"equity":[]}
+{"name":"Siemens plc","id":1016,"equity":[]}
+{"name":"Amey (Ferrovial)","id":1017,"equity":[]}
+{"name":"Dutch Infrastructure Fund (DIF) 50/50 joint venture with Amey Ventures PFI investment ","id":1018,"equity":[]}
+{"name":"Accent Group","id":1019,"equity":[]}
+{"name":"Taylor Woodrow Construction (Vinci)","id":1020,"equity":[]}
+{"name":"DIF Infrastructure Fund, Holland","id":1021,"equity":[]}
+{"name":"Barclays European Infrastructure Fund  ","id":1022,"equity":[]}
+{"name":"Innisfree Ltd PFI Secondary Fund","id":1023,"equity":[]}
+{"name":"Kelda Water Services (Saltaire Group)","id":1024,"equity":[]}
+{"name":"Balfour Beatty plc (part of 383.0 acquisition of Parsons in Oct-09)","id":1025,"equity":[]}
+{"name":"Macob Construction","id":1026,"equity":[]}
+{"name":"Interserve plc Pension Scheme","id":1027,"equity":[]}
+{"name":"John Laing Pension Fund","id":1028,"equity":[]}
+{"name":"Robertson Group Ltd","id":1029,"equity":[]}
+{"name":"Elgin Infrastructure – joint venture between Robertson Group and with 3i Infrastructure (49.9%)","id":1030,"equity":[]}
+{"name":"Barclays Integrated Infrastructure Fund. Waste project to Kelda Water Services","id":1031,"equity":[]}
+{"name":"United Utilities Group plc","id":1032,"equity":[]}
+{"name":"Veolia Water UK plc","id":1033,"equity":[]}
+{"name":"Johnson Service Group plc","id":1034,"equity":[]}
+{"name":"Reliance Security Group","id":1035,"equity":[]}
+{"name":"Shanks Group Plc","id":1036,"equity":[]}
+{"name":"Rydon Maintenance","id":1037,"equity":[]}
+{"name":"Infrastructure Investments (Portsmouth) Ltd","id":1038,"equity":[]}
+{"name":"Costain Pension Scheme","id":1039,"equity":[]}
+{"name":"John Laing Infrastructure Fund –John Laing plc acquires 23.1% interest.","id":1040,"equity":[]}
+{"name":"Equitix Ltd (Amey and Uberior – Lloyds – each have 33.3)","id":1041,"equity":[]}
+{"name":"Lend Lease Infrastructure Fund joint venture with PGGM Vermogensbeheer BV (Dutch pension administrator)","id":1042,"equity":[]}
+{"name":"Hl Tricomm Holdings (Invista Real Estate Management Holdings plc)","id":1043,"equity":[]}
+{"name":"Grainger plc","id":1044,"equity":[]}
+{"name":"Amber Infrastructure Group","id":1045,"equity":[]}
+{"name":"International Public Partnerships Ltd","id":1046,"equity":[]}
+{"name":"Amber Infrastructure Group ","id":1047,"equity":[]}
+{"name":"Dexia Credit Local","id":1048,"equity":[]}
+{"name":"HICL Infrastructure (75%) and Kajima Partnerships (25%)","id":1049,"equity":[]}
+{"name":"Joint venture between HICL Infrastructure (75%) and Kajima Partnerships (25%)","id":1050,"equity":[]}
+{"name":"Lloyds Bank ","id":1051,"equity":[]}
+{"name":"Kier Group Pension Scheme","id":1052,"equity":[]}
+{"name":"Barclays European Infrastructure","id":1053,"equity":[]}
+{"name":"Parkwood Holdings","id":1054,"equity":[]}
+{"name":"HICL Infrastructure Company ","id":1055,"equity":[]}
+{"name":"Equitix Limited","id":1056,"equity":[]}
+{"name":"Cyril Sweett Group","id":1057,"equity":[]}
+{"name":"Department for Education and Partnerships UK","id":1058,"equity":[]}
+{"name":"Equitix Ltd and Community Solutions","id":1059,"equity":[]}
+{"name":"Lend Lease UK Infrastructure Fund - 90% owned by PGGM","id":1060,"equity":[]}
+{"name":"Skanska Infrastructure","id":1061,"equity":[]}
+{"name":"John Laing and John Laing Pension Trust Ltd","id":1062,"equity":[]}
+{"name":"United House Group","id":1063,"equity":[]}
+{"name":"Morgan Sindall Group plc","id":1064,"equity":[]}
+{"name":"Bilfinger Berger Global Infrastructure","id":1065,"equity":[]}
+{"name":"Carillion Private Finance and State Street Global Advisers","id":1066,"equity":[]}
+{"name":"Royal Bank Project Investments","id":1067,"equity":[]}
+{"name":"CFIG Unicorn Holdings managed by Credit Suisse’s Customised Fund Investment Group","id":1068,"equity":[]}
+{"name":"Interserve plc and CFIG Unicorn Holdings managed by Credit Suisse’s Customised Fund Investment Group jointly acquire.","id":1069,"equity":[]}
+{"name":"Carillion Private Finance","id":1070,"equity":[]}
+{"name":"Lend Lease UK Infrastructure Fund","id":1071,"equity":[]}
+{"name":"HICL Infrastructure Company and Kajima Partnerships Ltd","id":1072,"equity":[]}
+{"name":"Equitix Healthcare Ltd","id":1073,"equity":[]}
+{"name":"MedicX Properties Vll Ltd (MedicX Fund Ltd)","id":1074,"equity":[]}
+{"name":"Barclays Infrastructure Fund ll","id":1075,"equity":[]}
+{"name":"Morgan Sindall (now has 100%)","id":1076,"equity":[]}
+{"name":"Cyril Sweett Investments","id":1077,"equity":[]}
+{"name":"Sodexho","id":1078,"equity":[]}
+{"name":"Miller Holdings","id":1079,"equity":[]}
+{"name":"JV UK Company Ltd","id":1080,"equity":[]}
+{"name":"Carden Croft & Co","id":1081,"equity":[]}
+{"name":"Galliford Try Investments","id":1082,"equity":[]}
+{"name":"Santuary Housing Association","id":1083,"equity":[]}
+{"name":"Barclays European Infrastructure Fund ll","id":1084,"equity":[]}
+{"name":"Barclsys European Investment Fund & Miller Group","id":1085,"equity":[]}
+{"name":"Bilfinger Berger Global Infrastructure Fund","id":1086,"equity":[]}

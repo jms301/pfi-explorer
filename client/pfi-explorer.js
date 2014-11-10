@@ -1,9 +1,25 @@
 Projects = new Meteor.Collection("projects");
 Companies = new Meteor.Collection("companies");
 Transactions = new Meteor.Collection("transactions");
+RichCompanies = new Meteor.Collection("richcompanies");
+NaoReports = new Meteor.Collection("naoreports");
+Charts = new Meteor.Collection("chartdata");
 
 Session.setDefault("showPayments", false);
 Session.setDefault("showTransaction", false);
+Session.setDefault("showEquity", false);
+
+// Hacks & Cludges:
+// bootstrap 3 navbar fix
+fix_top_padding = function () {
+
+  $('body').css({"padding-top": $(".navbar").height() + 30 + "px"});
+};
+
+//Body - body doesn't work very well with iron router but layout does!
+Template.layout.rendered = function () {
+  fix_top_padding();
+};
 
 
 fix_top_padding = function () {
@@ -35,7 +51,7 @@ Template.projectslist.helpers({
       fields: [ {key:'name', label: "Name",
                  tmpl: Template.nameTmpl},
                 {key: 'date_fin_close',
-                 label: "Date of Final Close"},
+                 label: "Date of Financial Close"},
                 {key: 'authority.name',
                  label: "Authority Name"},
                 {key: 'department.name',
@@ -59,12 +75,19 @@ Template.projectfull.helpers({
       return item.estimated != "0";
     });
   },
+  equityshown: function () {
+    return Session.get("showEquity")? "show" : "hidden";
+  },
   paymentsshown: function () {
     return Session.get("showPayments")? "show" : "hidden";
   },
   transactionsshown: function () {
     return Session.get("showTransactions")? "show" : "hidden";
   },
+  richcompanyname: function (companyid) {
+    return RichCompanies.findOne({id: companyid}).name;
+  },
+
   opencompanydata: function () {
     if(this && this.spv && this.spv.name) {
       var ocd =  Companies.findOne({pfi_name: this.spv.name});
@@ -72,6 +95,9 @@ Template.projectfull.helpers({
     } else {
       return null;
     }
+  },
+  naoreportdata: function () { 
+    return NaoReports.find({hmt_id: this.hmt_id});
   },
   transactiondata: function () { 
     if(this && this.hmt_id) {
@@ -109,6 +135,7 @@ Template.projectfull.rendered = function( ){
     var myLineChart = new Chart(ctx).Line(chartData, {
         pointHitDetectionRadius : 5,
         pointDotRadius : 3,
+        animation: false
       });
     return "";
   } else {
@@ -122,5 +149,8 @@ Template.projectfull.events({
   },
   'click #transactions' : function () {
     Session.set("showTransactions", !Session.get("showTransactions"));
+  },
+  'click #equity' : function () {
+    Session.set("showEquity", !Session.get("showEquity"));
   }
 });

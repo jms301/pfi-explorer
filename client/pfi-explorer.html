@@ -11,20 +11,19 @@
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
-      <!--
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed-target">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>-->
+        </button>
         <a class="navbar-brand" href="/">PFI-Explorer</a>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapsed-target">
         <ul class="nav navbar-nav">
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
+          <li> <a href="/"><span class="glyphicon glyphicon-list"></span></a></li>
+          <li> <a href="{{pathFor route='charts'}}"><span class="glyphicon glyphicon-stats"></span></a></li>
         </ul>
       </div>
     </div>
@@ -35,8 +34,16 @@
   </div>
 </template>
 
-
 <template name="projectslist">
+<div class="container">
+  <div class="well">
+    <blockquote> Too often, Government has failed to identify, collect and use the data it needs to help support decision-making and secure the best value for money. Greater focus should be given to the types of data that should be gathered to improve decision-making, who should collect them and the cost of collection.</blockquote>
+    <cite>Source: <a href="http://www.nao.org.uk/report/lessons-from-pfi-and-other-projects/">Lessons from PFI and other projects - NAO</a></cite>
+    <!-- <blockquote>"The public sector should make better use of the hard won lessons from the extensive and substantial PFI programme. This means acting as a more demanding and intelligent customer, by harnessing government buying power through concerted tactics and tougher negotiation"</blockquote> -->
+    <!-- <cite>Amyas Morse, head of the National Audit Office, 28 April 2011</cite> -->
+  </div>
+</div>
+
   {{> reactiveTable collection=projects settings=settings}}
 </template>
 
@@ -46,36 +53,48 @@
 
 <template name="projectfull">
   <h1>{{name}}</h1> <br/>
-  <table class="table">
-  <tr><td>Capital Value:</td><td> {{capital_value}} </td></tr>
-  <tr><td>Contract Years:</td><td> {{contract_years}} </td></tr>
+  <dl class="dl-horizontal">
+    <dt>Capital Value:</dt><dd> {{capital_value}} </dd>
+    <dt>Contract Years:</dt><dd> {{contract_years}} </dd>
 
-  <tr><td>Off Balance ESA95:</td><td> {{#if off_balance_ESA95}}yes{{else}}no{{/if}}</td></tr>
-  <tr><td>Off Balance GAAP:</td><td> {{#if off_balance_GAAP}}yes{{else}}no{{/if}}</td></tr>
-  <tr><td>Off Balance IFRS:</td><td> {{#if off_balance_IFRS}}yes{{else}}no{{/if}}</td></tr>
+    <dt>Off Balance ESA95:</dt><dd> {{#if off_balance_ESA95}}yes{{else}}no{{/if}}</dd>
+    <dt>Off Balance GAAP:</dt><dd> {{#if off_balance_GAAP}}yes{{else}}no{{/if}}</dd>
+    <dt>Off Balance IFRS:</dt><dd> {{#if off_balance_IFRS}}yes{{else}}no{{/if}}</dd>
 
+    <dt>Authority:</dt><dd> {{authority.name}} </dd>
+    <dt>Department:</dt><dd> {{department.name}} </dd>
+    <dt>Sector:</dt><dd> {{sector.name}} </dd>
+    <dt>Constituency:</dt><dd> {{constituency.name}}</dd>
+    <dt>Region:</dt><dd> {{region.name}}</dd>
+    <dt>SPV:</dt><dd> {{spv.name}}</dd>
+    <dt>SPV address:</dt><dd> {{spv.address}}</dd>
+    <dt>First Date of Operation:</dt><dd> {{date_ops}}</dd>
+    <dt>Date OJEU:</dt><dd> {{date_ojeu}}</dd>
+    <dt>Date Of Financial Close:</dt><dd> {{date_fin_close}}</dd>
+    <dt>Date Construction Complete:</dt><dd> {{date_cons_complete}}</dd>
+    <dt>Status:</dt><dd> {{status}}</dd>
+    <dt>Address:</dt><dd> {{address}}</dd>
+  </dl>
+{{#with opencompanydata}}
+  <strong>Open Corporates Data:</strong><br/>
+    name: {{name}}<br/>
+    link: <a href="{{uri}}">{{uri}}</a><br/>
+  <br/>
+{{/with}}
 
-  <tr><td>Authority:</td><td> {{authority.name}} </td></tr>
-  <tr><td>Department:</td><td> {{department.name}} </td></tr>
-  <tr><td>Sector:</td><td> {{sector.name}} </td></tr>
-  <tr><td>Constituency:</td><td> {{constituency.name}}</td></tr>
-  <tr><td>Region:</td><td> {{region.name}}</td></tr>
-  <tr><td>SPV:</td><td> {{spv.name}}</td></tr>
-  <tr><td>SPV address:</td><td> {{spv.address}}</td></tr>
-  <tr><td>Date ops:</td><td> {{date_ops}}</td></tr>
-  <tr><td>Date ojeu:</td><td> {{date_ojeu}}</td></tr>
-  <tr><td>Date Final Close:</td><td> {{date_fin_close}}</td></tr>
-  <tr><td>Date Cons Complete:</td><td> {{date_cons_complete}}</td></tr>
-  <tr><td>Status:</td><td> {{status}}</td></tr>
-  </table>
-  <strong>payments (£m)<a href='#' id="payments">+</a></strong>
+{{#if naoreportdata}}<strong>NAO Reports</strong><br/>{{/if}}
+{{#each naoreportdata}}
+<a href="{{nao_report_url}}">{{nao_report_name}}</a><br/>
+{{/each}}
+<br/>
+  <strong>Payments (£m) <a href='#' id="payments">+</a></strong>
   <div class="{{paymentsshown}}" style="margin-left:2em;">
     <div style="float:left;">
   {{#each filtered_payments}}
     {{year}} : {{estimated}} <br/>
   {{/each}}
     </div>
-    <div style="float:left;margin-left:3em;">
+    <div style="float:left;padding-left:1em;margin-left:3em;">
       <canvas id="paymentsChart" width="800" height="400"></canvas>
     </div>
     <div style="clear:both">
@@ -83,29 +102,45 @@
     </div>
   </div>
 <br/>
-<br/>
-  {{#with opencompanydata}}
-  <strong>Open Corporates Data:</strong><br/>
-    name: {{name}}<br/>
-    link: <a href="{{uri}}">{{uri}}</a><br/>
-  {{/with}}
-<br/>
+{{#if equity}}
+<strong>Equity (Source: HM Treasury & <a href="http://www.european-services-strategy.org.uk/">ESSU</a>) <a href='#' id='equity'>+</a></strong>
+<div class="{{equityshown}}" style="margin-left:2em;width:50%;">
+  <table class="table table-condensed">
 
+{{#each equity}}
+  <tr><td>Company</td><td> {{richcompanyname company_id}}<br/></td></tr>
+  <tr><td>Share</td><td> {{share}}<br/></td></tr>
+  <tr><td>Change 2011</td><td> {{#if change_2011}}yes{{else}}no{{/if}}</td></tr>
+  <tr><td>&nbsp;</td></tr>
+{{/each}}
+  </table>
+</div>
+{{/if}}
 <br/>
-  <strong>transactions <a href='#' id="transactions">+</a></strong>
-  <div class="{{transactionsshown}}" style="margin-left:2em;">
+  <strong>Transactions <a href='#' id="transactions">+</a></strong>
+  <div class="{{transactionsshown}}" style="margin-left:2em;width:30%">
+  <table class="table table-condensed">
   {{#each transactiondata}}
-    Sold: {{share_holding_sold}} %<br/>
-    Sold By: {{vendor_id}}<br/>
-    Price: {{price}}<br/>
-    Price net liabilities: {{price_net_liabilities}}<br/>
-    <br/>
+    <tr><td>Sold</td><td> {{share_holding_sold}}%</td></tr>
+    <tr><td>Sold By</td><td> {{richcompanyname vendor_id}}</td></tr>
+    <tr><td>Price</td><td> {{price}}</td></tr>
+    <tr><td>Price net liabilities</td><td> {{#if price_net_liabilities}}yes{{else}}no{{/if}}</td></tr>
+  <tr><td>&nbsp;</td></tr>
   {{/each}}
+  </table>
   </div>
 <br/>
 <br/>
 
 <a href="/">back</a>
+</template>
+
+<template name="charts">
+  {{#each charts}}   
+  <canvas id="chart{{_id}}" width="800" height="400"></canvas>
+    <br/>
+    <br/>
+  {{/each}}
 </template>
 
 <template name="myLoading">
