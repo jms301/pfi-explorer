@@ -16,6 +16,13 @@ Router.route('/',
   }
 );
 
+Router.route('/about',
+  function () {
+    this.render('about');
+  },
+  {}
+);
+
 Router.route('/charts', 
   function () { this.render('charts'); },
   {

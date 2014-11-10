@@ -23,6 +23,7 @@
       <div class="collapse navbar-collapse" id="navbar-collapsed-target">
         <ul class="nav navbar-nav">
           <li> <a href="/"><span class="glyphicon glyphicon-list"></span></a></li>
+          <li> <a href="{{pathFor route='about'}}"><span class="glyphicon glyphicon-briefcase"></span></a></li>
           <li> <a href="{{pathFor route='charts'}}"><span class="glyphicon glyphicon-stats"></span></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -92,10 +93,12 @@
 <br/>
   <strong>Payments (£m) <a href='#' id="payments">+</a></strong>
   <div class="{{paymentsshown}}" style="margin-left:2em;">
-    <div style="float:left;">
-  {{#each filtered_payments}}
-    {{year}} : {{estimated}} <br/>
-  {{/each}}
+    <div style="float:left; padding-right: 20px; scrollbars: visible;">
+  <dl class="dl-horizontal">
+    {{#each filtered_payments}}
+    <dt>{{year}}:</dt><dd>{{estimated}}</dd>
+    {{/each}}
+  </dl>
     </div>
     <div style="float:left;padding-left:1em;margin-left:3em;">
       <canvas id="paymentsChart" width="800" height="400"></canvas>
@@ -144,6 +147,44 @@
     <br/>
     <br/>
   {{/each}}
+</template>
+
+<template name="about">
+  <h1>About PFI Explorer</h1>
+  <div class="well">
+    <p>PFI-Explorer was a winning entry in the <a href="http://hacks.rewiredstate.org/events/acchack14">Rewired State Accountability Hack 2014</a></p>
+    <p>It was started by Richard Palmer, <a href="https://twitter.com/ldvcrgrs">Vica Rogers</a>, <a href="https://twitter.com/xavriley">Xavier Riley</a> and <a href="https://twitter.com/Super_James">James Southern</a></p>
+  </div>
+
+  <div>
+    <h2>About the data</h2>
+    <p>
+    The bulk of the data comes from the spreadsheet released by HM Treasury regarding the current PFI projects in the UK - 
+    <a href="https://www.gov.uk/government/statistics/pfi-projects-data-march-2013">PFI projects signed in the 2012-13 financial year</a>. 
+    Unfortunately, this is published as an Excel spreadsheet which means it can't be used as linked data by other projects.
+    </p>
+    <p>
+    Richard did some work ahead of the Hack event to clean up this spreadsheet into a JSON format which is available here:
+    <a href="https://github.com/atiro/PFIDB">https://github.com/atiro/PFIDB</a>
+    </p>
+    <p>We built a viewer for this data which allows sorting and searching</p>
+
+    <h3>Linking to OpenCorporates</h3>
+    <p>
+      Each of the projects has a field for SPV (special purpose vehicle) which is the name of the company that was formed to host the project.
+      We ran these through the OpenCorporates reconciliation API to provide a link to OpenCorporates where possible
+    </p>
+
+    <h3>Linking to National Audit Office Reports</h3>
+    <p>
+    The category for the hack weekend was using NAO data so we've aimed to link projects to reports where they have been mentioned.
+    At the moment this is a manual process but one of the other hack projects was an NAO API which could help in automating these matches.
+    </p>
+
+    <h3>Other Datasets</h3>
+    <p>We also made some progress in matching the work of Dexter Whitfield and the <a href="http://www.european-services-strategy.org.uk/ppp-database/ppp-partnership-database/">European Services Strategy Unit</a> regarding some of the equity transactions.</p>
+    <p>This step requires manual reconciliation with the HMT ids we're using so it is ongoing.</p>
+  </div>
 </template>
 
 <template name="myLoading">

@@ -5,7 +5,7 @@ RichCompanies = new Meteor.Collection("richcompanies");
 NaoReports = new Meteor.Collection("naoreports");
 Charts = new Meteor.Collection("chartdata");
 
-Session.setDefault("showPayments", false);
+Session.setDefault("showPayments", true);
 Session.setDefault("showTransaction", false);
 Session.setDefault("showEquity", false);
 
