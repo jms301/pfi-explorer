@@ -150,9 +150,9 @@ Template.projectfull.rendered = function( ){
     }]
   };
   ctx = $("#paymentsChart").get(0).getContext("2d");
-  var myLineChart = new Chart(ctx).Line(chartData, {
-      pointHitDetectionRadius : 5,
-      pointDotRadius : 3,
+  var myBarChart = new Chart(ctx).Bar(chartData, {
+      /*pointHitDetectionRadius : 5,
+      pointDotRadius : 3,*/
       animation: false
     });
   return "";
@@ -194,9 +194,9 @@ Template.chart.rendered = function () {
   };
 
   ctx = this.$(".nationalchart").get(0).getContext("2d");
-  var myLineChart = new Chart(ctx).Line(chartData, {
-      pointHitDetectionRadius : 1,
-      pointDotRadius : 3,
+  var myBarChart = new Chart(ctx).Bar(chartData, {
+      /*pointHitDetectionRadius : 1,
+      pointDotRadius : 3,*/
       animation: false
     });
   return "";
