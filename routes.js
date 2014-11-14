@@ -1,5 +1,5 @@
 Router.configure({
-  loadingTemplate: 'myLoading',
+  loadingTemplate: 'loading',
   layoutTemplate: 'layout'
 });
 
@@ -16,12 +16,7 @@ Router.route('/',
   }
 );
 
-Router.route('/about',
-  function () {
-    this.render('about');
-  },
-  {}
-);
+Router.route('/about');
 
 Router.route('/charts', 
   function () { this.render('charts'); },
