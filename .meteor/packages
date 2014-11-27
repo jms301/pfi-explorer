@@ -8,4 +8,5 @@ nemo64:bootstrap
 less
 aslagle:reactive-table
 iron:router
-alamont:chartjs
+peernohell:c3
+sergeyt:d3

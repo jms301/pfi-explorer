@@ -97,8 +97,7 @@
     {{/each}}
   </dl>
     </div>
-    <div style="float:left;padding-left:1em;margin-left:3em;">
-      <canvas id="paymentsChart" width="800" height="400"></canvas>
+    <div style="float:left;padding-left:1em;margin-left:3em;width:60%" id="chart">
     </div>
     <div style="clear:both">
     </div>
@@ -136,15 +135,14 @@
 </template>
 
 <template name="charts">
-  {{#each charts}}   
+  {{#each charts}}
     {{>chart}}
   {{/each}}
 </template>
 
 <template name="chart">
   <h3>{{name}}</h3>
-  <canvas class="nationalchart" width="1600" height="800"></canvas>
-  <br/>
+  <div id="chart-{{chartId}}"></div>
   <br/>
 </template>
 
@@ -158,8 +156,8 @@
   <div>
     <h2>About the data</h2>
     <p>
-    The bulk of the data comes from the spreadsheet released by HM Treasury regarding the current PFI projects in the UK - 
-    <a href="https://www.gov.uk/government/statistics/pfi-projects-data-march-2013">PFI projects signed in the 2012-13 financial year</a>. 
+    The bulk of the data comes from the spreadsheet released by HM Treasury regarding the current PFI projects in the UK -
+    <a href="https://www.gov.uk/government/statistics/pfi-projects-data-march-2013">PFI projects signed in the 2012-13 financial year</a>.
     Unfortunately, this is published as an Excel spreadsheet which means it can't be used as linked data by other projects.
     </p>
     <p>

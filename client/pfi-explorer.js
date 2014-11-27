@@ -136,27 +136,35 @@ Template.projectfull.rendered = function( ){
   data=data.slice(pStart, pEnd);
   labels=labels.slice(pStart,pEnd);
 
-  var chartData = {
-    labels: labels,
-    datasets: [{
-      label: "Payments",
-      fillColor: "rgba(151,187,205,0.2)",
-      strokeColor: "rgba(151,187,205,1)",
-      pointColor: "rgba(151,187,205,1)",
-      pointStrokeColor: "#fff",
-      pointHighlightFill: "#fff",
-      pointHighlightStroke: "rgba(151,187,205,1)",
-      data: data
-    }]
-  };
-  ctx = $("#paymentsChart").get(0).getContext("2d");
-  var myBarChart = new Chart(ctx).Bar(chartData, {
-      /*pointHitDetectionRadius : 5,
-      pointDotRadius : 3,*/
-      animation: false
-    });
-  return "";
+var cpOverview = c3.generate({
+    bindto: '#chart',
+    data: {
+      x: 'x',
+      columns: [['x'].concat(labels),
+                ['payment'].concat(data)],
+      type: 'bar'
+    },
+    legend: { show: false},
+    axis: {
+      x: {
+        label: 'years',
+        type: 'category'
+      },
+      y: {label: 'projected cost (£m)'}
+    },
+    padding: { top: 20}
+});
+
+  d3.select('#chart svg').append('text')
+    .attr('x', d3.select('#chart svg').node().getBoundingClientRect().width / 2)
+    .attr('y', 16)
+    .attr('text-anchor', 'middle')
+    .style('font-size', '1.4em')
+    .text('Projected payments');
+
 };
+
+
 
 Template.projectfull.events({
   'click #payments' : function () {
@@ -178,26 +186,29 @@ Template.charts.helpers({
 
 });
 
-Template.chart.rendered = function () {
-  var chartData = {
-    labels: this.data.labels,
-    datasets: [{
-      label: "Payments",
-      fillColor: "rgba(151,187,205,0.2)",
-      strokeColor: "rgba(151,187,205,1)",
-      pointColor: "rgba(151,187,205,1)",
-      pointStrokeColor: "#fff",
-      pointHighlightFill: "#fff",
-      pointHighlightStroke: "rgba(151,187,205,1)",
-      data: this.data.data
-    }]
-  };
+Template.chart.helpers({
+  chartId: function (){
+    return this._id._str;
+  }
+});
 
-  ctx = this.$(".nationalchart").get(0).getContext("2d");
-  var myBarChart = new Chart(ctx).Bar(chartData, {
-      /*pointHitDetectionRadius : 1,
-      pointDotRadius : 3,*/
-      animation: false
-    });
-  return "";
+Template.chart.rendered = function () {
+
+  var cpOverview = c3.generate({
+    bindto: '#chart-' + this.data._id._str,
+    data: {
+      x: 'x',
+      columns: [['x'].concat(this.data.labels),
+                ['payment'].concat(this.data.data)],
+      type: 'bar'
+    },
+    legend: { show: false},
+    axis: {
+      x: {
+        label: 'years',
+        type: 'category'
+      },
+      y: {label: 'projected cost (£m)'}
+    }
+  });
 };
