@@ -205,7 +205,6 @@ Template.chart.rendered = function () {
     legend: { show: false},
     axis: {
       x: {
-        label: 'years',
         type: 'category'
       },
       y: {label: 'projected cost (£m)'}
