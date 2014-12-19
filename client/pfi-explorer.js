@@ -186,10 +186,8 @@ Template.charts.helpers({
 
 });
 
-Template.chart.helpers({
-  chartId: function (){
-    return this._id._str;
-  }
+Template.registerHelper('thisIdStr', function ( ) {
+  return this._id._str;
 });
 
 Template.chart.rendered = function () {
@@ -211,3 +209,76 @@ Template.chart.rendered = function () {
     }
   });
 };
+
+
+Template.maps.helpers({
+  charts: function () {
+    return NatCharts.find();
+  }
+});
+
+Template.map.rendered = function () {
+
+  var map = L.map('map', {
+    center: [54.005, -3.0],
+    zoom: 6,
+    fadeAnimation: false
+  });
+
+    var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+      var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+        var osm = new L.TileLayer(osmUrl, {minZoom: 2, maxZoom: 20, attribution: osmAttrib});
+
+          // start the map in South-East England
+              map.addLayer(osm);
+
+};
+
+
+// test function for bubble chart
+test = function () {
+  var diameter = 1600,
+    color = d3.scale.category20c(),
+    format = d3.format(",.0f");
+  var svg = d3.select(this.$("svg")[0])
+    .attr("width", diameter)
+    .attr("height", diameter)
+    .attr("class", "bubble");
+
+  var bubble = d3.layout.pack()
+    .sort(null)
+    .size([diameter, diameter])
+    .padding(1.5);
+  var myData = this.data;
+  var data = _.map(this.data.data, function (val, i) {
+    return {value: val, packageName: myData.labels[i]};
+  });
+
+  console.log(data);
+
+  var node = svg.selectAll(".node")
+  .data(bubble.nodes({children: data})
+    .filter(function(d) { return !d.children; }))
+  .enter().append("g")
+    .attr("class", "node")
+    .attr("transform", function(d) {
+        return "translate(" + d.x + "," + d.y + ")";
+    });
+
+  node.append("title").text(
+      function(d) { return d.packageName + ": £" + format(d.value) + "(m)"});
+
+  node.append("svg:a")
+    .attr("xlink:href", function(d) { return d.href;})
+    .append("circle")
+    .attr("r", function(d) { return d.r; })
+    .style("fill", function(d) { return color(d.packageName); });
+
+  node.append("text")
+    .attr("dy", ".3em")
+    .style("text-anchor", "middle")
+    .text(function(d) { return d.packageName.substring(0, d.r/4);});
+
+};
+
+

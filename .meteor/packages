@@ -9,4 +9,6 @@ less
 aslagle:reactive-table
 iron:router
 peernohell:c3
-sergeyt:d3
+d3js:d3
+fuatsengul:leaflet
+

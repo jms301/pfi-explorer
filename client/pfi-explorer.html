@@ -142,7 +142,7 @@
 
 <template name="chart">
   <h3>{{name}}</h3>
-  <div id="chart-{{chartId}}"></div>
+  <div id="chart-{{thisIdStr}}"></div>
   <br/>
 </template>
 
@@ -186,4 +186,16 @@
 
 <template name="loading">
 Loading...
+</template>
+
+
+<template name="maps">
+    {{>map}}
+  <!--{{#each charts}}
+  {{/each}}-->
+</template>
+
+<template name="map">
+<div id='map'></div>
+  <!--<svg></svg>-->
 </template>

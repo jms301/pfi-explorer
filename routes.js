@@ -18,10 +18,23 @@ Router.route('/',
 
 Router.route('/about');
 
-Router.route('/charts', 
+Router.route('/maps',
+  function () { this.render('maps'); },
+  {
+    waitOn : function () {
+      Meteor.subscribe('nationalcharts');
+    },
+    name: "maps",
+    action : function () {
+         if (this.ready()) this.render();
+    }
+  }
+);
+
+Router.route('/charts',
   function () { this.render('charts'); },
   {
-    waitOn : function () { 
+    waitOn : function () {
       Meteor.subscribe('nationalcharts');
     },
     name: "charts",
@@ -36,7 +49,7 @@ Router.route('/project/:hmt_id',
   {
     waitOn : function () {
       return [Meteor.subscribe('full_projects', parseInt(this.params.hmt_id)),
-              Meteor.subscribe('companies'), 
+              Meteor.subscribe('companies'),
               Meteor.subscribe('transactions'),
               Meteor.subscribe('naoreports'),
               Meteor.subscribe('richcompanies'),
