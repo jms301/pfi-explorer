@@ -54,6 +54,7 @@
 
 <template name="projectfull">
   <h1>{{name}}</h1> <br/>
+  <div class="panel" id="projinfo">
   <dl class="dl-horizontal">
     <dt>Capital Value:</dt><dd> {{capital_value}} </dd>
     <dt>Contract Years:</dt><dd> {{contract_years}} </dd>
@@ -76,6 +77,7 @@
     <dt>Status:</dt><dd> {{status}}</dd>
     <dt>Address:</dt><dd> {{address}}</dd>
   </dl>
+  </div>
 {{#with opencompanydata}}
   <strong>Open Corporates Data:</strong><br/>
     name: {{name}}<br/>
