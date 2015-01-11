@@ -302,7 +302,26 @@ Template.pfiSpendRegion.rendered = function () {
         {key: "Seven", y: 0.5}
     ];
 	var barData = [
-		{ values: [50, 56, 89, 90, 91, 55, 58, 103, 109, 110, 90, 87],
+		{ values: [{x: 2020, y: 50},
+			   {x: 2021, y: 56},
+			   {x: 2022, y: 89},
+			   {x: 2023, y: 90},
+			   {x: 2024, y: 91},
+			   {x: 2025, y: 55},
+			   {x: 2026, y: 58},
+			   {x: 2027, y: 103},
+			   {x: 2028, y: 109},
+			   {x: 2029, y: 110},
+			   {x: 2030, y: 90},
+			   {x: 2031, y: 97},
+			   {x: 2032, y: 107},
+			   {x: 2033, y: 117},
+			   {x: 2034, y: 123},
+			   {x: 2035, y: 120},
+			   {x: 2036, y: 121},
+			   {x: 2037, y: 106},
+			   {x: 2038, y: 99},
+			   {x: 2039, y: 87}],
 		  key: "PFI Spend Per Year",
 		  color: "#ff7f0d"
 		}];
@@ -360,13 +379,13 @@ Template.pfiSpendRegion.rendered = function () {
 
 	nv.addGraph(function() {
 		chart = nv.models.historicalBarChart();
-		chart.margin({left:100, bottom: 100})
-		     .useInteractiveGuideline(true)
+		chart.useInteractiveGuideline(true)
+		     .width(500)
 		     .duration(250);
 
 		chart.xAxis.axisLabel("Year");
 
-		chart.yAxis.axisLabel('Payments (£Million)');
+		chart.yAxis.axisLabel('Payments (£ Billion)');
 
 		d3.select('#pfispendplanned')
 		  .datum(barData)
