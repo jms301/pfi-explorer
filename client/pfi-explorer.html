@@ -35,14 +35,155 @@
   </div>
 </template>
 
+<template name="dashboard">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Latest PFI Projects (data upto ???)
+          </div>
+          <div class="chart-stage">
+            <div id="grid-1-1">
+		{{> pfiRecentList }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="chart-wrapper">
+          <div class="chart-stage">
+    <blockquote> Too often, Government has failed to identify, collect and use the data it needs to help support decision-making and secure the best value for money. Greater focus should be given to the types of data that should be gathered to improve decision-making, who should collect them and the cost of collection.</blockquote>
+    <cite>Source: <a href="http://www.nao.org.uk/report/lessons-from-pfi-and-other-projects/">Lessons from PFI and other projects - NAO</a></cite>
+          </div>
+        </div>
+      </div>
+    </div> <!-- row -->
+  
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Companies
+          </div>
+          <div class="chart-stage">
+            <img data-src="holder.js/100%x120/white">
+          </div>
+          <div class="chart-notes">
+            Notes about this chart
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Spend by Type
+          </div>
+          <div class="chart-stage">
+            <img data-src="holder.js/100%x120/white">
+          <div class="chart-notes">
+            Notes about this chart
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Spend By Region
+          </div>
+          <div class="chart-stage">
+            <img data-src="holder.js/100%x120/white">
+          </div>
+          <div class="chart-notes">
+            Notes about this chart
+          </div>
+        </div>
+      </div>
+
+<!-- end of three -->
+
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Cell Title
+          </div>
+          <div class="chart-stage">
+            <img data-src="holder.js/100%x120/white">
+          </div>
+          <div class="chart-notes">
+            Notes about this chart
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Cell Title
+          </div>
+          <div class="chart-stage">
+            <img data-src="holder.js/100%x120/white">
+          </div>
+          <div class="chart-notes">
+            Notes about this chart
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Cell Title
+          </div>
+          <div class="chart-stage">
+            <img data-src="holder.js/100%x120/white">
+          </div>
+          <div class="chart-notes">
+            Notes about this chart
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+</template>
+
+<template name="pfiRecentList">
+<div class="container">
+  <table class="table table-vordered">
+  <thead>
+   <tr>
+     <th>Date</th>
+     <th>Capital Value</th>
+     <th>Contract Years</th>
+     <th>Project</th>
+   </tr>
+  </thead>
+  {{#each pfiRecent}}
+    <tr> {{> pfiProjItem }} </tr>
+  {{/each}}
+  </table>
+</div>
+</template>
+
+<template name="pfiProjItem">
+<td>{{date_fin_close}}</td>
+<td>{{capital_value}}</td>
+<td>{{contract_years}}</td>
+<td><a href="{{pathFor route='project'}}">{{name}}</a></td>
+</template>
+
 <template name="projectslist">
 <div class="container">
   <div class="well">
     <blockquote> Too often, Government has failed to identify, collect and use the data it needs to help support decision-making and secure the best value for money. Greater focus should be given to the types of data that should be gathered to improve decision-making, who should collect them and the cost of collection.</blockquote>
     <cite>Source: <a href="http://www.nao.org.uk/report/lessons-from-pfi-and-other-projects/">Lessons from PFI and other projects - NAO</a></cite>
+  </div>
     <!-- <blockquote>"The public sector should make better use of the hard won lessons from the extensive and substantial PFI programme. This means acting as a more demanding and intelligent customer, by harnessing government buying power through concerted tactics and tougher negotiation"</blockquote> -->
     <!-- <cite>Amyas Morse, head of the National Audit Office, 28 April 2011</cite> -->
-  </div>
 </div>
 
   {{> reactiveTable collection=projects settings=settings}}
@@ -51,6 +192,7 @@
 <template name="nameTmpl">
   <a href="{{pathFor route='project'}}">{{name}}</a>
 </template>
+
 
 <template name="projectfull">
   <h1>{{name}}</h1> <br/>

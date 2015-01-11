@@ -281,4 +281,6 @@ test = function () {
 
 };
 
-
+Template.pfiRecentList.helpers({
+  pfiRecent: Projects.find({}, {sort: {date_fin_close: -1}, limit: 5})
+});

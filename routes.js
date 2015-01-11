@@ -7,7 +7,7 @@ Router.onBeforeAction('loading');
 
 Router.route('/',
   function () {
-    this.render('projectslist');
+    this.render('dashboard');
   },
   {
    waitOn: function () {
