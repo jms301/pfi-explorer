@@ -289,8 +289,8 @@ Template.pfiRecentList.helpers({
 
 Template.pfiSpendRegion.rendered = function () {
 	var chart;
-	var width = 250;
-	var height = 250;
+	var width = 200;
+	var height = 200;
 	// var regionspend = RegionSpend().find().fetch();
         var testdata = [
         {key: "One", y: 5},
@@ -301,6 +301,11 @@ Template.pfiSpendRegion.rendered = function () {
         {key: "Six", y: 3},
         {key: "Seven", y: 0.5}
     ];
+	var barData = [
+		{ values: [50, 56, 89, 90, 91, 55, 58, 103, 109, 110, 90, 87],
+		  key: "PFI Spend Per Year",
+		  color: "#ff7f0d"
+		}];
 
 	nv.addGraph(function() {
 		chart = nv.models.pieChart()
@@ -317,6 +322,56 @@ Template.pfiSpendRegion.rendered = function () {
 		  .call(chart)
 
 		return chart;
+	});
+
+	nv.addGraph(function() {
+		chart = nv.models.pieChart()
+			.showLegend(false)
+			.x(function(d) { return d.key })
+			.y(function(d) { return d.y })
+			.width(width)
+			.height(height)
+		
+		d3.select('#pfispendtype')
+		  .datum(testdata)
+		  .attr('width', width)
+		  .attr('height', height)
+		  .call(chart)
+
+		return chart;
+	});
+
+	nv.addGraph(function() {
+		chart = nv.models.pieChart()
+			.showLegend(false)
+			.x(function(d) { return d.key })
+			.y(function(d) { return d.y })
+			.width(width)
+			.height(height)
+		
+		d3.select('#pfispenddept')
+		  .datum(testdata)
+		  .attr('width', width)
+		  .attr('height', height)
+		  .call(chart)
+
+		return chart;
+	});
+
+	nv.addGraph(function() {
+		chart = nv.models.historicalBarChart();
+		chart.margin({left:100, bottom: 100})
+		     .useInteractiveGuideline(true)
+		     .duration(250);
+
+		chart.xAxis.axisLabel("Year");
+
+		chart.yAxis.axisLabel('Payments (£Million)');
+
+		d3.select('#pfispendplanned')
+		  .datum(barData)
+		  .transition()
+		  .call(chart);
 	});
 }
 	

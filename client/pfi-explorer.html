@@ -40,7 +40,7 @@
       <div class="col-sm-8">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Latest PFI Projects (data upto ???)
+            Latest PFI Projects (data upto Mar 2013) 
           </div>
           <div class="chart-stage">
             <div id="grid-1-1">
@@ -53,7 +53,7 @@
       <div class="col-sm-4">
         <div class="chart-wrapper">
           <div class="chart-stage">
-    <blockquote> Too often, Government has failed to identify, collect and use the data it needs to help support decision-making and secure the best value for money. Greater focus should be given to the types of data that should be gathered to improve decision-making, who should collect them and the cost of collection.</blockquote>
+    <p> Too often, Government has failed to identify, collect and use the data it needs to help support decision-making and secure the best value for money. Greater focus should be given to the types of data that should be gathered to improve decision-making, who should collect them and the cost of collection.</p>
     <cite>Source: <a href="http://www.nao.org.uk/report/lessons-from-pfi-and-other-projects/">Lessons from PFI and other projects - NAO</a></cite>
           </div>
         </div>
@@ -78,35 +78,23 @@
             PFI Spend by Type
           </div>
           <div class="chart-stage">
-            <img data-src="holder.js/100%x120/white">
-          <div class="chart-notes">
-            Notes about this chart
-          </div>
+	   {{> pfiSpendType }}
+	  </div>
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-4">
-        <div class="chart-wrapper">
-          <div class="chart-title">
-            PFI Spend By ???
-          </div>
-          <div class="chart-stage">
-          </div>
-        </div>
-      </div>
 
 <!-- end of three -->
 
+
       <div class="col-sm-6 col-md-4">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Cell Title
+            PFI Projects in Operation
           </div>
           <div class="chart-stage">
-            <img data-src="holder.js/100%x120/white">
-          </div>
-          <div class="chart-notes">
-            Notes about this chart
+		XX<br/>
+		View All
           </div>
         </div>
       </div>
@@ -114,13 +102,11 @@
       <div class="col-sm-6 col-md-4">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Cell Title
+	   PFI Project in Procurement
           </div>
           <div class="chart-stage">
-            <img data-src="holder.js/100%x120/white">
-          </div>
-          <div class="chart-notes">
-            Notes about this chart
+		XX<br/>
+		View All
           </div>
         </div>
       </div>
@@ -128,24 +114,58 @@
       <div class="col-sm-6 col-md-4">
         <div class="chart-wrapper">
           <div class="chart-title">
-            Cell Title
+            PFI Projects in Total
           </div>
           <div class="chart-stage">
-            <img data-src="holder.js/100%x120/white">
-          </div>
-          <div class="chart-notes">
-            Notes about this chart
+		XX
           </div>
         </div>
       </div>
 
-    </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Spend By Department
+          </div>
+          <div class="chart-stage">
+	   {{> pfiSpendDept }}
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-8 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Planned Spend
+          </div>
+          <div class="chart-stage">
+	   {{> pfiSpendPlanned }}
+          </div>
+        </div>
+      </div>
+
+
     </div>
 
 </template>
 
+<template name="pfiSpendPlanned ">
+  <svg id="pfispendplanned">
+  </svg>
+</template>
+
 <template name="pfiSpendRegion">
   <svg id="pfispendregion">
+  </svg>
+</template>
+
+<template name="pfiSpendType">
+  <svg id="pfispendtype">
+  </svg>
+</template>
+
+<template name="pfiSpendDept">
+  <svg id="pfispenddept">
   </svg>
 </template>
 
