@@ -47,6 +47,7 @@ nemo64:bootstrap-data@3.3.1_1
 observe-sequence@1.0.4
 ordered-dict@1.0.2
 peernohell:c3@1.1.2
+pfafman:nvd3@1.7.0_3
 random@1.0.2
 reactive-dict@1.0.5
 reactive-var@1.0.4
