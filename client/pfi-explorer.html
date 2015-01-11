@@ -94,10 +94,7 @@
             PFI Spend By Region
           </div>
           <div class="chart-stage">
-            <img data-src="holder.js/100%x120/white">
-          </div>
-          <div class="chart-notes">
-            Notes about this chart
+	   {{> pfiSpendRegion }}
           </div>
         </div>
       </div>
@@ -149,6 +146,11 @@
     </div>
     </div>
 
+</template>
+
+<template name="pfiSpendRegion">
+  <svg id="pfispendregion">
+  </svg>
 </template>
 
 <template name="pfiRecentList">

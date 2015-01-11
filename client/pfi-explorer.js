@@ -284,3 +284,35 @@ test = function () {
 Template.pfiRecentList.helpers({
   pfiRecent: Projects.find({}, {sort: {date_fin_close: -1}, limit: 5})
 });
+
+Template.pfiSpendRegion.rendered = function () {
+	var chart;
+	var width = 200;
+	var height = 200;
+        var testdata = [
+        {key: "One", y: 5},
+        {key: "Two", y: 2},
+        {key: "Three", y: 9},
+        {key: "Four", y: 7},
+        {key: "Five", y: 4},
+        {key: "Six", y: 3},
+        {key: "Seven", y: 0.5}
+    ];
+
+	nv.addGraph(function() {
+		chart = nv.models.pieChart()
+			.x(function(d) { return d.key })
+			.y(function(d) { return d.y })
+			.width(width)
+			.height(height)
+		
+		d3.select('#pfispendregion')
+		  .datum(testdata)
+		  .attr('width', width)
+		  .attr('height', height)
+		  .call(chart)
+
+		return chart;
+	});
+}
+	
