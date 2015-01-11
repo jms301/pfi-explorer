@@ -287,8 +287,9 @@ Template.pfiRecentList.helpers({
 
 Template.pfiSpendRegion.rendered = function () {
 	var chart;
-	var width = 200;
-	var height = 200;
+	var width = 250;
+	var height = 250;
+	//var regionspend = pfiSpendRegionData.find().fetch();
         var testdata = [
         {key: "One", y: 5},
         {key: "Two", y: 2},
@@ -301,13 +302,14 @@ Template.pfiSpendRegion.rendered = function () {
 
 	nv.addGraph(function() {
 		chart = nv.models.pieChart()
+			.showLegend(false)
 			.x(function(d) { return d.key })
 			.y(function(d) { return d.y })
 			.width(width)
 			.height(height)
 		
 		d3.select('#pfispendregion')
-		  .datum(testdata)
+		  .datum(regionspend)
 		  .attr('width', width)
 		  .attr('height', height)
 		  .call(chart)

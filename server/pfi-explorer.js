@@ -33,6 +33,38 @@ Meteor.publish('nationalcharts', function () {
   return NatCharts.find({});
 });
 
+// Entirely taken from http://stackoverflow.com/questions/18520567/average-aggregation-queries-in-meteor/
+
+Meteor.publish("pfiSpendRegionAgg", function (args) {
+    var sub = this;
+    var db = MongoInternals.defaultRemoteCollectionDriver().mongo.db;
+
+    var pipeline = [
+        { $group: {
+            _id: "region.name",
+            count: { $sum: "capital_value" }
+        }}
+    ];
+
+    db.collection("projects").aggregate(        
+        pipeline,
+
+        Meteor.bindEnvironment(
+            function(err, result) {
+                _.each(result, function(item) {
+                  sub.added("pfiSpendRegionData", Random.id(), {
+                    region: item._id,
+                    capital_value: item.count
+                  });
+                });
+                sub.ready();
+            },
+            function(error) {
+                Meteor._debug( "Error doing aggregation: " + error);
+            }
+        )
+    );
+});
 /*
 Meteor.startup(function () {
 
