@@ -17,6 +17,7 @@ Router.route('/',
 );
 
 Router.route('/about');
+Router.route('/timeline');
 
 Router.route('/maps',
   function () { this.render('maps'); },
