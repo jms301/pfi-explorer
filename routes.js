@@ -11,7 +11,7 @@ Router.route('/',
   },
   {
    waitOn: function () {
-    return [Meteor.subscribe('limited_projects'), Meteor.subscribe('pfiSpendRegionAgg')];
+    return [Meteor.subscribe('limited_projects'), Meteor.subscribe('pfiSpendRegionAgg'), Meteor.subscribe('project_stats')];
    }
   }
 );

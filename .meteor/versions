@@ -59,6 +59,7 @@ session@1.0.5
 spacebars@1.0.4
 spacebars-compiler@1.0.4
 templating@1.0.10
+tmeasday:publish-counts@0.3.4
 tracker@1.0.4
 ui@1.0.5
 underscore@1.0.2

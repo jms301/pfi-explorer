@@ -33,6 +33,13 @@ Meteor.publish('nationalcharts', function () {
   return NatCharts.find({});
 });
 
+Meteor.publish('project_stats', function() {
+	Counts.publish(this, 'all_projects', Projects.find({}));
+	Counts.publish(this, 'procurement_projects', Projects.find({date_fin_close: {$gt: "2015-01-10"}}));
+	Counts.publish(this, 'live_projects', Projects.find({date_ops: {$lte: "2015-01-01"}}));
+
+});
+
 // Entirely taken from http://stackoverflow.com/questions/18520567/average-aggregation-queries-in-meteor/
 
 Meteor.publish("pfiSpendRegionAgg", function (args) {
