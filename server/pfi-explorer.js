@@ -35,7 +35,8 @@ Meteor.publish('nationalcharts', function () {
 
 Meteor.publish('project_stats', function() {
 	Counts.publish(this, 'all_projects', Projects.find({}));
-	Counts.publish(this, 'procurement_projects', Projects.find({date_fin_close: {$gt: "2015-01-10"}}));
+	Counts.publish(this, 'construction_projects', Projects.find({"status": "InConstruction"}));
+	Counts.publish(this, 'procurement_projects', Projects.find({date_fin_close: {$lt: "2015-01-10"}}));
 	Counts.publish(this, 'live_projects', Projects.find({date_ops: {$lte: "2015-01-01"}}));
 
 });
@@ -48,8 +49,8 @@ Meteor.publish("pfiSpendRegionAgg", function (args) {
 
     var pipeline = [
         { $group: {
-            _id: "region.name",
-            count: { $sum: "capital_value" }
+            _id: "$region.name",
+            count: { $sum: "$capital_value" }
         }}
     ];
 
@@ -60,8 +61,8 @@ Meteor.publish("pfiSpendRegionAgg", function (args) {
             function(err, result) {
                 _.each(result, function(item) {
                   sub.added("pfiSpendRegionData", Random.id(), {
-                    region: item._id,
-                    capital_value: item.count
+                    key: item._id,
+                    y: item.count
                   });
                 });
                 sub.ready();

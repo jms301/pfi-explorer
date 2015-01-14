@@ -5,7 +5,7 @@ RichCompanies = new Meteor.Collection("richcompanies");
 NaoReports = new Meteor.Collection("naoreports");
 NatCharts = new Meteor.Collection("nationalcharts");
 
-//RegionSpend = new Meteor.Collection("pfiSpendRegionData");
+RegionSpend = new Meteor.Collection("pfiSpendRegionData");
 
 Session.setDefault("showPayments", true);
 Session.setDefault("showTransaction", false);
@@ -291,7 +291,7 @@ Template.pfiSpendRegion.rendered = function () {
 	var chart;
 	var width = 200;
 	var height = 200;
-	// var regionspend = RegionSpend().find().fetch();
+	var regionspend = RegionSpend.find().fetch();
         var testdata = [
         {key: "One", y: 5},
         {key: "Two", y: 2},
@@ -335,7 +335,7 @@ Template.pfiSpendRegion.rendered = function () {
 			.height(height)
 		
 		d3.select('#pfispendregion')
-		  .datum(testdata)
+		  .datum(regionspend)
 		  .attr('width', width)
 		  .attr('height', height)
 		  .call(chart)

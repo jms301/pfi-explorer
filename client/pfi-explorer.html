@@ -87,35 +87,48 @@
 <!-- end of three -->
 
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-3 col-md-2">
         <div class="chart-wrapper">
           <div class="chart-title">
-            PFI Projects in Operation
+            Projects in Operation
           </div>
           <div class="chart-stage">
-		<h2> {{getPublishedCount 'live_projects'}}</h2>
+		<h1> {{getPublishedCount 'live_projects'}}</h1>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-3 col-md-2">
         <div class="chart-wrapper">
           <div class="chart-title">
-	   PFI Project in Procurement
+	   Project Procurement
           </div>
           <div class="chart-stage">
-		<h2> {{getPublishedCount 'procurement_projects'}}</h2>
+		<h1> {{getPublishedCount 'procurement_projects'}}</h1>
           </div>
         </div>
       </div>
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-sm-3 col-md-2">
         <div class="chart-wrapper">
           <div class="chart-title">
-            PFI Projects in Total
+	   Projects in Construction
           </div>
           <div class="chart-stage">
-		<h2> {{getPublishedCount 'all_projects'}}</h2>
+		<h1> {{getPublishedCount 'construction_projects'}}</h1>
+		<br/>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-md-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Projects in Total
+          </div>
+          <div class="chart-stage">
+		<h1> {{getPublishedCount 'all_projects'}}</h1>
+		<br/>
           </div>
         </div>
       </div>
