@@ -33,8 +33,40 @@ Meteor.publish('nationalcharts', function () {
   return NatCharts.find({});
 });
 
+var default_allow = {
+  insert: function (userId, doc) {
+    // the user must be logged in, and the document must be owned by the user
+    validHosts = ['www.nao.org.uk','webarchive.nationalarchives.gov.uk'];
+    validUrl =  _.contains(validHosts,
+                           url.parse(encodeURI(doc.nao_report_url)).hostname);
+    return (validUrl && userId && doc.userId === userId);
+  },
+  remove: function (userId, doc) {
+    // can only remove your own documents
+    return doc.userId === userId;
+  }, fetch: ['userId']
+};
+
+var default_deny = {
+  /*update: function (userId, docs, fields, modifier) {
+    // can't change userId
+    return _.contains(fields, 'userId');
+  },*/
+  //remove: function (userId, doc) {
+    // can't remove locked documents
+    //return doc.locked;
+  //},
+  fetch: [] // no need to fetch 'userId'
+};
+
+
+NaoReports.allow(default_allow);
+NaoReports.deny(default_deny);
 /*
 Meteor.startup(function () {
 
 
 }); */
+
+
+

@@ -89,10 +89,25 @@
     link: <a href="{{uri}}">{{uri}}</a><br/>
   <br/>
 {{/with}}
-{{#if naoreportdata.count}}<strong>NAO Reports</strong><br/>{{/if}}
+{{#if naoreportdata.count}}
+<strong>NAO Reports</strong><br/>
 {{#each naoreportdata}}
-<a href="{{nao_report_url}}">{{nao_report_name}}</a><br/>
+  {{> naolink}}
 {{/each}}
+{{else}}
+  {{#if currentUser}}
+  <strong>NAO Reports</strong><br/>
+  {{/if}}
+{{/if}}
+
+{{#if currentUser}}
+<input id="nao-title" placeholder="NAO Report Title">
+<input id="nao-url" placeholder="NAO Url">
+<button id="nao-add-btn">add</button>
+{{/if}}
+<br/>
+
+
 <br/>
   <strong>Payments (£m) <a href='#' id="payments">+</a></strong>
   <div class="{{paymentsshown}}" style="margin-left:2em;">
@@ -211,4 +226,12 @@ Loading...
 
 <template name="timeline">
 Timeline goes here...
+</template>
+
+<template name="naolink">
+<a href="{{nao_report_url}}">{{nao_report_name}}</a>
+{{#if myLink}}
+<span class="glyphicon glyphicon-trash remove" aria-hidden="true"></span>
+{{/if}}
+<br/>
 </template>
