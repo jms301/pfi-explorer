@@ -7,6 +7,7 @@ NatCharts = new Meteor.Collection("nationalcharts");
 
 RegionSpend = new Meteor.Collection("pfiSpendRegionData");
 DeptSpend = new Meteor.Collection("pfiSpendDeptData");
+PlannedSpend = new Meteor.Collection("pfiPlannedSpendData");
 
 Session.setDefault("showPayments", true);
 Session.setDefault("showTransaction", false);
@@ -292,6 +293,7 @@ Template.pfiSpendRegion.rendered = function () {
 	var chart;
 	var width = 300;
 	var height = 300;
+	var plannedspend = PlannedSpend.find({}, {"sort": ['x', 'asc']}).fetch().slice(0,40);
 	var regionspend = RegionSpend.find().fetch();
 	var deptspend = DeptSpend.find().fetch();
         var testdata = [
@@ -379,20 +381,29 @@ Template.pfiSpendRegion.rendered = function () {
 		return chart;
 	});
 
-	nv.addGraph(function() {
-		chart = nv.models.historicalBarChart();
-		chart.useInteractiveGuideline(true)
-		     .width(500)
-		     .duration(250);
-
-		chart.xAxis.axisLabel("Year");
-
-		chart.yAxis.axisLabel('Payments (£ Billion)');
-
-		d3.select('#pfispendplanned')
-		  .datum(barData)
-		  .transition()
-		  .call(chart);
-	});
-}
+};
 	
+Template.pfiSpendPlanned.rendered = function () {
+        var chart;
+        var width = 300;
+        var height = 300;
+        var yearlyspend = PlannedSpend.find({}, {"sort": ['x', 'asc']}).fetch().slice(0,40);
+
+        nv.addGraph(function() {
+                chart = nv.models.historicalBarChart();
+                chart.useInteractiveGuideline(true)
+                     .width(500)
+                     .duration(250);
+
+                chart.xAxis.axisLabel("Year");
+
+                chart.yAxis.axisLabel('Payments (£ Billion)');
+
+                d3.select('#pfispendplanned')
+                  .datum(yearlyspend)
+                  .transition()
+                  .call(chart);
+        });
+
+};
+

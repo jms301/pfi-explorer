@@ -105,6 +105,38 @@ Meteor.publish("pfiSpendDeptAgg", function (args) {
     );
 });
 
+Meteor.publish("pfiPlannedSpendAgg", function (args) {
+    var sub = this;
+    var db = MongoInternals.defaultRemoteCollectionDriver().mongo.db;
+
+    var pipeline = [
+	{ $unwind : "$payments" },
+        { $group: {
+            _id: "$payments.year",
+            count: { $sum: "$payments.estimated" }
+        }}
+    ];
+
+    db.collection("projects").aggregate(        
+        pipeline,
+
+        Meteor.bindEnvironment(
+            function(err, result) {
+                _.each(result, function(item) {
+                  sub.added("pfiPlannedSpendData", Random.id(), {
+                    x: item._id,
+                    y: item.count
+                  });
+                });
+                sub.ready();
+            },
+            function(error) {
+                Meteor._debug( "Error doing aggregation: " + error);
+            }
+        )
+    );
+});
+
 /*
 Meteor.startup(function () {
 

@@ -7,11 +7,22 @@ Router.onBeforeAction('loading');
 
 Router.route('/',
   function () {
+    this.render('projectslist');
+  },
+  {
+   waitOn: function () {
+    return Meteor.subscribe('limited_projects');
+   }
+  }
+);
+
+Router.route('/dashboard',
+  function () {
     this.render('dashboard');
   },
   {
    waitOn: function () {
-    return [Meteor.subscribe('limited_projects'), Meteor.subscribe('pfiSpendRegionAgg'), Meteor.subscribe('pfiSpendDeptAgg'), Meteor.subscribe('project_stats')];
+    return [Meteor.subscribe('limited_projects'), Meteor.subscribe('pfiSpendRegionAgg'), Meteor.subscribe('pfiSpendDeptAgg'), Meteor.subscribe('pfiPlannedSpendAgg'), Meteor.subscribe('project_stats')];
    }
   }
 );
