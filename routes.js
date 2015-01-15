@@ -16,6 +16,17 @@ Router.route('/',
   }
 );
 
+Router.route('/dashboard',
+  function () {
+    this.render('dashboard');
+  },
+  {
+   waitOn: function () {
+    return [Meteor.subscribe('limited_projects'), Meteor.subscribe('pfiSpendRegionAgg'), Meteor.subscribe('pfiSpendDeptAgg'), Meteor.subscribe('pfiPlannedSpendAgg'), Meteor.subscribe('project_stats')];
+   }
+  }
+);
+
 Router.route('/about');
 Router.route('/timeline');
 

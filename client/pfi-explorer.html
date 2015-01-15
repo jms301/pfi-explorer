@@ -23,6 +23,7 @@
       <div class="collapse navbar-collapse" id="navbar-collapsed-target">
         <ul class="nav navbar-nav">
           <li> <a href="/"><span class="glyphicon glyphicon-list"></span></a></li>
+          <li> <a href="{{pathFor route='dashboard'}}"><span class="glyphicon glyphicon-dashboard"></span></a></li>
           <li> <a href="{{pathFor route='about'}}"><span class="glyphicon glyphicon-briefcase"></span></a></li>
           <li> <a href="{{pathFor route='charts'}}"><span class="glyphicon glyphicon-stats"></span></a></li>
           <li> <a href="{{pathFor route='timeline'}}"><span class="glyphicon glyphicon-time"></span></a></li>
@@ -40,14 +41,187 @@
   </div>
 </template>
 
+<template name="dashboard">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Latest PFI Projects (data upto Mar 2013) 
+          </div>
+          <div class="chart-stage">
+            <div id="grid-1-1">
+		{{> pfiRecentList }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="chart-wrapper">
+          <div class="chart-stage">
+    <p> Too often, Government has failed to identify, collect and use the data it needs to help support decision-making and secure the best value for money. Greater focus should be given to the types of data that should be gathered to improve decision-making, who should collect them and the cost of collection.</p>
+    <cite>Source: <a href="http://www.nao.org.uk/report/lessons-from-pfi-and-other-projects/">Lessons from PFI and other projects - NAO</a></cite>
+          </div>
+        </div>
+      </div>
+    </div> <!-- row -->
+  
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Capital Spend By Region
+          </div>
+          <div class="chart-stage">
+	   {{> pfiSpendRegion }}
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Capital Spend By Department
+          </div>
+          <div class="chart-stage">
+	   {{> pfiSpendDept }}
+          </div>
+        </div>
+      </div>
+
+<!--
+      <div class="col-sm-6 col-md-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Capital Spend by Type
+          </div>
+          <div class="chart-stage">
+	   {{> pfiSpendType }}
+	  </div>
+        </div>
+      </div>
+
+-->
+
+<!-- end of three -->
+
+
+      <div class="col-sm-3 col-md-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Projects in Operation
+          </div>
+          <div class="chart-stage">
+		<h1> {{getPublishedCount 'live_projects'}}</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-md-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+	   Project Procurement
+          </div>
+          <div class="chart-stage">
+		<h1> {{getPublishedCount 'procurement_projects'}}</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-md-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+	   Projects in Construction
+          </div>
+          <div class="chart-stage">
+		<h1> {{getPublishedCount 'construction_projects'}}</h1>
+		<br/>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3 col-md-2">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Projects in Total
+          </div>
+          <div class="chart-stage">
+		<h1> {{getPublishedCount 'all_projects'}}</h1>
+		<br/>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-6 col-md-8">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            PFI Planned Spend
+          </div>
+          <div class="chart-stage">
+	   {{> pfiSpendPlanned }}
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+</template>
+
+<template name="pfiSpendPlanned ">
+  <svg id="pfispendplanned">
+  </svg>
+</template>
+
+<template name="pfiSpendRegion">
+  <svg id="pfispendregion">
+  </svg>
+</template>
+
+<template name="pfiSpendType">
+  <svg id="pfispendtype">
+  </svg>
+</template>
+
+<template name="pfiSpendDept">
+  <svg id="pfispenddept">
+  </svg>
+</template>
+
+<template name="pfiRecentList">
+<div class="container">
+  <table class="table table-vordered">
+  <thead>
+   <tr>
+     <th>Date</th>
+     <th>Capital Value</th>
+     <th>Contract Years</th>
+     <th>Project</th>
+   </tr>
+  </thead>
+  {{#each pfiRecent}}
+    <tr> {{> pfiProjItem }} </tr>
+  {{/each}}
+  </table>
+</div>
+</template>
+
+<template name="pfiProjItem">
+<td>{{date_fin_close}}</td>
+<td>{{capital_value}}</td>
+<td>{{contract_years}}</td>
+<td><a href="{{pathFor route='project'}}">{{name}}</a></td>
+</template>
+
 <template name="projectslist">
 <div class="container">
   <div class="well">
     <blockquote> Too often, Government has failed to identify, collect and use the data it needs to help support decision-making and secure the best value for money. Greater focus should be given to the types of data that should be gathered to improve decision-making, who should collect them and the cost of collection.</blockquote>
     <cite>Source: <a href="http://www.nao.org.uk/report/lessons-from-pfi-and-other-projects/">Lessons from PFI and other projects - NAO</a></cite>
+  </div>
     <!-- <blockquote>"The public sector should make better use of the hard won lessons from the extensive and substantial PFI programme. This means acting as a more demanding and intelligent customer, by harnessing government buying power through concerted tactics and tougher negotiation"</blockquote> -->
     <!-- <cite>Amyas Morse, head of the National Audit Office, 28 April 2011</cite> -->
-  </div>
 </div>
 
   {{> reactiveTable collection=projects settings=settings}}
@@ -56,6 +230,7 @@
 <template name="nameTmpl">
   <a href="{{pathFor route='project'}}">{{name}}</a>
 </template>
+
 
 <template name="projectfull">
   <h1>{{name}}</h1> <br/>

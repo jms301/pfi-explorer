@@ -5,6 +5,10 @@ RichCompanies = new Meteor.Collection("richcompanies");
 NaoReports = new Meteor.Collection("naoreports");
 NatCharts = new Meteor.Collection("nationalcharts");
 
+RegionSpend = new Meteor.Collection("pfiSpendRegionData");
+DeptSpend = new Meteor.Collection("pfiSpendDeptData");
+PlannedSpend = new Meteor.Collection("pfiPlannedSpendData");
+
 Session.setDefault("showPayments", true);
 Session.setDefault("showTransaction", false);
 Session.setDefault("showEquity", false);
@@ -281,4 +285,125 @@ test = function () {
 
 };
 
+Template.pfiRecentList.helpers({
+  pfiRecent: Projects.find({}, {sort: {date_fin_close: -1}, limit: 5})
+});
+
+Template.pfiSpendRegion.rendered = function () {
+	var chart;
+	var width = 300;
+	var height = 300;
+	var plannedspend = PlannedSpend.find({}, {"sort": ['x', 'asc']}).fetch().slice(0,40);
+	var regionspend = RegionSpend.find().fetch();
+	var deptspend = DeptSpend.find().fetch();
+        var testdata = [
+        {key: "One", y: 5},
+        {key: "Two", y: 2},
+        {key: "Three", y: 9},
+        {key: "Four", y: 7},
+        {key: "Five", y: 4},
+        {key: "Six", y: 3},
+        {key: "Seven", y: 0.5}
+    ];
+	var barData = [
+		{ values: [{x: 2020, y: 50},
+			   {x: 2021, y: 56},
+			   {x: 2022, y: 89},
+			   {x: 2023, y: 90},
+			   {x: 2024, y: 91},
+			   {x: 2025, y: 55},
+			   {x: 2026, y: 58},
+			   {x: 2027, y: 103},
+			   {x: 2028, y: 109},
+			   {x: 2029, y: 110},
+			   {x: 2030, y: 90},
+			   {x: 2031, y: 97},
+			   {x: 2032, y: 107},
+			   {x: 2033, y: 117},
+			   {x: 2034, y: 123},
+			   {x: 2035, y: 120},
+			   {x: 2036, y: 121},
+			   {x: 2037, y: 106},
+			   {x: 2038, y: 99},
+			   {x: 2039, y: 87}],
+		  key: "PFI Spend Per Year",
+		  color: "#ff7f0d"
+		}];
+
+	nv.addGraph(function() {
+		chart = nv.models.pieChart()
+			.showLegend(false)
+			.x(function(d) { return d.key })
+			.y(function(d) { return d.y })
+			.width(width)
+			.height(height)
+		
+		d3.select('#pfispendregion')
+		  .datum(regionspend)
+		  .attr('width', width)
+		  .attr('height', height)
+		  .call(chart)
+
+		return chart;
+	});
+
+	nv.addGraph(function() {
+		chart = nv.models.pieChart()
+			.showLegend(false)
+			.x(function(d) { return d.key })
+			.y(function(d) { return d.y })
+			.width(width)
+			.height(height)
+		
+		d3.select('#pfispendtype')
+		  .datum(testdata)
+		  .attr('width', width)
+		  .attr('height', height)
+		  .call(chart)
+
+		return chart;
+	});
+
+	nv.addGraph(function() {
+		chart = nv.models.pieChart()
+			.showLegend(false)
+			.x(function(d) { return d.key })
+			.y(function(d) { return d.y })
+			.width(width)
+			.height(height)
+		
+		d3.select('#pfispenddept')
+		  .datum(deptspend)
+		  .attr('width', width)
+		  .attr('height', height)
+		  .call(chart)
+
+		return chart;
+	});
+
+};
+	
+Template.pfiSpendPlanned.rendered = function () {
+        var chart;
+        var width = 300;
+        var height = 300;
+        var yearlyspend = PlannedSpend.find({}, {"sort": ['x', 'asc']}).fetch().slice(0,40);
+
+        nv.addGraph(function() {
+                chart = nv.models.historicalBarChart();
+                chart.useInteractiveGuideline(true)
+                     .width(500)
+                     .duration(250);
+
+                chart.xAxis.axisLabel("Year");
+
+                chart.yAxis.axisLabel('Payments (£ Billion)');
+
+                d3.select('#pfispendplanned')
+                  .datum(yearlyspend)
+                  .transition()
+                  .call(chart);
+        });
+
+};
 
