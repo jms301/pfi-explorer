@@ -179,6 +179,18 @@ Template.projectfull.events({
   },
   'click #equity' : function () {
     Session.set("showEquity", !Session.get("showEquity"));
+  },
+  'click #nao-add-btn' : function () {
+    NaoReports.insert({
+      userId: Meteor.userId(),
+      nao_report_name: $('#nao-title').val(),
+      nao_report_url: encodeURI($('#nao-url').val()),
+      hmt_id: this.hmt_id
+    });
+
+    $('#nao-title').val("");
+    $('#nao-url').val("");
+
   }
 });
 
@@ -407,3 +419,14 @@ Template.pfiSpendPlanned.rendered = function () {
 
 };
 
+Template.naolink.helpers({
+  myLink: function () {
+    return (Meteor.userId() && Meteor.userId() == this.userId);
+  }
+});
+
+Template.naolink.events({
+  "click span.remove" : function () {
+    NaoReports.remove(this._id);
+  }
+});
