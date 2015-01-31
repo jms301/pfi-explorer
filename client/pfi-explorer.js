@@ -4,6 +4,7 @@ Transactions = new Meteor.Collection("transactions");
 RichCompanies = new Meteor.Collection("richcompanies");
 NaoReports = new Meteor.Collection("naoreports");
 NatCharts = new Meteor.Collection("nationalcharts");
+DepartmentsYearly = new Meteor.Collection("departments");
 
 RegionSpend = new Meteor.Collection("pfiSpendRegionData");
 DeptSpend = new Meteor.Collection("pfiSpendDeptData");
@@ -111,6 +112,7 @@ Template.projectfull.helpers({
       return [];
     }
   }
+  
 });
 
 Template.projectfull.rendered = function( ){
@@ -301,6 +303,62 @@ Template.pfiRecentList.helpers({
   pfiRecent: Projects.find({}, {sort: {date_fin_close: -1}, limit: 5})
 });
 
+Template.pfiBullet.rendered = function () {
+
+	var proj_data = {
+		"title":"Repayments",		//Label the bullet chart
+  	"subtitle":"&#163; (m)",		//sub-label for bullet chart
+  	"ranges":[0,225,300],	 //Minimum, mean and maximum values.
+  	"measures":[220],		 //Value representing current measurement (the thick blue line in the example)
+  	"markers":[250]			 //Place a marker on the chart (the white triangle marker)
+  };
+
+	nv.addGraph(function() {
+		var chart = nv.models.bulletChart();
+
+		d3.select('#bullet')
+		  .datum(proj_data)
+		  .transition().duration(1000)
+		  .call(chart);
+	
+		return chart;
+	});
+
+};
+
+Template.departmentYearly.rendered = function () {
+
+	var data = DepartmentsYearly.find().fetch();
+
+	nv.addGraph(function() {
+		var chart = nv.models.stackedAreaChart()
+			    .margin({right: 100})
+			    .x(function(d) { return d[0]*1000 })
+			    .y(function(d) { return d[1] })
+			    .useInteractiveGuideline(true)
+			    .rightAlignYAxis(true)
+			    .showControls(true)
+			    .showLegend(false)
+			    .clipEdge(true);
+
+		chart.xAxis
+       			 .tickFormat(function(d) { 
+ 		         return d3.time.format('%x')(new Date(d)) 
+		});
+	
+		chart.yAxis
+ 		       .tickFormat(d3.format(',.2f'));
+
+		 d3.select('#dept_year_chart')
+			.datum(data)
+			.call(chart);
+
+		return chart;
+	
+    });
+
+};
+	
 Template.pfiSpendRegion.rendered = function () {
 	var chart;
 	var width = 300;

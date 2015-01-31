@@ -47,7 +47,7 @@ Router.route('/charts',
   function () { this.render('charts'); },
   {
     waitOn : function () {
-      Meteor.subscribe('nationalcharts');
+      return [Meteor.subscribe('nationalcharts'), Meteor.subscribe('departmentsyearly')];
     },
     name: "charts",
     action : function () {

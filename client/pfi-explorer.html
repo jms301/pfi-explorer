@@ -169,6 +169,11 @@
 
 </template>
 
+<template name="pfiBullet" >
+  <svg id="bullet">
+  </svg>
+</template>
+
 <template name="pfiSpendPlanned ">
   <svg id="pfispendplanned">
   </svg>
@@ -234,6 +239,12 @@
 
 <template name="projectfull">
   <h1>{{name}}</h1> <br/>
+<!--
+  <div class="panel" id="projbullet">
+      {{> pfiBullet }}
+  </div>
+-->
+
   <div class="panel" id="projinfo">
   <dl class="dl-horizontal">
     <dt>Capital Value:</dt><dd> {{capital_value}} </dd>
@@ -334,9 +345,16 @@
 </template>
 
 <template name="charts">
+  {{>departmentYearly}}
+
   {{#each charts}}
     {{>chart}}
   {{/each}}
+</template>
+
+<template name="departmentYearly">
+  <h3>Payments (£m) by Department</h3>
+  <svg style='height:500px; width:1000px;' id="dept_year_chart"/>
 </template>
 
 <template name="chart">

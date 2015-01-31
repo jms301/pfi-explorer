@@ -4,6 +4,7 @@ Transactions = new Meteor.Collection("transactions");
 RichCompanies = new Meteor.Collection("richcompanies");
 NatCharts = new Meteor.Collection("nationalcharts");
 NaoReports = new Meteor.Collection("naoreports");
+DepartmentsYearly = new Meteor.Collection("departments");
 
 Meteor.publish('naoreports', function () {
   return NaoReports.find({});
@@ -31,6 +32,10 @@ Meteor.publish('transactions', function () {
 
 Meteor.publish('nationalcharts', function () {
   return NatCharts.find({});
+});
+
+Meteor.publish('departmentsyearly', function () {
+  return DepartmentsYearly.find({});
 });
 
 Meteor.publish('project_stats', function() {
