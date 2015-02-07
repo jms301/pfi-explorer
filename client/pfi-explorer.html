@@ -26,7 +26,8 @@
           <li> <a href="{{pathFor route='dashboard'}}"><span class="glyphicon glyphicon-dashboard"></span></a></li>
           <li> <a href="{{pathFor route='about'}}"><span class="glyphicon glyphicon-briefcase"></span></a></li>
           <li> <a href="{{pathFor route='charts'}}"><span class="glyphicon glyphicon-stats"></span></a></li>
-          <li> <a href="{{pathFor route='timeline'}}"><span class="glyphicon glyphicon-time"></span></a></li>
+<!--          <li> <a href="{{pathFor route='timeline'}}"><span class="glyphicon glyphicon-time"></span></a></li> -->
+          <li> <a href="{{pathFor route='trackers'}}"><span class="glyphicon glyphicon-time"></span></a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           {{>loginButtons}}
@@ -419,6 +420,87 @@ Loading...
 
 <template name="timeline">
 Timeline goes here...
+</template>
+
+<template name="trackers">
+    <div class="row">
+      <div class="col-sm-10">
+        <div class="chart-wrapper">
+          <div class="chart-title"><a href="https://www.gov.uk/government/publications/pfipf2-tracker-department-of-health">Department Health Tracker</a></div>
+          <div class="chart-stage">
+            <div id="grid-1-1">
+		<div class="container">
+		  <table class="table table-vordered">
+		<thead>
+		<tr>
+ 	         <th>Stage</th>
+ 	         <th>Project</th>
+     		 <th>Authority</th>
+     		 <th>Date</th>
+   	         </tr>
+ 	        </thead>
+    	     <tr> <td>P1</td>
+		  <td>Midland Metropolitian Hospital</td>
+		  <td>Sandwell and West Birmingham Hospital NHS Trust</td>
+		  <td>8 Sep 2014</td>
+	     </tr>
+    	     <tr> <td>P3</td>
+		  <td>Papworth Hopsital - New Cardiothoracic Centre</td>
+		  <td>Papworth Hospitals NHS Foundation Trust</td>
+		  <td>8 Sep 2014</td>
+	     </tr>
+    	     <tr> <td>P1</td>
+		  <td>Royal National Orthopaedic Hospital replacement of the hospital's older buildings</td>
+		  <td>Royal National Orthopaedic Hospital NHS Trust</td>
+		  <td>8 Sep 2014</td>
+	     </tr>
+    	     <tr> <td>P3</td>
+		  <td>Hull City Council Extra Care Housing</td>
+		  <td>Hull City Council</td>
+		  <td>8 Sep 2014</td>
+	     </tr>
+	    </table>
+            </div>
+          </div>
+        </div>
+     </div>
+   </div>
+ </div>
+
+    <div class="row">
+      <div class="col-sm-10">
+        <div class="chart-wrapper">
+          <div class="chart-title"><a href="https://www.gov.uk/government/publications/pfipf2-tracker-department-for-communities-and-local-government">Department for Communities and Local Government Tracker</a></div>
+          <div class="chart-stage">
+            <div id="grid-1-1">
+		<div class="container">
+		  <table class="table table-vordered">
+		<thead>
+		<tr>
+ 	         <th>Stage</th>
+ 	         <th>Project</th>
+     		 <th>Authority</th>
+     		 <th>Date</th>
+   	         </tr>
+ 	        </thead>
+    	     <tr> <td>P4</td>
+		  <td>Stoke Housing Project (Non-HRA)</td>
+		  <td>Stoke on Trent County Council</td>
+		  <td>10 Jul 2014</td>
+	     </tr>
+
+    	     <tr> <td>P4</td>
+		  <td>Kent Excellent Homes for All (Non-HRA)</td>
+		  <td>Kent County Council</td>
+		  <td>20 Jun 2014</td>
+	     </tr>
+	        </table>
+                </div>
+              </div>
+             </div>
+          </div>
+       </div>
+    </div>
 </template>
 
 <template name="naolink">

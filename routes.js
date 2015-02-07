@@ -29,6 +29,7 @@ Router.route('/dashboard',
 
 Router.route('/about');
 Router.route('/timeline');
+Router.route('/trackers');
 
 Router.route('/maps',
   function () { this.render('maps'); },
