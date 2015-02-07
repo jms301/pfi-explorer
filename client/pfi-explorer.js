@@ -363,7 +363,7 @@ Template.pfiSpendRegion.rendered = function () {
 	var chart;
 	var width = 300;
 	var height = 300;
-	var plannedspend = PlannedSpend.find({}, {"sort": ['x', 'asc']}).fetch().slice(0,40);
+//	var plannedspend = PlannedSpend.find({}, {"sort": ['x', 'asc']}).fetch().slice(0,40);
 	var regionspend = RegionSpend.find().fetch();
 	var deptspend = DeptSpend.find().fetch();
         var testdata = [
@@ -455,24 +455,30 @@ Template.pfiSpendRegion.rendered = function () {
 	
 Template.pfiSpendPlanned.rendered = function () {
         var chart;
-        var width = 300;
-        var height = 300;
-        var yearlyspend = PlannedSpend.find({}, {"sort": ['x', 'asc']}).fetch().slice(0,40);
+        var width = 900;
+        var height = 350;
+        var yearlyspend = PlannedSpend.find({}, {"sort": ['x', 'asc']}).fetch().slice(3,60);
 
         nv.addGraph(function() {
                 chart = nv.models.historicalBarChart();
                 chart.useInteractiveGuideline(true)
-                     .width(500)
+		     .margin({left: 100, bottom: 100})
+		     .showLegend(false)
+                     .width(width)
+                     .height(height)
                      .duration(250);
 
                 chart.xAxis.axisLabel("Year");
 
-                chart.yAxis.axisLabel('Payments (£ Billion)');
+                chart.yAxis.axisLabel('Payments (£ Billion)')
+			.tickFormat(d3.format(',.1f'));
 
                 d3.select('#pfispendplanned')
-                  .datum(yearlyspend)
+                  .datum([{"values": yearlyspend, "key":"Yearly Spend", "color": "#ff7f0e"}])
                   .transition()
                   .call(chart);
+
+		nv.utils.windowResize(chart.update);
         });
 
 };
