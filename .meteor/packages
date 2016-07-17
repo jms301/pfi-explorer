@@ -3,14 +3,12 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-meteor-platform
-nemo64:bootstrap
+twbs:bootstrap
 less
 aslagle:reactive-table
 iron:router
 peernohell:c3
 d3js:d3
-fuatsengul:leaflet
 accounts-password
 ian:accounts-ui-bootstrap-3
 mrt:url
@@ -18,3 +16,18 @@ mrt:url
 dsyko:holder
 pfafman:nvd3
 tmeasday:publish-counts
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+standard-minifier-css
+standard-minifier-js
